@@ -22,20 +22,20 @@
         <div id="timeline">
             <ul class="days">
                 <li class="active">Days</li>
-                <li class="day-1">1</li>
-                <li class="day-2">2</li>
-                <li class="day-3">3</li>
-                <li class="day-4">4</li>
-                <li class="day-5">5</li>
-                <li class="day-6">6</li>
-                <li class="day-7">7</li>
-                <li class="day-8">8</li>
-                <li class="day-9">9</li>
-                <li class="day-10">10</li>
-                <li class="day-11">11</li>
-                <li class="day-12">12</li>
-                <li class="day-13">13</li>
-                <li class="day-14">14</li>
+                <li class="day-1"><a href="#day-1">1</a></li>
+                <li class="day-2"><a href="#day-2">2</a></li>
+                <li class="day-3"><a href="#day-3">3</a></li>
+                <li class="day-4"><a href="#day-4">4</a></li>
+                <li class="day-5"><a href="#day-5">5</a></li>
+                <li class="day-6"><a href="#day-6">6</a></li>
+                <li class="day-7"><a href="#day-7">7</a></li>
+                <li class="day-8"><a href="#day-8">8</a></li>
+                <li class="day-9"><a href="#day-9">9</a></li>
+                <li class="day-10"><a href="#day-10">10</a></li>
+                <li class="day-11"><a href="#day-11">11</a></li>
+                <li class="day-12"><a href="#day-12">12</a></li>
+                <li class="day-13"><a href="#day-13">13</a></li>
+                <li class="day-14"><a href="#day-14">14</a></li>
             </ul>
         </div>
         <div id="content"></div>
@@ -50,7 +50,13 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuhy2ytRi7Eg';
 var map = L.mapbox.map('map', 'boertel.h95nl1fe');
 
-loadDay(1);
+var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
+loadDay(day);
+
+window.onhashchange = function () {
+    var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
+    loadDay(day);
+};
 
 </script>
 

@@ -60,6 +60,15 @@ p {
 }
 
 .days li.active {
+    opacity: 0.9;
+}
+
+.days li a {
+    text-decoration: none;
+    color: #434343;
+}
+.days li:hover {
+    cursor: pointer;
     opacity: 1;
 }
 
