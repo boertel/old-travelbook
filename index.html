@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./static/css/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/travelbook.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/fluidbox.css">
+
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+</head>
+<body>
+
+<div class="pure-g">
+    <div class="pure-u-lg-1-3 pure-u-sm-1" id="map-wrapper">
+        <div id="map"></div>
+    </div>
+    <div class="pure-u-lg-2-3 pure-u-sm-1 l-box">
+        <div id="timeline">
+            <ul class="days">
+                <li class="active">Days</li>
+                <li class="day-1">1</li>
+                <li class="day-2">2</li>
+                <li class="day-3">3</li>
+                <li class="day-4">4</li>
+                <li class="day-5">5</li>
+                <li class="day-6">6</li>
+                <li class="day-7">7</li>
+                <li class="day-8">8</li>
+                <li class="day-9">9</li>
+                <li class="day-10">10</li>
+                <li class="day-11">11</li>
+                <li class="day-12">12</li>
+                <li class="day-13">13</li>
+                <li class="day-14">14</li>
+            </ul>
+        </div>
+        <div id="content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="./static/js/jquery.min.js"></script>
+<script type="text/javascript" src="./static/js/jquery.fluidbox.min.js"></script>
+<script type="text/javascript" src="./static/js/travelbook.js"></script>
+<script>
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuhy2ytRi7Eg';
+var map = L.mapbox.map('map', 'boertel.h95nl1fe');
+
+loadDay(1);
+
+</script>
+
+</body>
+</html>
