@@ -58,7 +58,7 @@ Block.image.prototype.render = function () {
         g = new Pure(['g', 'image']);
 
     this.images.forEach(function (image) {
-        var u = new Pure(['u-1-' + (length / 2), 'u-lg-1-' + length]),
+        var u = new Pure(['u-md-1-' + (length / 2), 'u-lg-1-' + length, 'u-1-1']),
             a = document.createElement('a'),
             img = document.createElement('img');
         img.className = 'pure-img';
