@@ -1,0 +1,52 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Day 2",
+                "subtitle": "subtitle"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "efgh"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "src": "http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg",
+                        "marker": {
+                            "coordinates": [-73.9764404296875, 40.77274188001071],
+                            "title": "Hotel",
+                            "description": "Description",
+                            "size": "large",
+                            "symbol": "lodging"
+                        }
+                    },
+                    {
+                        "src": "http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg",
+                        "marker": {
+                            "coordinates": [-73.96202087402344, 40.785220723422235],
+                            "title": "Hotel",
+                            "description": "Description",
+                            "size": "large"
+                        }
+                    },
+                    {
+                        "src": "http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg"
+                    },
+                    {
+                        "src": "http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg"
+                    },
+                    {
+                        "src": "http://distilleryimage6.ak.instagram.com/87f1fe8e5afa11e3ab161243c66c91b3_8.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}
