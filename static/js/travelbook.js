@@ -75,12 +75,13 @@ Block.image = function (args) {
 };
 Block.image.prototype.render = function () {
     var length = this.images.length,
-        g = new Pure(['g', 'image']);
+        g = new Pure(['g', 'image']),
+        u = new Pure(['u-1-1', 'gallery']);
 
     this.images.forEach(function (image) {
-        var u = new Pure(['u-md-1-' + (length / 2), 'u-lg-1-' + length, 'u-1-1']),
-            a = document.createElement('a'),
+        var a = document.createElement('a'),
             img = document.createElement('img');
+        a.className = 'col-' + (image.unit || '3');
         img.className = 'pure-img';
         img.src = image.src;
 
@@ -90,7 +91,6 @@ Block.image.prototype.render = function () {
         $(a).fluidbox();
 
         u.addChild(a);
-        u.addTo(g);
 
         if (image.marker) {
             if (!image.marker.color) {
@@ -100,6 +100,7 @@ Block.image.prototype.render = function () {
             marker.feature.addTo(map);
         }
     });
+    u.addTo(g);
     return g.node;
 };
 
