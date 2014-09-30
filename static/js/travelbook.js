@@ -118,7 +118,8 @@ Block.image.prototype.render = function (g) {
 
     var gallery = Gallery({
         headline: '',
-        medias: this.images
+        medias: this.images,
+        viewerContainer: document.getElementById('viewer')
     });
 
     React.renderComponent(gallery, g.node)
