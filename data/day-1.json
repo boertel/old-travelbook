@@ -3,14 +3,14 @@
         {
             "type": "title",
             "args": {
-                "title": "Day 1",
-                "subtitle": "subtitle"
+                "title": "Jour 1",
+                "subtitle": "Voyage et première impression"
             }
         },
         {
             "type": "text",
             "args": {
-                "text": "abcd"
+                "text": "22h50: Départ de SFO pour JFK, 5 heures de vols avec 3 heures de décalage horaire, ça donne une arrivée vers 7h. On arrivera vers 8h après un vol avec pas mal de turbulences, parfait pour un red-eye."
             }
         },
         {
