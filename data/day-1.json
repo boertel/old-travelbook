@@ -41,6 +41,41 @@
                     }
                 ]
             }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "text 2"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "src": "./static/images/img_2733.jpg",
+                        "marker": {
+                            "coordinates": [-73.97300720214844, 40.738152838822934],
+                            "title": "Hotel",
+                            "description": "Description",
+                            "size": "large"
+                        }
+                    },
+                    {
+                        "src": "./static/images/img_2721.jpg",
+                        "marker": {
+                            "coordinates": [-73.97747039794922, 40.73399053853161],
+                            "title": "Hotel",
+                            "description": "Description",
+                            "size": "large",
+                            "symbol": "lodging"
+                        }
+                    },
+                    {
+                        "src": "./static/images/img_2749.jpg"
+                    }
+                ]
+            }
         }
     ]
 }

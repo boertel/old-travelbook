@@ -13,6 +13,8 @@ function hex(x) {
     return isNaN(x) ? "00" : hexDigits[(x - x % 16) / 16] + hexDigits[x % 16];
 }
 
+viewer = React.renderComponent(Viewer(), document.getElementById('viewer'));
+
 var pages = {};
 
 function loadDay(number) {
@@ -119,7 +121,10 @@ Block.image.prototype.render = function (g) {
     var gallery = Gallery({
         headline: '',
         medias: this.images,
-        viewerContainer: document.getElementById('viewer')
+        viewer: viewer,
+        parentAttributes: {className: 'pure-u-1-1 pure-gallery'},
+        imgAttributes: {className: 'pure-img'},
+        aAttributes: {className: function (image) { return 'col-' + (image.unit || 3); }}
     });
 
     React.renderComponent(gallery, g.node)

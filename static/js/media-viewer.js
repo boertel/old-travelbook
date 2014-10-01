@@ -19,31 +19,32 @@ var Events = (function() {
     }
 })();
 
-
 var Gallery = React.createClass({
+    displayName: 'Gallery',
     componentWillMount: function () {
-        var viewer = Viewer({
-            headline: this.props.headline,
-            medias: this.props.medias
+        var newProps = this.props.viewer.props.medias.concat(this.props.medias);
+        this.props.viewer.setProps({
+            medias: newProps,
+            length: this.props.viewer.props.length
         });
-
-        React.renderComponent(viewer, this.props.viewerContainer);
     },
     open: function (index) {
         Events.notify('open', index);
     },
     render: function () {
-        var components = this.props.medias.map(function (image, i) {
-            var img = React.DOM.img({src: image.src, alt: image.caption, onClick: this.open.bind(this, i), className: 'pure-img'});
-           var a = React.DOM.a({className: 'col-' + (image.unit || '3')}, img);
-           return a;
+        var components = this.props.medias.map(function (image) {
+            var img = React.DOM.img({src: image.src, alt: image.caption, onClick: this.open.bind(this, this.props.viewer.props.length), className: this.props.imgAttributes.className});
+            var a = React.DOM.a({className: this.props.aAttributes.className(image)}, img);
+            this.props.viewer.props.length += 1;
+            return a;
         }, this);
-        components.unshift({className: 'pure-u-1-1 pure-gallery'});
+        components.unshift(this.props.parentAttributes);
         return React.DOM.div.apply(this, components);
     }
 });
 
 var Media = React.createClass({
+    displayName: 'Media',
     resize: function () {
         this.setState({
             windowWidth: window.innerWidth,
@@ -64,6 +65,11 @@ var Media = React.createClass({
             });
         };
         preload.src = current.src;
+    },
+    getDefaultProps: function () {
+        return {
+            media: {}
+        }
     },
     getInitialState: function () {
         return {
@@ -99,7 +105,6 @@ var Media = React.createClass({
             height: height + 'px',
             left: parseInt((this.state.windowWidth - width) / 2) + 'px'
         };
-
 
         var figcaptionStyle = {};
         if (this.state.windowWidth >= 1220) {
@@ -138,6 +143,7 @@ var Media = React.createClass({
 });
 
 var Viewer = React.createClass({
+    displayName: 'Viewer',
     previous: function (event) {
         event.preventDefault();
         if (this.state.index <= 0) {
@@ -158,9 +164,6 @@ var Viewer = React.createClass({
         this.setState({open: false});
         return false;
     },
-    open: function (event) {
-        this.setState({open: true});
-    },
     onMouseOver: function (direction) {
         return (function () {
             var state = {hover: {}};
@@ -175,6 +178,12 @@ var Viewer = React.createClass({
             this.setState(state)
         }).bind(this)
     },
+    getDefaultProps: function () {
+        return {
+            medias: [],
+            length: 0
+        }
+    },
     getInitialState: function () {
         var state = {
             index: 0,
@@ -187,10 +196,12 @@ var Viewer = React.createClass({
 
         return state;
     },
+    shouldComponentUpdate: function (nextProps) {
+        return true;
+    },
     componentWillMount: function () {
         Events.subscribe('open', (function (index) {
-            this.setState({index: index})
-            this.open();
+            this.setState({index: index, open: true})
         }).bind(this));
     },
     componentDidMount: function () {
@@ -207,7 +218,10 @@ var Viewer = React.createClass({
         }).bind(this));
     },
     render: function () {
-        var current = this.props.medias[this.state.index];
+        var current = {};
+        if (this.props.medias.length > 0) {
+            current = this.props.medias[this.state.index];
+        }
 
         var icon = React.DOM.i({className: 'icon'}),
             visuallyHiddenClose = React.DOM.span({className: 'visually-hidden'}, 'Close this overlay'),
