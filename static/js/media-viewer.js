@@ -49,7 +49,7 @@ var Media = React.createClass({
 
         var ratio = {
                 width: 0.7,
-                height: 0.85
+                height: 0.8
             },
             imgRatio = current.width / current.height,
             width = parseInt(this.state.windowWidth * ratio.width),
@@ -91,7 +91,7 @@ var Media = React.createClass({
             }, visuallyHiddenNext),
 
             captionText = React.DOM.span({className: 'caption-text'}, current.caption),
-            credit = React.DOM.span({className: 'credit'}, current.src),
+            credit = React.DOM.span({className: 'credit'}, ((current.credit) ? '– ' + current.credit : '')),
             figcaption = React.DOM.figcaption({className: 'caption', style: figcaptionStyle, onClick: function (e) { e.preventDefault(); return false; }}, captionText, credit),
 
             figure = React.DOM.figure({className: 'media-viewer-asset', style: figureStyle}, img, navPrevious, navNext, figcaption)

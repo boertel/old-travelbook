@@ -4,13 +4,13 @@
             "type": "title",
             "args": {
                 "title": "Jour 1",
-                "subtitle": "Voyage et première impression"
+                "subtitle": "Attente"
             }
         },
         {
             "type": "text",
             "args": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                "text": "Que faire en attendant 4 heures à l'aéroport ?"
             }
         },
         {
@@ -19,8 +19,8 @@
                 "images": [
                     {
                         "src": "./static/images/1/img_2657.jpg",
-                        "caption": "L'attente avec Starbucks",
-                        "credit": "– JFK Terminal 7",
+                        "caption": "1. se faire petit déjeuner de luxe",
+                        "credit": "JFK Terminal 7",
                         "width": 563,
                         "height": 1000,
                         "marker": {
@@ -32,33 +32,23 @@
                     },
                     {
                         "src": "./static/images/1/img_2659.jpg",
+                        "caption": "2. regarder des séries",
                         "width": 750,
                         "height": 1000
                     },
                     {
                         "src": "./static/images/1/img_2666.jpg",
+                        "caption": "3. explorer les terminaux et transports de l'aéroport",
                         "width": 750,
                         "height": 1000
                     },
                     {
                         "src": "./static/images/1/img_2664.jpg",
-                        "caption": "All by myself - http://vimeo.com/97634383",
+                        "caption": "mais à 8h, on sent un peu seul dans l'aéroport http://vimeo.com/97634383",
                         "width": 563,
                         "height": 1000
                     }
                 ]
-            }
-        },
-        {
-            "type": "title",
-            "args": {
-                "subtitle": "Voyage et première impression"
-            }
-        },
-        {
-            "type": "text",
-            "args": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
             }
         },
         {
@@ -78,9 +68,23 @@
                     {
                         "src": "./static/images/1/img_2672.jpg",
                         "width": 563,
-                        "height": 1000
+                        "height": 1000,
+                        "caption": "Les retrouvailles",
+                        "credit": "dans le LIRR (RER local)"
                     }
                 ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "C'est parti !"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Assez passé de temps dans l'aéroport, il est temps d'aller explorer la ville. Au programme de l'après midi: de la 33th st au sud de Central Park."
             }
         },
         {
@@ -94,6 +98,7 @@
                     },
                     {
                         "src": "./static/images/1/img_2688.jpg",
+                        "credit": "Brian Park",
                         "width": 1000,
                         "height": 591,
                         "marker": {
@@ -112,12 +117,12 @@
                     },
                     {
                         "src": "./static/images/1/img_2733.jpg",
-                        "caption": "Top of the Rock",
+                        "credit": "Rockefeller Center",
                         "width": 750,
                         "height": 1000,
                         "marker": {
                             "coordinates": [-73.9777138889, 40.7582972222],
-                            "title": "Rockefeller Center",
+                            "credit": "Rockefeller Center",
                             "size": "medium",
                             "symbol": "commercial"
                         }
@@ -136,6 +141,7 @@
                     },
                     {
                         "src": "./static/images/1/img_2746.jpg",
+                        "credit": "Apple Store sur la 5th",
                         "width": 750,
                         "height": 1000,
                         "marker": {
@@ -147,6 +153,7 @@
                     },
                     {
                         "src": "./static/images/1/img_2749.jpg",
+                        "credit": "Apple Store",
                         "width": 1000,
                         "height": 475
                     }
@@ -176,7 +183,7 @@
                 "images": [
                     {
                         "src": "./static/images/1/img_2771.jpg",
-                        "caption": "Grand Central Terminal",
+                        "credit": "Grand Central Terminal",
                         "width": 1000,
                         "height": 750,
                         "marker": {
@@ -188,6 +195,7 @@
                     },
                     {
                         "src": "./static/images/1/img_2775.jpg",
+                        "credit": "Grand Central Terminal",
                         "width": 1000,
                         "height": 750
                     }
