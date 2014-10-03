@@ -91,7 +91,7 @@ var Media = React.createClass({
             }, visuallyHiddenNext),
 
             captionText = React.DOM.span({className: 'caption-text'}, current.caption),
-            credit = React.DOM.span({className: 'credit'}, current.credit),
+            credit = React.DOM.span({className: 'credit'}, current.src),
             figcaption = React.DOM.figcaption({className: 'caption', style: figcaptionStyle, onClick: function (e) { e.preventDefault(); return false; }}, captionText, credit),
 
             figure = React.DOM.figure({className: 'media-viewer-asset', style: figureStyle}, img, navPrevious, navNext, figcaption)

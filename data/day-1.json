@@ -24,10 +24,10 @@
                         "width": 563,
                         "height": 1000,
                         "marker": {
-                            "coordinates": [-73.97300720214844, 40.738152838822934],
-                            "title": "Hotel",
-                            "description": "Description",
-                            "size": "large"
+                            "coordinates": [-73.7877805556, 40.6446583333],
+                            "title": "Airport",
+                            "size": "medium",
+                            "symbol": "airport"
                         }
                     },
                     {
@@ -45,11 +45,6 @@
                         "caption": "All by myself - http://vimeo.com/97634383",
                         "width": 563,
                         "height": 1000
-                    },
-                    {
-                        "src": "./static/images/1/img_2668.jpg",
-                        "width": 1000,
-                        "height": 735
                     }
                 ]
             }
@@ -100,7 +95,14 @@
                     {
                         "src": "./static/images/1/img_2688.jpg",
                         "width": 1000,
-                        "height": 591
+                        "height": 591,
+                        "marker": {
+                            "coordinates": [-73.9834527778, 40.7532166667],
+                            "title": "Brian Park",
+                            "size": "medium",
+                            "symbol": "park2"
+                        }
+
                     },
                     {
                         "src": "./static/images/1/img_2721.jpg",
@@ -112,7 +114,13 @@
                         "src": "./static/images/1/img_2733.jpg",
                         "caption": "Top of the Rock",
                         "width": 750,
-                        "height": 1000
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [-73.9777138889, 40.7582972222],
+                            "title": "Rockefeller Center",
+                            "size": "medium",
+                            "symbol": "commercial"
+                        }
                     }
                 ]
             }
@@ -129,7 +137,13 @@
                     {
                         "src": "./static/images/1/img_2746.jpg",
                         "width": 750,
-                        "height": 1000
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [-73.9754111111, 40.76365],
+                            "title": "Apple Store",
+                            "size": "medium",
+                            "symbol": "shop"
+                        }
                     },
                     {
                         "src": "./static/images/1/img_2749.jpg",
@@ -164,7 +178,13 @@
                         "src": "./static/images/1/img_2771.jpg",
                         "caption": "Grand Central Terminal",
                         "width": 1000,
-                        "height": 750
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [-73.97670328617096, 40.7533405866677],
+                            "title": "Grand Central Terminal ",
+                            "size": "large",
+                            "symbol": "rail"
+                        }
                     },
                     {
                         "src": "./static/images/1/img_2775.jpg",

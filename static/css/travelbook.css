@@ -72,7 +72,6 @@ p {
     border-radius: 20px;
 }
 .days li:hover {
-    cursor: pointer;
     opacity: 1;
 }
 
@@ -117,6 +116,15 @@ p {
 }
 .day-14 a {
     background-color: #f86767;
+}
+
+li.disabled {
+    opacity: 1;
+}
+.disabled a, .disabled a:hover {
+    background: #ddd;
+    pointer-events: none;
+    cursor: pointer;
 }
 
 .pure-image {
