@@ -10,7 +10,7 @@
         {
             "type": "text",
             "args": {
-                "text": ""
+                "text": "Ca ressemble enfin a qqch"
             }
         },
         {
@@ -20,29 +20,39 @@
                     {
                         "src": "./static/images/1/img_2657.jpg",
                         "caption": "L'attente avec Starbucks",
-                        "unit": 4,
+                        "credit": "– JFK Terminal 7",
                         "width": 563,
-                        "height": 1000
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [-73.97300720214844, 40.738152838822934],
+                            "title": "Hotel",
+                            "description": "Description",
+                            "size": "large"
+                        }
                     },
                     {
                         "src": "./static/images/1/img_2659.jpg",
-                        "unit": 4,
                         "width": 750,
                         "height": 1000
                     },
                     {
                         "src": "./static/images/1/img_2666.jpg",
-                        "unit": 4,
                         "width": 750,
                         "height": 1000
                     },
                     {
                         "src": "./static/images/1/img_2664.jpg",
                         "caption": "All by myself - http://vimeo.com/97634383",
-                        "unit": 4,
                         "width": 563,
                         "height": 1000
-                    },
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
                     {
                         "src": "./static/images/1/img_2668.jpg",
                         "width": 1000,
@@ -52,6 +62,11 @@
                         "src": "./static/images/1/img_2671.jpg",
                         "width": 1000,
                         "height": 735
+                    },
+                    {
+                        "src": "./static/images/1/img_2672.jpg",
+                        "width": 563,
+                        "height": 1000
                     }
                 ]
             }
@@ -61,34 +76,26 @@
             "args": {
                 "images": [
                     {
-                        "src": "./static/images/1/img_2668.jpg"
+                        "src": "./static/images/1/img_2684.jpg",
+                        "width": 1000,
+                        "height": 750
                     },
                     {
-                        "src": "./static/images/1/img_2671.jpg"
-                    },
-                    {
-                        "src": "./static/images/1/img_2672.jpg"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "image",
-            "args": {
-                "images": [
-                    {
-                        "src": "./static/images/1/img_2684.jpg"
-                    },
-                    {
-                        "src": "./static/images/1/img_2688.jpg"
+                        "src": "./static/images/1/img_2688.jpg",
+                        "width": 1000,
+                        "height": 591
                     },
                     {
                         "src": "./static/images/1/img_2721.jpg",
-                        "caption": "Les Beattles retrouvaient sur la 5th"
+                        "caption": "Les Beattles retrouvaient sur la 5th",
+                        "width": 1000,
+                        "height": 591
                     },
                     {
                         "src": "./static/images/1/img_2733.jpg",
-                        "caption": "Top of the Rock"
+                        "caption": "Top of the Rock",
+                        "width": 750,
+                        "height": 1000
                     }
                 ]
             }
@@ -98,13 +105,19 @@
             "args": {
                 "images": [
                     {
-                        "src": "./static/images/1/img_2744.jpg"
+                        "src": "./static/images/1/img_2744.jpg",
+                        "width": 750,
+                        "height": 1000
                     },
                     {
-                        "src": "./static/images/1/img_2746.jpg"
+                        "src": "./static/images/1/img_2746.jpg",
+                        "width": 750,
+                        "height": 1000
                     },
                     {
-                        "src": "./static/images/1/img_2749.jpg"
+                        "src": "./static/images/1/img_2749.jpg",
+                        "width": 1000,
+                        "height": 475
                     }
                 ]
             }
@@ -114,10 +127,14 @@
             "args": {
                 "images": [
                     {
-                        "src": "./static/images/1/img_2754.jpg"
+                        "src": "./static/images/1/img_2754.jpg",
+                        "width": 750,
+                        "height": 1000
                     },
                     {
-                        "src": "./static/images/1/img_2760.jpg"
+                        "src": "./static/images/1/img_2760.jpg",
+                        "width": 1000,
+                        "height": 750
                     }
                 ]
             }
@@ -128,10 +145,14 @@
                 "images": [
                     {
                         "src": "./static/images/1/img_2771.jpg",
-                        "caption": "Grand Central Terminal"
+                        "caption": "Grand Central Terminal",
+                        "width": 1000,
+                        "height": 750
                     },
                     {
-                        "src": "./static/images/1/img_2775.jpg"
+                        "src": "./static/images/1/img_2775.jpg",
+                        "width": 1000,
+                        "height": 750
                     }
                 ]
             }

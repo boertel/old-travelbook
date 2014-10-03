@@ -140,15 +140,15 @@ Block.title = function (args) {
     this.subtitle = args.subtitle;
 };
 
-Block.title.prototype.render = function () {
-    var g = new Pure('g'),
-        u = new Pure(['u-1', 'title']);
+Block.title.prototype.render = function (g) {
+    var u = new Pure(['u-1', 'title']);
 
     g.className = 'title';
 
     var h1 = document.createElement('h1'),
         h2 = document.createElement('h2');
 
+    console.log(this.title);
     h1.innerHTML = this.title;
     h2.innerHTML = this.subtitle;
 
