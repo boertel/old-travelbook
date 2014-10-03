@@ -27,21 +27,6 @@ var Media = React.createClass({
             windowHeight: window.innerHeight
         });
     },
-    computeImageSize: function (nextProps) {
-        var preload = new Image(),
-            that = this,
-            current = nextProps.media;
-        preload.onload = function () {
-            that.setState({
-                src: current.src,
-                credit: current.credit,
-                caption: current.caption,
-                width: this.width,
-                height: this.height
-            });
-        };
-        preload.src = current.src;
-    },
     getDefaultProps: function () {
         return {
             media: {}
@@ -50,23 +35,23 @@ var Media = React.createClass({
     getInitialState: function () {
         return {
             windowWidth: window.innerWidth,
-            windowHeight: window.innerHeight,
-            width: 0,
-            height: 0
+            windowHeight: window.innerHeight
         };
-    },
-    componentWillReceiveProps: function (nextProps) {
-        this.computeImageSize(nextProps);
     },
     componentDidMount: function () {
         window.addEventListener('resize', this.resize);
     },
+    shouldComponentUpdate: function (nextProps, nextState) {
+        return nextState.width !== 0 && nextState.height !== 0
+    },
     render: function () {
+        var current = this.props.media;
+
         var ratio = {
                 width: 0.7,
-                height: 0.8
+                height: 0.85
             },
-            imgRatio = this.state.width / this.state.height,
+            imgRatio = current.width / current.height,
             width = parseInt(this.state.windowWidth * ratio.width),
             height = parseInt(width / imgRatio);
 
@@ -85,12 +70,11 @@ var Media = React.createClass({
         if (this.state.windowWidth >= 1220) {
             var figcaptionStyle = {
                 left: width + 'px',
-                bottom: '30px',
+                bottom: 0,
                 paddingLeft: '20px'
             };
         }
 
-        var current = this.props.media;
 
         var visuallyHiddenPrevious = React.DOM.span({className: 'visually-hidden'}, 'Go to previous slide'),
             visuallyHiddenNext = React.DOM.span({className: 'visually-hidden'}, 'Go to next slide');
@@ -108,7 +92,7 @@ var Media = React.createClass({
 
             captionText = React.DOM.span({className: 'caption-text'}, current.caption),
             credit = React.DOM.span({className: 'credit'}, current.credit),
-            figcaption = React.DOM.figcaption({className: 'caption', style: figcaptionStyle}, captionText, credit),
+            figcaption = React.DOM.figcaption({className: 'caption', style: figcaptionStyle, onClick: function (e) { e.preventDefault(); return false; }}, captionText, credit),
 
             figure = React.DOM.figure({className: 'media-viewer-asset', style: figureStyle}, img, navPrevious, navNext, figcaption)
             wrapper = React.DOM.div({className: 'media-viewer-wrapper'}, figure);
@@ -170,9 +154,6 @@ var Viewer = React.createClass({
         };
 
         return state;
-    },
-    shouldComponentUpdate: function (nextProps) {
-        return true;
     },
     componentWillMount: function () {
         Events.subscribe('open', (function (index) {

@@ -69,7 +69,7 @@ var Row = React.createClass({
                 index: N++
             })
         });
-        components.unshift({style: {width: "100%"}});
+        components.unshift({style: {width: '100%'}});
         var div = React.DOM.div.apply(this, components);
 
         return div;
@@ -82,13 +82,14 @@ var Gallery  = React.createClass({
         var newProps = this.props.viewer.props.images.concat(this.props.images);
         this.props.viewer.setProps({
             images: newProps,
-            length: this.props.viewer.props.length
+            length: this.props.viewer.props.length,
+            headline: this.props.headline
         });
     },
     getDefaultProps: function () {
         return {
             images: [],
-            max: 4,
+            max: 5,
             margin: 10
         }
     },

@@ -121,7 +121,7 @@ Block.image.prototype.render = function (g) {
     g.node.classList.add('pure-image');
 
     var gallery = Gallery({
-        headline: '',
+        headline: 'Jour 1',
         images: this.images,
         viewer: viewer,
         parentAttributes: {className: 'pure-u-1-1 pure-gallery'},
@@ -141,18 +141,22 @@ Block.title = function (args) {
 };
 
 Block.title.prototype.render = function (g) {
+    var h1, h2;
     var u = new Pure(['u-1', 'title']);
 
     g.className = 'title';
 
-    var h1 = document.createElement('h1'),
+    if (this.title) {
+        h1 = document.createElement('h1'),
+        h1.innerHTML = this.title;
+        u.addChild(h1)
+    }
+    if (this.subtitle) {
         h2 = document.createElement('h2');
+        h2.innerHTML = this.subtitle;
+        u.addChild(h2)
+    }
 
-    console.log(this.title);
-    h1.innerHTML = this.title;
-    h2.innerHTML = this.subtitle;
-
-    u.addChild(h1).addChild(h2);
     u.addTo(g);
 };
 
