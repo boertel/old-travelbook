@@ -15,7 +15,8 @@ function hex(x) {
 
 viewer = React.renderComponent(Viewer(), document.getElementById('viewer'));
 
-var pages = {};
+var N = 0,
+    pages = {};
 
 function loadDay(number) {
     $('#content').html('');
@@ -116,15 +117,15 @@ Block.image = function (args) {
 };
 
 Block.image.prototype.render = function (g) {
+    g.node.style.width = "100%";
     g.node.classList.add('pure-image');
 
     var gallery = Gallery({
         headline: '',
-        medias: this.images,
+        images: this.images,
         viewer: viewer,
         parentAttributes: {className: 'pure-u-1-1 pure-gallery'},
-        imgAttributes: {className: 'pure-img'},
-        aAttributes: {className: function (image) { return 'col-' + (image.unit || 3); }}
+        imgAttributes: {className: ''},
     });
 
     React.renderComponent(gallery, g.node)

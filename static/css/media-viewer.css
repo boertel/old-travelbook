@@ -13,10 +13,7 @@ body {
     font-family: Georgia, Serif;
 }
 
-img {
-    height: auto;
-    width: 100%;
-}
+
 
 .media-viewer {
     position: fixed;
@@ -27,6 +24,11 @@ img {
     z-index: 1000;
     background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#fff),color-stop(1,rgba(255,255,255,.9)));
     /*transition: opacity .25s ease-out;*/
+}
+
+.media-viewer img {
+    height: auto;
+    width: 100%;
 }
 
 .media-viewer.theme-dark {

@@ -19,30 +19,6 @@ var Events = (function() {
     }
 })();
 
-var Gallery = React.createClass({
-    displayName: 'Gallery',
-    componentWillMount: function () {
-        var newProps = this.props.viewer.props.medias.concat(this.props.medias);
-        this.props.viewer.setProps({
-            medias: newProps,
-            length: this.props.viewer.props.length
-        });
-    },
-    open: function (index) {
-        Events.notify('open', index);
-    },
-    render: function () {
-        var components = this.props.medias.map(function (image) {
-            var img = React.DOM.img({src: image.src, alt: image.caption, onClick: this.open.bind(this, this.props.viewer.props.length), className: this.props.imgAttributes.className});
-            var a = React.DOM.a({className: this.props.aAttributes.className(image)}, img);
-            this.props.viewer.props.length += 1;
-            return a;
-        }, this);
-        components.unshift(this.props.parentAttributes);
-        return React.DOM.div.apply(this, components);
-    }
-});
-
 var Media = React.createClass({
     displayName: 'Media',
     resize: function () {
@@ -99,7 +75,6 @@ var Media = React.createClass({
             width = height * imgRatio;
         }
 
-
         var figureStyle = {
             width: width + 'px',
             height: height + 'px',
@@ -147,15 +122,15 @@ var Viewer = React.createClass({
     previous: function (event) {
         event.preventDefault();
         if (this.state.index <= 0) {
-            this.state.index = this.props.medias.length;
+            this.state.index = this.props.images.length;
         }
-        var index = this.state.index -= 1 % this.props.medias.length;
+        var index = this.state.index -= 1 % this.props.images.length;
         this.setState({index: index});
         return false;
     },
     next: function (event) {
         event.preventDefault();
-        var index = (this.state.index += 1) % this.props.medias.length;
+        var index = (this.state.index += 1) % this.props.images.length;
         this.setState({index: index});
         return false;
     },
@@ -180,7 +155,7 @@ var Viewer = React.createClass({
     },
     getDefaultProps: function () {
         return {
-            medias: [],
+            images: [],
             length: 0
         }
     },
@@ -219,8 +194,8 @@ var Viewer = React.createClass({
     },
     render: function () {
         var current = {};
-        if (this.props.medias.length > 0) {
-            current = this.props.medias[this.state.index];
+        if (this.props.images.length > 0) {
+            current = this.props.images[this.state.index];
         }
 
         var icon = React.DOM.i({className: 'icon'}),
@@ -234,7 +209,7 @@ var Viewer = React.createClass({
 
         var media = Media({media: current, next: this.next, previous: this.previous});
 
-        var counter = React.DOM.div({className: 'media-viewer-counter'}, (this.state.index + 1) + ' of ' + (this.props.medias.length)),
+        var counter = React.DOM.div({className: 'media-viewer-counter'}, (this.state.index + 1) + ' of ' + (this.props.images.length)),
             arrowPrevious = React.DOM.div({className: 'arrow arrow-left'}),
             previous = React.DOM.div({className: 'media-viewer-previous' + (this.state.hover.previous ? ' hover' : ''), onClick: this.previous}, visuallyHiddenPrevious, arrowPrevious),
             arrowNext = React.DOM.div({className: 'arrow arrow-right'})
