@@ -48,7 +48,7 @@ p {
     }
 }
 
-#timeline ul {
+.timeline ul {
     text-align: center;
 }
 .days li {

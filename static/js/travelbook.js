@@ -201,6 +201,7 @@ Block.link.prototype.render = function (g) {
     var a = document.createElement('a');
     a.href = this.href;
     a.innerHTML = this.name;
+    a.target = '_blank';
 
     u.addChild(icon);
     u.addChild(span);
