@@ -24,7 +24,7 @@
             <ul class="days">
                 <li class="active">Days</li>
                 <li class="day-1"><a href="#day-1">1</a></li>
-                <li class="day-2 disabled"><a href="#day-2">2</a></li>
+                <li class="day-2"><a href="#day-2">2</a></li>
                 <li class="day-3 disabled"><a href="#day-3">3</a></li>
                 <li class="day-4 disabled"><a href="#day-4">4</a></li>
                 <li class="day-5 disabled"><a href="#day-5">5</a></li>
@@ -46,7 +46,7 @@
             <ul class="days">
                 <li class="active">Days</li>
                 <li class="day-1"><a href="#day-1">1</a></li>
-                <li class="day-2 disabled"><a href="#day-2">2</a></li>
+                <li class="day-2"><a href="#day-2">2</a></li>
                 <li class="day-3 disabled"><a href="#day-3">3</a></li>
                 <li class="day-4 disabled"><a href="#day-4">4</a></li>
                 <li class="day-5 disabled"><a href="#day-5">5</a></li>
@@ -75,10 +75,16 @@
 <script>
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuhy2ytRi7Eg';
-var map = L.mapbox.map('map', 'boertel.h95nl1fe').setView([40.755, -73.981], 14);
+var map = L.mapbox.map('map', 'boertel.h95nl1fe');
 
 var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
 loadDay(day);
+
+$('.days li a').on('click', function (e) {
+    pages[current].tearDown();
+    document.location.hash = e.target.getAttribute('href');
+    return false;
+});
 
 window.onhashchange = function () {
     var day = parseInt(document.location.hash.replace('#day-', '')) || 1;

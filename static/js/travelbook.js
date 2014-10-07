@@ -16,6 +16,7 @@ function hex(x) {
 viewer = React.renderComponent(Viewer(), document.getElementById('viewer'));
 
 var N = 0,
+    current,
     pages = {};
 
 function loadDay(number) {
@@ -24,6 +25,7 @@ function loadDay(number) {
     var name = 'day-' + number,
         bubble = $('.' + name);
 
+    current = name;
     dayColor = bubble.find('a').css('background-color');
 
     $('ul.days li').removeClass('active');
@@ -58,6 +60,7 @@ function factory(block) {
 
 function Page () {
     this.blocks = [];
+    this.layers = [];
 }
 
 Page.prototype.push = function (block) {
@@ -65,17 +68,32 @@ Page.prototype.push = function (block) {
 };
 
 Page.prototype.render = function () {
+    viewer.props.images = []
+    viewer.props.length = 0
+
     this.blocks.forEach(function (b) {
         var g = new Pure('g');
         content.appendChild(g.node);
+        if (b instanceof Block.title && !this.title) {
+            this.title = b.title;
+        }
+        if (b instanceof Block.image) {
+            this.layers = this.layers.concat(b.layers)
+        }
         b.render(g);
-    });
+    }, this);
+
+    this.group = L.featureGroup(this.layers).addTo(map);
+    map.fitBounds(this.group.getBounds(), {maxZoom: 14});
 };
 
 Page.prototype.tearDown = function () {
     this.blocks.forEach(function (b) {
-        b.tearDown();
+        b.tearDown && b.tearDown();
     });
+
+    this.group.clearLayers();
+    Block.image.layers = [];
 };
 
 var Block = {};
@@ -100,28 +118,30 @@ Block.text.prototype.render = function (g) {
 /* Block Image */
 Block.image = function (args) {
     this.images = args.images;
+    this.layers = [];
 
-    var layers = [];
     this.images.forEach(function (image) {
         if (image.marker) {
             if (!image.marker.color) {
                 image.marker.color = rgb2hex(dayColor);
             }
+            image.marker.title = image.marker.title || image.credit;
             var marker = new Marker(image.marker);
             image.marker = marker;
-            layers.push(marker.feature);
+            this.layers.push(marker.feature);
         }
     }, this);
 
-    this.group = L.featureGroup(layers).addTo(map);
 };
+
+Block.image.layers = [];
 
 Block.image.prototype.render = function (g) {
     g.node.style.width = "100%";
     g.node.classList.add('pure-image');
 
     var gallery = Gallery({
-        headline: 'Jour 1',
+        headline: pages[current].title, // HACK
         images: this.images,
         viewer: viewer,
         parentAttributes: {className: 'pure-u-1-1 pure-gallery'},
@@ -132,7 +152,6 @@ Block.image.prototype.render = function (g) {
 };
 
 Block.image.prototype.tearDown = function () {
-    this.group.clearLayers();
 };
 
 Block.title = function (args) {

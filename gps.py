@@ -1,4 +1,6 @@
 import sys
+import json
+import os
 
 from PIL import Image
 from PIL.ExifTags import TAGS, GPSTAGS
@@ -70,7 +72,27 @@ if __name__ == "__main__":
         print "Usage: %s <filename>" % sys.argv[0]
         sys.exit(1)
 
-    image = Image.open(sys.argv[1])
-    exif_data = get_exif_data(image)
-    lat, lon = get_lat_lon(exif_data)
-    print '"coordinates": [%s, %s],' % (lon, lat)
+    output = []
+
+    for (dirname, dirs, files) in os.walk(sys.argv[1]):
+        for filename in files:
+            fullpath = os.path.join(dirname, filename)
+            image = Image.open(fullpath)
+            width, height = image.size
+            exif_data = get_exif_data(image)
+            lat, lon = get_lat_lon(exif_data)
+            output.append({
+                'src': './%s' % fullpath,
+                'caption': '',
+                'credit': '',
+                'width': width,
+                'height': height,
+                'marker': {
+                    'coordinates': [lon, lat],
+                    'title': '',
+                    'size': 'medium',
+                    'symbol': ''
+                }
+            })
+
+    print json.dumps(output)

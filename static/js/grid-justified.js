@@ -18,11 +18,13 @@ var MyImage = React.createClass({
         Events.notify('open', index)
     },
     render: function () {
-        var margin = this.props.margin,
+        var src = this.props.image.src,
+            margin = this.props.margin,
             widthContainer = this.state.width - ((this.props.length - 1) * margin);
 
         var img = React.DOM.img({
-            src: this.props.image.src,
+            src: src,
+            alt: src.substr(src.lastIndexOf('/') + 1, src.length + 1),
             width: (widthContainer / this.props.rowRatio) * this.props.image.aspect_ratio,
             height: (widthContainer / this.props.rowRatio),
             onClick: this.open.bind(this, this.props.index)
