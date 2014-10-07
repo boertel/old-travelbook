@@ -10,7 +10,7 @@
         {
             "type": "text",
             "args": {
-                "text": "Dimanche, première journée complète à New York, au programme: High Line à l'ouest puis descendre au sud sur Chelsea, Greenwich Village et SoHo."
+                "text": "Dimanche, première journée complète à New York, au programme: High Line à l'ouest puis descendre au sud sur Chelsea, Greenwich Village et SoHo. On verra par la suite ce qu'il y a faire et notre état de fatigue."
             }
         },
         {
@@ -74,7 +74,7 @@
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "High Line",
                         "height": 1000,
                         "marker": {
                             "coordinates": [
@@ -82,15 +82,14 @@
                                 40.75248055555556
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": ""
                         },
                         "src": "./static/images/2/img_2822.jpg",
                         "width": 750
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "High Line",
                         "height": 537,
                         "marker": {
                             "coordinates": [
@@ -116,7 +115,7 @@
         {
             "type": "text",
             "args": {
-                "text": ""
+                "text": "À la fin de la High Line: Chelsea Market, ancienne usine d'Oréo transformée en \"fancy\" marché/centre commercial. Dommage qu'il soit trop tôt dans la journée pour pouvoir manger ici."
             }
         },
         {
@@ -125,7 +124,7 @@
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Chelsea Market",
                         "height": 1000,
                         "marker": {
                             "coordinates": [
@@ -133,15 +132,14 @@
                                 40.745558333333335
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": ""
                         },
                         "src": "./static/images/2/img_2853.jpg",
                         "width": 750
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Chelsea Market",
                         "height": 1000,
                         "marker": {
                             "coordinates": [
@@ -149,8 +147,7 @@
                                 40.74554722222222
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": ""
                         },
                         "src": "./static/images/2/img_2852.jpg",
                         "width": 750
@@ -161,7 +158,13 @@
         {
             "type": "title",
             "args": {
-                "subtitle": "Greenwich Village"
+                "subtitle": "Greenwich Village / SoHo"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Greenwich Village porte bien son nom: c'est vert, des arbres dans toutes les rues. C'est agréable et calme, l'appartement de la série Friends est sensé être dans ce quartier. Après une pause dans Washington Square qui est entouré de NYU (Université de New York), SoHo est à côté donc ça sera évidemment: shopping."
             }
         },
         {
@@ -194,8 +197,7 @@
                                 40.733525
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": "water"
                         },
                         "src": "./static/images/2/img_2868.jpg",
                         "width": 1000
@@ -223,7 +225,7 @@
                         "width": 750
                     },
                     {
-                        "caption": "Pause dans le parc pour digérer le déjeuner et planifier la suite.",
+                        "caption": "Pause dans le parc pour digérer le déjeuner et planifier la suite à l'aide du Cartoville.",
                         "credit": "Washington Square",
                         "height": 1000,
                         "marker": {
@@ -238,8 +240,8 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "#StanSmith",
+                        "credit": "SoHo",
                         "height": 1000,
                         "marker": {
                             "coordinates": [
@@ -247,8 +249,7 @@
                                 40.730738888888894
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": ""
                         },
                         "src": "./static/images/2/img_2881.jpg",
                         "width": 750
@@ -261,7 +262,7 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "Petite pensée pour la Californie",
                         "credit": "",
                         "height": 1000,
                         "marker": {
@@ -270,8 +271,7 @@
                                 40.726875
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": "beer"
                         },
                         "src": "./static/images/2/img_2891.jpg",
                         "width": 750
@@ -301,6 +301,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "New York, c'est ça aussi: les poubelles en vrac sur le trottoir. Et voici une vidéo sur le sujet"
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -320,7 +326,7 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
+                        "caption": "Ça donne pas vraiment de manger ici !",
                         "credit": "",
                         "height": 750,
                         "marker": {
@@ -329,13 +335,21 @@
                                 40.743272222222224
                             ],
                             "size": "medium",
-                            "symbol": "",
-                            "title": ""
+                            "symbol": "waste-basket"
                         },
                         "src": "./static/images/2/img_2904.jpg",
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "link",
+            "args": {
+                "description": "Vidéo du New York Times qui explique ce que devient les ordures à New York",
+                "name": "Where does our trash go?",
+                "href": "http://www.nytimes.com/video/nyregion/100000003131953/where-does-our-trash-go.html",
+                "type": "video"
             }
         }
     ]

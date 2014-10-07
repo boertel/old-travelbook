@@ -77,16 +77,21 @@ if __name__ == "__main__":
     for (dirname, dirs, files) in os.walk(sys.argv[1]):
         for filename in files:
             fullpath = os.path.join(dirname, filename)
-            image = Image.open(fullpath)
+            try:
+                image = Image.open(fullpath)
+            except IOError:
+                continue
             width, height = image.size
             exif_data = get_exif_data(image)
             lat, lon = get_lat_lon(exif_data)
+
             output.append({
                 'src': './%s' % fullpath,
                 'caption': '',
                 'credit': '',
                 'width': width,
                 'height': height,
+                'datetime': exif_data['DateTimeOriginal'],
                 'marker': {
                     'coordinates': [lon, lat],
                     'title': '',

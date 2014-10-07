@@ -132,3 +132,7 @@ li.disabled {
     width: 100%;
     margin-top: 10px;
 }
+
+.link span.icon {
+    margin-right: 10px;
+}

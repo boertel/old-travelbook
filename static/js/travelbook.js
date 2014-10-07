@@ -42,7 +42,7 @@ function loadDay(number) {
             var blocks = data.blocks;
             blocks.forEach(function (b) {
                 var block = factory(b);
-                page.push(block);
+                block && page.push(block);
             });
             page.render();
         });
@@ -55,7 +55,7 @@ function loadDay(number) {
 
 function factory(block) {
     var Constructor = Block[block.type];
-    return new Constructor(block.args);
+    return Constructor && new Constructor(block.args);
 }
 
 function Page () {
@@ -92,6 +92,7 @@ Page.prototype.tearDown = function () {
         b.tearDown && b.tearDown();
     });
 
+    N = 0;
     this.group.clearLayers();
     Block.image.layers = [];
 };
@@ -163,7 +164,7 @@ Block.title.prototype.render = function (g) {
     var h1, h2;
     var u = new Pure(['u-1', 'title']);
 
-    g.className = 'title';
+    g.node.classList.add('title');
 
     if (this.title) {
         h1 = document.createElement('h1'),
@@ -176,6 +177,34 @@ Block.title.prototype.render = function (g) {
         u.addChild(h2)
     }
 
+    u.addTo(g);
+};
+
+Block.link = function (args) {
+    this.name = args.name;
+    this.href = args.href;
+    this.type = args.type;
+    this.description = args.description;
+};
+
+Block.link.prototype.render = function (g) {
+    var u = new Pure(['u-1', 'link']);
+
+    g.node.classList.add('link');
+
+    var icon = document.createElement('span');
+    icon.className = 'icon mega-octicon octicon-device-camera-video'
+
+    var span = document.createElement('span');
+    span.innerHTML = this.description + '&nbsp;&mdash;&nbsp;';
+
+    var a = document.createElement('a');
+    a.href = this.href;
+    a.innerHTML = this.name;
+
+    u.addChild(icon);
+    u.addChild(span);
+    u.addChild(a);
     u.addTo(g);
 };
 

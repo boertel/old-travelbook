@@ -115,6 +115,7 @@ var Viewer = React.createClass({
     next: function (event) {
         event.preventDefault();
         var index = (this.state.index += 1) % this.props.images.length;
+        console.log(index);
         this.setState({index: index});
         return false;
     },
@@ -166,6 +167,7 @@ var Viewer = React.createClass({
                 this.previous(e);
             }
             else if (e.which === 75 || e.which === 39) {
+                console.log('key next');
                 this.next(e);
             }
             else if (e.which === 27) {
