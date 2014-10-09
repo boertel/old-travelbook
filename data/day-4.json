@@ -3,7 +3,16 @@
         {
             "type": "title",
             "args": {
-                "title": "Jour 4"
+                "title": "Mardi 26 Août"
+            }
+        },
+        {
+            "type": "link",
+            "args": {
+                "href": "http://soundcityproject.com/",
+                "name": "Sound City Project",
+                "description": "Pour avoir les oreilles à New York",
+                "type": "audio"
             }
         },
         {
@@ -426,7 +435,7 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
+                        "caption": "Argent sale",
                         "credit": "Wall Street",
                         "datetime": "2014:08:26 14:30:36",
                         "height": 1000,
@@ -520,7 +529,7 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
+                        "caption": "Quartier ultra sécurisé",
                         "credit": "Wall Street",
                         "datetime": "2014:08:26 14:41:02",
                         "height": 1000,
@@ -550,7 +559,7 @@
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Starbucks",
                         "datetime": "2014:08:26 15:39:48",
                         "height": 750,
                         "marker": {
@@ -559,7 +568,7 @@
                                 40.70508055555556
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "cafe"
                         },
                         "src": "./static/images/4/img_3247.jpg",
                         "width": 1000
@@ -814,7 +823,7 @@
         {
             "type": "text",
             "args": {
-                "text": ", ça sera où la vadrouille de la journée s'arrêtera et la pause se fera dans un bar: Proletariat avec des bières inconnues et repas pour manger un ramen chez Momofuku."
+                "text": "ça sera où la vadrouille de la journée s'arrêtera et la pause se fera dans un bar: Proletariat avec des bières inconnues et repas pour manger un ramen chez Momofuku."
             }
         },
         {

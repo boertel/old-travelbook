@@ -193,7 +193,15 @@ Block.link.prototype.render = function (g) {
     g.node.classList.add('link');
 
     var icon = document.createElement('span');
-    icon.className = 'icon mega-octicon octicon-device-camera-video'
+    iconClassName = 'icon mega-octicon ';
+    if (this.type === 'video') {
+        iconClassName += 'octicon-device-camera-video'
+    }
+    if (this.type === 'audio') {
+        iconClassName += 'octicon-megaphone';
+    }
+
+     icon.className = iconClassName;
 
     var span = document.createElement('span');
     span.innerHTML = this.description + '&nbsp;&mdash;&nbsp;';

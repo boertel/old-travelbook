@@ -22,7 +22,7 @@ var MyImage = React.createClass({
         if (marker) {
             for (var key in marker.feature._layers) {
                 marker.feature._layers[key].setIcon(L.mapbox.marker.icon({
-                    'marker-color': marker.properties.color,
+                    'marker-color': '#fa946e',
                     'marker-symbol': marker.properties.symbol,
                     'marker-size': 'large'
                 })).setZIndexOffset(1000);
