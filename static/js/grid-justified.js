@@ -51,24 +51,43 @@ var MyImage = React.createClass({
             alt: src.substr(src.lastIndexOf('/') + 1, src.length + 1),
             width: (widthContainer / this.props.rowRatio) * this.props.image.aspect_ratio,
             height: (widthContainer / this.props.rowRatio),
-            onClick: this.open.bind(this, this.props.index),
-            onMouseOver: this.onMouseOver,
-            onMouseOut: this.onMouseOut,
+            onClick: this.open.bind(this, this.props.index)
         });
 
-        var container = React.DOM.div({
-            style: {
-                display: 'inline-block',
-                marginRight: (this.props.last ? 0 : margin) + 'px',
-                marginBottom: margin + 'px',
-            }
-        }, img);
+        var args = [
+            {
+                style: {
+                    position: 'relative',
+                    display: 'inline-block',
+                    marginRight: (this.props.last ? 0 : margin) + 'px',
+                    marginBottom: margin + 'px',
+                },
+                onMouseOver: this.onMouseOver,
+                onMouseOut: this.onMouseOut
+            },
+            img
+        ];
 
         if (this.props.image.marker) {
             this.props.image.marker.feature.addEventListener('click', (function () {
                 this.open(this.props.index);
             }).bind(this));
+
+            var rgb = extractColor(dayColor);
+            var centerColor = 'rgba(' + rgb[1] + ', ' + rgb[2] + ', ' + rgb[3] + ', 0.3)';
+            var dot = React.DOM.div({
+                className: 'dot',
+                style: {
+                    backgroundColor: centerColor,
+                    borderColor: dayColor
+                }
+            });
+
+            args.push(dot);
         }
+
+        var container = React.DOM.div.apply(this, args);
+
 
         return container;
     }

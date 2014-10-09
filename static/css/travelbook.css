@@ -55,7 +55,7 @@ p {
     list-style: none;
     display: inline-block;
     margin: 0 0.2em 0.5em 0.2em;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .days li.active {
@@ -135,4 +135,17 @@ li.disabled {
 
 .link span.icon {
     margin-right: 10px;
+}
+
+.dot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    opacity: 0.8;
+    border-width: 2px;
+    border-style: solid;
 }
