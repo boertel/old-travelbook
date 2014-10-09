@@ -19,6 +19,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Après avoir passé 2 jours à utiliser les jambes, il est temps de découvrir le métro new yorkais."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -32,7 +38,7 @@
                                 -73.98181111111111,
                                 40.746375
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "rail-metro"
                         },
                         "src": "./static/images/3/img_2924.jpg",
@@ -56,7 +62,7 @@
                                 -73.96600277777777,
                                 40.76861111111111
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "rail-metro"
                         },
                         "src": "./static/images/3/img_2926.jpg",
@@ -69,6 +75,12 @@
             "type": "title",
             "args": {
                 "subtitle": "Central Park"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Le MoMa ouvre aux alentours de 10h, donc étant donné notre rythme de vacances effréné, il faut trouver une activité à faire avant. Ça sera Central Park et très bonne décision: peu de monde et les pelouses s'ouvrent donc à nous les grandes étendues d'herbe."
             }
         },
         {
@@ -85,7 +97,7 @@
                                 -73.97185555555556,
                                 40.77654722222222
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2938.jpg",
@@ -101,7 +113,7 @@
                                 -73.97177222222223,
                                 40.77847777777777
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2942.jpg",
@@ -117,7 +129,7 @@
                                 -73.97174166666667,
                                 40.77846944444445
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2943.jpg",
@@ -133,7 +145,7 @@
                                 -73.97157222222222,
                                 40.778705555555554
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2944.jpg",
@@ -149,7 +161,7 @@
                                 -73.97165555555556,
                                 40.778708333333334
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2945.jpg",
@@ -165,7 +177,7 @@
                                 -73.97309166666666,
                                 40.77772222222222
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2949.jpg",
@@ -181,7 +193,7 @@
                                 -73.97483055555556,
                                 40.771972222222225
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2958.jpg",
@@ -197,7 +209,7 @@
                                 -73.97351944444445,
                                 40.768425
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2968.jpg",
@@ -213,7 +225,7 @@
                                 -73.97418888888889,
                                 40.77068611111111
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         },
                         "src": "./static/images/3/img_2997.jpg",
@@ -226,6 +238,12 @@
             "type": "title",
             "args": {
                 "subtitle": "MoMa"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après avoir explorer la ville pendant 2 jours, il est temps de faire un peu de culture avec le Museum Of Modern Art."
             }
         },
         {
@@ -242,7 +260,7 @@
                                 -73.97718888888889,
                                 40.761136111111114
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "museum"
                         },
                         "src": "./static/images/3/img_2978.jpg",
@@ -258,7 +276,7 @@
                                 -73.97683611111111,
                                 40.7615
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "museum"
                         },
                         "src": "./static/images/3/img_2979.jpg",
@@ -274,7 +292,7 @@
                                 -73.97760833333334,
                                 40.761672222222224
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "museum"
                         },
                         "src": "./static/images/3/img_2981.jpg",
@@ -290,7 +308,7 @@
                                 -73.97728055555555,
                                 40.76155555555555
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "museum"
                         },
                         "src": "./static/images/3/img_2986.jpg",
@@ -303,6 +321,12 @@
             "type": "title",
             "args": {
                 "subtitle": "En Transit"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Il est enfin l'heure de se diriger vers l'US Open situé à l'ouest de Manhattan dans le Queens (Flushing Meadows)."
             }
         },
         {
@@ -319,7 +343,7 @@
                                 -73.97381666666666,
                                 40.76453055555555
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/3/img_2974.jpg",
@@ -335,7 +359,7 @@
                                 -73.9786388888889,
                                 40.761922222222225
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/3/img_2995.jpg",
@@ -351,7 +375,7 @@
                                 -73.940675,
                                 40.75107222222222
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "rail-metro"
                         },
                         "src": "./static/images/3/img_2999.jpg",
@@ -367,7 +391,7 @@
                                 -73.94065,
                                 40.750908333333335
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "rail-metro"
                         },
                         "src": "./static/images/3/img_3001.jpg",
@@ -380,6 +404,12 @@
             "type": "title",
             "args": {
                 "subtitle": "US Open"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Enfin assis dans l'Arthur Ashe Stadium (plus grand stade de tennis au monde), après des contrôles de sécurité compliqués où les agents de sécurité ne savent pas les différences et similitudes entre un appareil photo, un smartphone, une gopro et un ipad. Le programme des matchs de la soirée sera: Sharapova vs. Kirilenko et ensuite Djokovic vs. Schwartzman."
             }
         },
         {
@@ -396,7 +426,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3010.jpg",
@@ -412,7 +442,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3011.jpg",
@@ -428,7 +458,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3017.jpg",
@@ -451,7 +481,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3019.jpg",
@@ -467,7 +497,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3018.jpg",
@@ -483,7 +513,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3022.jpg",
@@ -499,7 +529,7 @@
                                 -73.84702920913696,
                                 40.74989855122141
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "tennis"
                         },
                         "src": "./static/images/3/img_3042.jpg",

@@ -15,7 +15,31 @@ var MyImage = React.createClass({
         window.addEventListener('resize', this.resize);
     },
     open: function (index) {
-        Events.notify('open', index)
+        Events.notify('open', index);
+    },
+    onMouseOver: function () {
+        var marker = this.props.image.marker;
+        if (marker) {
+            for (var key in marker.feature._layers) {
+                marker.feature._layers[key].setIcon(L.mapbox.marker.icon({
+                    'marker-color': marker.properties.color,
+                    'marker-symbol': marker.properties.symbol,
+                    'marker-size': 'large'
+                })).setZIndexOffset(1000);
+            }
+        }
+    },
+    onMouseOut: function () {
+        var marker = this.props.image.marker;
+        if (marker) {
+            for (var key in marker.feature._layers) {
+                marker.feature._layers[key].setIcon(L.mapbox.marker.icon({
+                    'marker-color': marker.properties.color,
+                    'marker-symbol': marker.properties.symbol,
+                    'marker-size': 'medium'
+                })).setZIndexOffset(1);
+            }
+        }
     },
     render: function () {
         var src = this.props.image.src,
@@ -27,7 +51,9 @@ var MyImage = React.createClass({
             alt: src.substr(src.lastIndexOf('/') + 1, src.length + 1),
             width: (widthContainer / this.props.rowRatio) * this.props.image.aspect_ratio,
             height: (widthContainer / this.props.rowRatio),
-            onClick: this.open.bind(this, this.props.index)
+            onClick: this.open.bind(this, this.props.index),
+            onMouseOver: this.onMouseOver,
+            onMouseOut: this.onMouseOut,
         });
 
         var container = React.DOM.div({
@@ -40,7 +66,7 @@ var MyImage = React.createClass({
 
         if (this.props.image.marker) {
             this.props.image.marker.feature.addEventListener('click', (function () {
-                this.open(this.props.index)
+                this.open(this.props.index);
             }).bind(this));
         }
 

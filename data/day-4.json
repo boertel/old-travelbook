@@ -1,0 +1,817 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Jour 4"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 00:50:28",
+                        "height": 750,
+                        "src": "./static/images/4/img_3068.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 09:45:01",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.98429166666666,
+                                40.74308333333333
+                            ],
+                            "size": "small",
+                            "symbol": "rail-metro"
+                        },
+                        "src": "./static/images/4/img_3079.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 09:47:58",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.98431388888889,
+                                40.743069444444444
+                            ],
+                            "size": "small",
+                            "symbol": "rail-metro"
+                        },
+                        "src": "./static/images/4/img_3081.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 10:51:19",
+                        "height": 1000,
+                        "src": "./static/images/4/img_3095.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 11:00:22",
+                        "height": 750,
+                        "src": "./static/images/4/img_3113.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 11:02:23",
+                        "height": 750,
+                        "src": "./static/images/4/img_3121.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 11:03:57",
+                        "height": 750,
+                        "src": "./static/images/4/img_3126.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Staten Island Ferry",
+                        "datetime": "2014:08:26 11:38:39",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.02107222222222,
+                                40.696861111111104
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/4/img_3137.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Staten Island Ferry",
+                        "datetime": "2014:08:26 11:47:22",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.053725,
+                                40.66014444444444
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/4/img_3151.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Staten Island Ferry",
+                        "datetime": "2014:08:26 12:20:47",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.02326944444444,
+                                40.695227777777774
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/4/img_3160.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Staten Island Ferry",
+                        "datetime": "2014:08:26 12:22:18",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.01712777777777,
+                                40.69763611111111
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/4/img_3163.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Staten Island Ferry",
+                        "datetime": "2014:08:26 12:26:38",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.01341111111111,
+                                40.700183333333335
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/4/img_3167.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 12:57:16",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01055833333334,
+                                40.708175000000004
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3177.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "One World Trade Center",
+                        "datetime": "2014:08:26 13:03:53",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01190833333334,
+                                40.70964444444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3181.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Shack Shake",
+                        "datetime": "2014:08:26 13:32:15",
+                        "height": 666,
+                        "marker": {
+                            "coordinates": [
+                                -74.014825,
+                                40.715244444444444
+                            ],
+                            "size": "small",
+                            "symbol": "fast-food"
+                        },
+                        "src": "./static/images/4/img_3185.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Premier burger new yorkais",
+                        "credit": "Shack Shake",
+                        "datetime": "2014:08:26 13:28:28",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.0150388888889,
+                                40.71501666666667
+                            ],
+                            "size": "small",
+                            "symbol": "fast-food"
+                        },
+                        "src": "./static/images/4/img_3184.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "One World Trade Center",
+                        "datetime": "2014:08:26 13:53:13",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01371666666667,
+                                40.71272777777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3190.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "One World Trade Center",
+                        "datetime": "2014:08:26 14:06:42",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01493055555555,
+                                40.713750000000005
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3203.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Ground Zero",
+                        "datetime": "2014:08:26 13:55:47",
+                        "height": 384,
+                        "marker": {
+                            "coordinates": [
+                                -74.01398333333333,
+                                40.712161111111115
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3193.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Ground Zero",
+                        "datetime": "2014:08:26 14:02:42",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.013275,
+                                40.71138333333334
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3199.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Ground Zero",
+                        "datetime": "2014:08:26 14:02:06",
+                        "height": 282,
+                        "marker": {
+                            "coordinates": [
+                                -74.01304722222223,
+                                40.71131944444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3197.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 14:12:10",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01091111111111,
+                                40.708850000000005
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3209.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Wall Street",
+                        "datetime": "2014:08:26 14:30:36",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.0122,
+                                40.70946388888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3228.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Wall Street",
+                        "datetime": "2014:08:26 14:37:52",
+                        "height": 348,
+                        "marker": {
+                            "coordinates": [
+                                -74.01052777777778,
+                                40.70691388888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3239.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Wall Street",
+                        "datetime": "2014:08:26 14:32:24",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01040555555555,
+                                40.70698055555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3233.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Wall Street",
+                        "datetime": "2014:08:26 14:35:51",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.0117861111111,
+                                40.70715277777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3236.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Wall Street",
+                        "datetime": "2014:08:26 14:36:11",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01035277777778,
+                                40.7072
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3237.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Wall Street",
+                        "datetime": "2014:08:26 14:41:02",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.011725,
+                                40.706
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3243.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 15:39:48",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.01126111111111,
+                                40.70508055555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3247.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 15:47:53",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.01171944444444,
+                                40.70765277777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3250.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Guerre des journaux:\nWall Street Journal vs. New York Times",
+                        "credit": "",
+                        "datetime": "2014:08:26 16:06:53",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.00170833333334,
+                                40.71528888888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3261.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Même les feux de signalisation font du skateboard",
+                        "credit": "Chinatown",
+                        "datetime": "2014:08:26 16:08:51",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.00047222222223,
+                                40.714486111111114
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3262.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Chinatown",
+                        "datetime": "2014:08:26 16:10:36",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99970277777778,
+                                40.71433888888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3263.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Signalisation en chinois ?",
+                        "credit": "Chinatown",
+                        "datetime": "2014:08:26 16:15:02",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99790833333333,
+                                40.714286111111115
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3267.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Chinatown",
+                        "datetime": "2014:08:26 16:17:14",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99786388888889,
+                                40.71393611111112
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3271.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Chinatown",
+                        "datetime": "2014:08:26 16:19:12",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99691111111112,
+                                40.71476666666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3274.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:26 16:42:30",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.996475,
+                                40.72115277777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3285.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Chrome Shop",
+                        "datetime": "2014:08:26 16:52:22",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99431666666666,
+                                40.71996388888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3286.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "East Village",
+                        "datetime": "2014:08:26 17:05:12",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99495,
+                                40.724786111111115
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3288.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "East Village",
+                        "datetime": "2014:08:26 17:21:04",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99371388888889,
+                                40.7275
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3295.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "East Village",
+                        "datetime": "2014:08:26 17:28:40",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99211944444444,
+                                40.72903055555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3296.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "East Village",
+                        "datetime": "2014:08:26 17:30:55",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99015833333334,
+                                40.72946666666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3297.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "East Village",
+                        "datetime": "2014:08:26 17:34:04",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98790833333334,
+                                40.72861944444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3298.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Pre-dinner beer",
+                        "credit": "Proletariat",
+                        "datetime": "2014:08:26 17:48:30",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.985275,
+                                40.72759166666667
+                            ],
+                            "size": "small",
+                            "symbol": "beer"
+                        },
+                        "src": "./static/images/4/img_3302.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Ramen",
+                        "credit": "Momofuku",
+                        "datetime": "2014:08:26 19:37:07",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.985275,
+                                40.72759166666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/4/img_3305.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Post-dinner beer",
+                        "credit": "Proletariat",
+                        "datetime": "2014:08:26 17:55:47",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.985275,
+                                40.72759166666667
+                            ],
+                            "size": "small",
+                            "symbol": "beer"
+                        },
+                        "src": "./static/images/4/img_3303.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        }
+    ]
+}
+

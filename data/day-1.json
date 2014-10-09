@@ -26,7 +26,7 @@
                         "marker": {
                             "coordinates": [-73.7877805556, 40.6446583333],
                             "title": "Airport",
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "airport"
                         }
                     },
@@ -104,7 +104,7 @@
                         "marker": {
                             "coordinates": [-73.9834527778, 40.7532166667],
                             "title": "Brian Park",
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park2"
                         }
 
@@ -123,7 +123,7 @@
                         "marker": {
                             "coordinates": [-73.9777138889, 40.7582972222],
                             "credit": "Rockefeller Center",
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "commercial"
                         }
                     }
@@ -147,7 +147,7 @@
                         "marker": {
                             "coordinates": [-73.9754111111, 40.76365],
                             "title": "Apple Store",
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "shop"
                         }
                     },

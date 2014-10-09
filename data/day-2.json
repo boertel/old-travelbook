@@ -26,7 +26,7 @@
                                 -73.99854166666667,
                                 40.75416111111111
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "",
                             "title": ""
                         },
@@ -42,7 +42,7 @@
                                 -74.00254166666667,
                                 40.7561
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "",
                             "title": ""
                         },
@@ -58,7 +58,7 @@
                                 -74.00167222222223,
                                 40.75254722222222
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "",
                             "title": ""
                         },
@@ -81,7 +81,7 @@
                                 -74.00222777777778,
                                 40.75248055555556
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/2/img_2822.jpg",
@@ -96,7 +96,7 @@
                                 -74.0068888888889,
                                 40.74398333333333
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "",
                             "title": ""
                         },
@@ -131,7 +131,7 @@
                                 -74.00666944444444,
                                 40.745558333333335
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/2/img_2853.jpg",
@@ -146,7 +146,7 @@
                                 -74.00660833333333,
                                 40.74554722222222
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/2/img_2852.jpg",
@@ -180,7 +180,7 @@
                                 -74.00255555555556,
                                 40.73378888888889
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "",
                             "title": ""
                         },
@@ -196,7 +196,7 @@
                                 -74.00258611111111,
                                 40.733525
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "water"
                         },
                         "src": "./static/images/2/img_2868.jpg",
@@ -218,7 +218,7 @@
                                 -74.00158611111111,
                                 40.731725000000004
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "city"
                         },
                         "src": "./static/images/2/img_2870.jpg",
@@ -233,7 +233,7 @@
                                 -73.99843611111112,
                                 40.731186111111114
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "park"
                         },
                         "src": "./static/images/2/img_2876.jpg",
@@ -248,7 +248,7 @@
                                 -73.99462777777778,
                                 40.730738888888894
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/2/img_2881.jpg",
@@ -270,7 +270,7 @@
                                 -73.99984722222223,
                                 40.726875
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "beer"
                         },
                         "src": "./static/images/2/img_2891.jpg",
@@ -285,7 +285,7 @@
                                 -73.9886638888889,
                                 40.7434
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": ""
                         },
                         "src": "./static/images/2/img_2897.jpg",
@@ -319,7 +319,7 @@
                                 -73.99316388888889,
                                 40.731094444444444
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "bakery"
                         },
                         "src": "./static/images/2/img_2880.jpg",
@@ -334,7 +334,7 @@
                                 -73.9865638888889,
                                 40.743272222222224
                             ],
-                            "size": "medium",
+                            "size": "small",
                             "symbol": "waste-basket"
                         },
                         "src": "./static/images/2/img_2904.jpg",

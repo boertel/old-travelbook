@@ -30,7 +30,7 @@ var Media = React.createClass({
     getDefaultProps: function () {
         return {
             media: {}
-        }
+        };
     },
     getInitialState: function () {
         return {
@@ -69,7 +69,7 @@ var Media = React.createClass({
 
         var figcaptionStyle = {};
         if (this.state.windowWidth >= 1220) {
-            var figcaptionStyle = {
+            figcaptionStyle = {
                 left: width + 'px',
                 bottom: 0,
                 paddingLeft: '20px'
@@ -95,7 +95,7 @@ var Media = React.createClass({
             credit = React.DOM.span({className: 'credit'}, ((current.credit) ? '– ' + current.credit : '')),
             figcaption = React.DOM.figcaption({className: 'caption', style: figcaptionStyle, onClick: function (e) { e.preventDefault(); return false; }}, captionText, credit),
 
-            figure = React.DOM.figure({className: 'media-viewer-asset', style: figureStyle}, img, navPrevious, navNext, figcaption)
+            figure = React.DOM.figure({className: 'media-viewer-asset', style: figureStyle}, img, navPrevious, navNext, figcaption);
             wrapper = React.DOM.div({className: 'media-viewer-wrapper'}, figure);
 
         return wrapper;
@@ -116,7 +116,6 @@ var Viewer = React.createClass({
     next: function (event) {
         event.preventDefault();
         var index = (this.state.index += 1) % this.props.images.length;
-        console.log(index)
         this.setState({index: index});
         return false;
     },

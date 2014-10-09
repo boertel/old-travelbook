@@ -96,7 +96,6 @@ if __name__ == "__main__":
             if lat is not None and lon is not None:
                 value['marker'] = {
                     'coordinates': [lon, lat],
-                    'title': '',
                     'size': 'medium',
                     'symbol': ''
                 }
