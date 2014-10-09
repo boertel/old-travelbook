@@ -85,19 +85,21 @@ if __name__ == "__main__":
             exif_data = get_exif_data(image)
             lat, lon = get_lat_lon(exif_data)
 
-            output.append({
+            value = {
                 'src': './%s' % fullpath,
                 'caption': '',
                 'credit': '',
                 'width': width,
                 'height': height,
-                'datetime': exif_data['DateTimeOriginal'],
-                'marker': {
+                'datetime': exif_data.get('DateTimeOriginal'),
+            }
+            if lat is not None and lon is not None:
+                value['marker'] = {
                     'coordinates': [lon, lat],
                     'title': '',
                     'size': 'medium',
                     'symbol': ''
                 }
-            })
+            output.append(value)
 
     print json.dumps(output)

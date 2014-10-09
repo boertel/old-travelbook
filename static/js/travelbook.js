@@ -33,7 +33,7 @@ function loadDay(number) {
     $("#map").css("border-color", dayColor);
 
 
-    var page = pages[name]
+    var page = pages[name];
     if (page === undefined) {
         page = new Page();
         pages[name] = page;

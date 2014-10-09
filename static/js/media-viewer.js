@@ -42,7 +42,7 @@ var Media = React.createClass({
         window.addEventListener('resize', this.resize);
     },
     shouldComponentUpdate: function (nextProps, nextState) {
-        return nextState.width !== 0 && nextState.height !== 0
+        return nextState.width !== 0 && nextState.height !== 0;
     },
     render: function () {
         var current = this.props.media;
@@ -63,7 +63,8 @@ var Media = React.createClass({
         var figureStyle = {
             width: width + 'px',
             height: height + 'px',
-            left: parseInt((this.state.windowWidth - width) / 2) + 'px'
+            left: parseInt((this.state.windowWidth - width) / 2) + 'px',
+            top: parseInt((this.state.windowHeight - height) / 2) + 'px'
         };
 
         var figcaptionStyle = {};
@@ -115,7 +116,7 @@ var Viewer = React.createClass({
     next: function (event) {
         event.preventDefault();
         var index = (this.state.index += 1) % this.props.images.length;
-        console.log(index);
+        console.log(index)
         this.setState({index: index});
         return false;
     },
@@ -167,7 +168,6 @@ var Viewer = React.createClass({
                 this.previous(e);
             }
             else if (e.which === 75 || e.which === 39) {
-                console.log('key next');
                 this.next(e);
             }
             else if (e.which === 27) {
