@@ -27,7 +27,7 @@
                 <li class="day-1"><a href="#day-1">1</a></li>
                 <li class="day-2"><a href="#day-2">2</a></li>
                 <li class="day-3"><a href="#day-3">3</a></li>
-                <li class="day-4 disabled"><a href="#day-4">4</a></li>
+                <li class="day-4 disaled"><a href="#day-4">4</a></li>
                 <li class="day-5 disabled"><a href="#day-5">5</a></li>
                 <li class="day-6 disabled"><a href="#day-6">6</a></li>
                 <li class="day-7 disabled"><a href="#day-7">7</a></li>
@@ -49,7 +49,7 @@
                 <li class="day-1"><a href="#day-1">1</a></li>
                 <li class="day-2"><a href="#day-2">2</a></li>
                 <li class="day-3"><a href="#day-3">3</a></li>
-                <li class="day-4 disabled"><a href="#day-4">4</a></li>
+                <li class="day-4"><a href="#day-4">4</a></li>
                 <li class="day-5 disabled"><a href="#day-5">5</a></li>
                 <li class="day-6 disabled"><a href="#day-6">6</a></li>
                 <li class="day-7 disabled"><a href="#day-7">7</a></li>
@@ -76,7 +76,8 @@
 <script>
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuhy2ytRi7Eg';
-var map = L.mapbox.map('map', 'boertel.h95nl1fe');
+var map = L.mapbox.map('map', 'boertel.h95nl1fe', { zoomControl: false });
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
 var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
 loadDay(day);

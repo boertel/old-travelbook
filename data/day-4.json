@@ -9,13 +9,7 @@
         {
             "type": "text",
             "args": {
-                "text": ""
-            }
-        },
-        {
-            "type": "title",
-            "args": {
-                "subtitle": ""
+                "text": "On est mardi, le grand événement de la journée, c'est: le baptême d'hélicoptère. Ensuite pas d'itinéraire prévu, juste la découverte du sud de Manhattan. Et comme chaque matin maintenant, le métro avec cette découverte: une plateforme qui se retracte pour laisser passer le métro dans le virage."
             }
         },
         {
@@ -66,6 +60,18 @@
             }
         },
         {
+            "type": "title",
+            "args": {
+                "subtitle": "Hélicoptère"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Vrai attraction touristique du moment, les touristes n'arrêtent pas de circuler dans l'héliport. Le vol consistera à aller survoler la statue de Liberté, remonter l'Hudson River à l'ouest de manhattan puis de faire demi-tour au niveau de Central Park."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -102,6 +108,18 @@
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Ferry"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "On a commencé par le métro, puis l'hélicoptère, pourquoi s'arrêter en si bon chemin, le ferry pour Staten Island et juste à côté. On passe à côté de la statue de la Liberté, cette fois-ci sur l'eau. Une fois arrivée à Staten Island, course dans le port pour prendre le ferry qui repart sur Manhattan"
             }
         },
         {
@@ -189,6 +207,18 @@
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après avoir aperçu les gratte-ciels les jours précédent et notamment le One World Trade Center, remplaçant les Twins Towers, c'est enfin le moment de s'y rapprocher. Mais aussi de gouter au premier burger new yorkais."
             }
         },
         {
@@ -309,6 +339,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Au pied de la One World Trade Center Tower, Ground Zero, 2 grandes fontaines représentant les tours tombées le 11 septembre. "
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -361,6 +397,12 @@
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "À deux pas de là, Wall Street."
             }
         },
         {
@@ -494,6 +536,12 @@
                         "width": 750
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Il est temps de remonter progressivement sur l'hotel en passant par décevant Chinatown et..."
             }
         },
         {
@@ -639,6 +687,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "... East Village, quartier multi culturel et un peu bordélique..."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -755,6 +809,12 @@
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ", ça sera où la vadrouille de la journée s'arrêtera et la pause se fera dans un bar: Proletariat avec des bières inconnues et repas pour manger un ramen chez Momofuku."
             }
         },
         {
