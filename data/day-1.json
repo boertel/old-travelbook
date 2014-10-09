@@ -190,7 +190,7 @@
                         "marker": {
                             "coordinates": [-73.97670328617096, 40.7533405866677],
                             "title": "Grand Central Terminal ",
-                            "size": "large",
+                            "size": "small",
                             "symbol": "rail"
                         }
                     },
