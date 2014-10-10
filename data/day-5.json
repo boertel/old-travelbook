@@ -1,0 +1,426 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Mercredi 27 Août"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Pizza pour l'apéro",
+                        "credit": "Italian Market / Restaurant: Eataly",
+                        "datetime": "2014:08:27 13:09:39",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99420277777777,
+                                40.745577777777775
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/5/img_3314.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Pasta pour le repas",
+                        "credit": "Italian Market / Restaurant: Eataly",
+                        "datetime": "2014:08:27 13:19:13",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99425555555555,
+                                40.74561666666667
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/5/img_3316.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:27 14:27:25",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98780000000001,
+                                40.70429166666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3320.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:27 14:44:00",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99291944444444,
+                                40.704575000000006
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3332.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Brooklyn Bridge sur la gauche, Manhattan Bridge sur la droite",
+                        "credit": "Brooklyn",
+                        "datetime": "2014:08:27 14:34:40",
+                        "height": 355,
+                        "marker": {
+                            "coordinates": [
+                                -73.99105,
+                                40.70393055555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3324.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge Park",
+                        "datetime": "2014:08:27 15:06:02",
+                        "height": 249,
+                        "marker": {
+                            "coordinates": [
+                                -73.99649722222222,
+                                40.70308333333334
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/5/img_3343.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge Park",
+                        "datetime": "2014:08:27 15:38:55",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.9991611111111,
+                                40.69985555555555
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/5/img_3512.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge Park",
+                        "datetime": "2014:08:27 15:19:23",
+                        "height": 486,
+                        "marker": {
+                            "coordinates": [
+                                -73.99775833333334,
+                                40.70147777777778
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/5/img_3348.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Mickey vs. Sponge Bob",
+                        "credit": "Brooklyn",
+                        "datetime": "2014:08:27 18:41:09",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99265277777778,
+                                40.701769444444444
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3387.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:01:31",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99394166666667,
+                                40.703786111111114
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3409.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "video",
+            "args": {
+                "url": "//player.vimeo.com/video/108511228",
+                "title": "Piétons sur le Brooklyn Bridge",
+                "width": 500,
+                "height": 281
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "\"You stink really bad. Take shower\"",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:24:14",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99610833333334,
+                                40.705508333333334
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3446.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "As they said in Brooklyn, \"Bagel\"",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:25:04",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99610833333334,
+                                40.705508333333334
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3448.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Les frères attendent le couché du soleil",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:27:58",
+                        "height": 831,
+                        "marker": {
+                            "coordinates": [
+                                -73.99611666666667,
+                                40.70547777777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3451.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:15:49",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99585833333333,
+                                40.70544166666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3514.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:11:20",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99571944444445,
+                                40.70504722222223
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3432.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Big Apple",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:10:16",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99531666666667,
+                                40.704875
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3431.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:00:55",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99379722222223,
+                                40.70365277777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3407.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 19:55:47",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99625277777778,
+                                40.70560555555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3476.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Flou artistique",
+                        "credit": "Brooklyn Bridge",
+                        "datetime": "2014:08:27 20:10:07",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99627777777778,
+                                40.705555555555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3503.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Cyril a trouvé sa place",
+                        "credit": "Subway",
+                        "datetime": "2014:08:27 20:30:52",
+                        "height": 1000,
+                        "src": "./static/images/5/img_3513.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Umi Sushi",
+                        "datetime": "2014:08:27 22:00:09",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98210277777778,
+                                40.74480833333333
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/5/img_3510.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Petit problème de serrure",
+                        "credit": "Ramada Inn Eastside, Lexington Avenue",
+                        "datetime": "2014:08:27 21:03:02",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.98144444444445,
+                                40.74391666666667
+                            ],
+                            "size": "small",
+                            "symbol": "lodging"
+                        },
+                        "src": "./static/images/5/img_3509.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        }
+    ]
+}

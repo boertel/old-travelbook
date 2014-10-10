@@ -51,7 +51,6 @@ var MyImage = React.createClass({
             alt: src.substr(src.lastIndexOf('/') + 1, src.length + 1),
             width: (widthContainer / this.props.rowRatio) * this.props.image.aspect_ratio,
             height: (widthContainer / this.props.rowRatio),
-            onClick: this.open.bind(this, this.props.index)
         });
 
         var args = [
@@ -63,7 +62,8 @@ var MyImage = React.createClass({
                     marginBottom: margin + 'px',
                 },
                 onMouseOver: this.onMouseOver,
-                onMouseOut: this.onMouseOut
+                onMouseOut: this.onMouseOut,
+                onClick: this.open.bind(this, this.props.index)
             },
             img
         ];
