@@ -220,6 +220,55 @@ Block.link.prototype.render = function (g) {
     u.addTo(g);
 };
 
+Block.video = function (args) {
+    this.url = args.url;
+    this.title = args.title;
+    this.width = args.width;
+    this.height = args.height;
+};
+
+Block.video.prototype.render = function (g) {
+    var u = new Pure(['u-1', 'video']);
+    g.node.classList.add('video');
+
+    var options = {
+        badge: 0,
+        byline: 0,
+        title: 0,
+        portrait: 0,
+        color: rgb2hex(dayColor).substring(1)
+    };
+
+    var qs = [];
+    for (var key in options) {
+        qs.push(key + '=' + options[key]);
+    }
+    var url = this.url + '?' + qs.join('&');
+
+    var iframe = document.createElement('iframe');
+    iframe.src = url;
+
+    var ratio = this.width / this.height,
+        height = this.height;
+
+    var width = parseInt($('#content').innerWidth() * 0.8),
+        height = width / ratio;
+
+    iframe.setAttribute('webkitallowfullscreen', true);
+    iframe.setAttribute('mozallowfullscreen', true);
+    iframe.setAttribute('allowfullscreen', true);
+    iframe.width = width;
+    iframe.height = height;
+    iframe.setAttribute('frameborder', '0');
+
+    var p = document.createElement('p');
+    p.innerHTML = this.title;
+
+    u.addChild(iframe);
+    u.addChild(p);
+    u.addTo(g);
+};
+
 
 /* Helper to create pure blocks */
 var Pure = function (type) {

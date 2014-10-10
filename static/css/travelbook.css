@@ -149,3 +149,12 @@ li.disabled {
     border-width: 2px;
     border-style: solid;
 }
+
+.video {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video p {
+    text-align: center;
+    font-style: italic;
+}
