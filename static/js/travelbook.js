@@ -269,6 +269,39 @@ Block.video.prototype.render = function (g) {
     u.addTo(g);
 };
 
+Block.audio = function (args) {
+    this.url = args.url;
+    this.title = args.title;
+
+    this.width = args.width || 300;
+    this.height = args.height || 80;
+};
+
+Block.audio.prototype.render = function (g) {
+    g.node.classList.add('audio');
+
+    var u = new Pure(['u-1']);
+
+    //<iframe src="https://embed.spotify.com/?uri=spotify:track:0mMvdkwnF5PannienCx3DD" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+    var src,
+        iframe = document.createElement('iframe');
+    if (this.url.indexOf('spotify:') === 0) {
+        src = 'https://embed.spotify.com/?uri=' + this.url;
+    }
+    iframe.src = src;
+    iframe.width = this.width;
+    iframe.height = this.height;
+    iframe.setAttribute('allowtransparency', true);
+    iframe.setAttribute('frameborder', '0');
+
+    var p = document.createElement('p');
+    p.innerHTML = this.title;
+
+    u.addChild(iframe);
+    u.addChild(p);
+    u.addTo(g);
+};
+
 
 /* Helper to create pure blocks */
 var Pure = function (type) {

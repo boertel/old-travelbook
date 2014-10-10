@@ -880,6 +880,13 @@
                     }
                 ]
             }
+        },
+        {
+            "type": "audio",
+            "args": {
+                "url": "spotify:track:0mMvdkwnF5PannienCx3DD",
+                "title": "Musique entendue au Proletariat"
+            }
         }
     ]
 }

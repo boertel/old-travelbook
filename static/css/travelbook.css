@@ -150,11 +150,15 @@ li.disabled {
     border-style: solid;
 }
 
-.video {
+.video, .audio {
     text-align: center;
     margin-bottom: 20px;
 }
-.video p {
+.audio {
+    margin-top: 20px;
+}
+
+.video p, .audio p {
     text-align: center;
     font-style: italic;
 }
