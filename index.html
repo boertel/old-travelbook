@@ -93,6 +93,7 @@ $('.days li a').on('click', function (e) {
 });
 
 window.onhashchange = function () {
+    pages[current].tearDown();
     var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
     loadDay(day);
 };

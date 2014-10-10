@@ -3,7 +3,14 @@
         {
             "type": "title",
             "args": {
-                "title": "Mercredi 27 Août"
+                "title": "Mercredi 27 Août",
+                "subtitle": "Brooklyn"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "New York, ce n'est pas seulement Manhattan. Après avoir explorer Manhattan, il est temps d'aller faire un tour à Brooklyn, à l'est de Manhattan. Avant de commencer cette promenade, profitons encore de la \"bonne bouffe\" et ça sera italien."
             }
         },
         {
@@ -43,6 +50,12 @@
                         "width": 750
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Sorti du métro du côté de Brooklyn, et le premier pont que nous apercevons, est le Manhattan Bridge. La suite est de marcher le long de l'eau dans le Brooklyn Bridge Park et de rentrer dans les terres un peu plus loin."
             }
         },
         {
@@ -112,6 +125,29 @@
             "args": {
                 "images": [
                     {
+                        "caption": "Mickey vs. Sponge Bob",
+                        "credit": "Brooklyn",
+                        "datetime": "2014:08:27 18:41:09",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.99265277777778,
+                                40.701769444444444
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/5/img_3387.jpg",
+                        "width": 750
+                    }
+            ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
                         "caption": "",
                         "credit": "Brooklyn Bridge Park",
                         "datetime": "2014:08:27 15:06:02",
@@ -163,25 +199,21 @@
             }
         },
         {
+            "type": "title",
+            "args": {
+                "subtitle": "Brooklyn Bridge"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après une pause qui commence à être une habitude quotidienne, nous commençons à traverser le Brooklyn Bridge."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
-                    {
-                        "caption": "Mickey vs. Sponge Bob",
-                        "credit": "Brooklyn",
-                        "datetime": "2014:08:27 18:41:09",
-                        "height": 1000,
-                        "marker": {
-                            "coordinates": [
-                                -73.99265277777778,
-                                40.701769444444444
-                            ],
-                            "size": "small",
-                            "symbol": ""
-                        },
-                        "src": "./static/images/5/img_3387.jpg",
-                        "width": 750
-                    },
                     {
                         "caption": "",
                         "credit": "Brooklyn Bridge",
@@ -199,15 +231,6 @@
                         "width": 750
                     }
                 ]
-            }
-        },
-        {
-            "type": "video",
-            "args": {
-                "url": "//player.vimeo.com/video/108511228",
-                "title": "Piétons sur le Brooklyn Bridge",
-                "width": 500,
-                "height": 281
             }
         },
         {
@@ -263,6 +286,15 @@
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "video",
+            "args": {
+                "url": "//player.vimeo.com/video/108511228",
+                "title": "Piétons sur le Brooklyn Bridge",
+                "width": 500,
+                "height": 281
             }
         },
         {
@@ -337,6 +369,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Et nous squattons sur le pont jusqu'à la tombée de la nuit pour apercevoir Manhattan de nuit."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -373,6 +411,12 @@
                         "width": 1000
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Journée épuisante, métro et sushi bien merités mais faut-il encore pouvoir rentrer dans sa chambre."
             }
         },
         {
