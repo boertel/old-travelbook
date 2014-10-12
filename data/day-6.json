@@ -1,0 +1,571 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Jeudi 26 Août"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 09:57:23",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98211666666667,
+                                40.74336666666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3520.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 10:23:25",
+                        "height": 693,
+                        "marker": {
+                            "coordinates": [
+                                -73.98108611111111,
+                                40.743652777777775
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3526.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Grand Central Terminal",
+                        "datetime": "2014:08:28 10:53:32",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.97629444444445,
+                                40.75463055555556
+                            ],
+                            "size": "small",
+                            "symbol": "rail"
+                        },
+                        "src": "./static/images/6/img_3537.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Grand Central Terminal",
+                        "datetime": "2014:08:28 10:54:39",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.97629444444445,
+                                40.75463055555556
+                            ],
+                            "size": "small",
+                            "symbol": "rail"
+                        },
+                        "src": "./static/images/6/img_3540.jpg",
+                        "width": 241
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Grand Central Terminal",
+                        "datetime": "2014:08:28 10:56:21",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.97629444444445,
+                                40.75463055555556
+                            ],
+                            "size": "small",
+                            "symbol": "rail"
+                        },
+                        "src": "./static/images/6/img_3544.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Central Park",
+                        "datetime": "2014:08:28 11:38:11",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.97321944444445,
+                                40.76461666666667
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/6/img_3552.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Central Park",
+                        "datetime": "2014:08:28 11:52:26",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96762777777778,
+                                40.77390555555556
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/6/img_3556.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Central Park",
+                        "datetime": "2014:08:28 12:35:30",
+                        "height": 574,
+                        "marker": {
+                            "coordinates": [
+                                -73.96241111111111,
+                                40.78039166666667
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/6/img_3561.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "MET",
+                        "datetime": "2014:08:28 12:48:41",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96228888888889,
+                                40.779919444444445
+                            ],
+                            "size": "small",
+                            "symbol": "museum"
+                        },
+                        "src": "./static/images/6/img_3568.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 13:14:02",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96218055555556,
+                                40.776675
+                            ],
+                            "size": "small",
+                            "symbol": "museum"
+                        },
+                        "src": "./static/images/6/img_3576.jpg",
+                        "width": 869
+                    },
+                    {
+                        "caption": "",
+                        "credit": "MET",
+                        "datetime": "2014:08:28 13:20:31",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.96218055555556,
+                                40.776675
+                            ],
+                            "size": "small",
+                            "symbol": "museum"
+                        },
+                        "src": "./static/images/6/img_3580.jpg",
+                        "width": 622
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Katz's Delicatessen",
+                        "datetime": "2014:08:28 15:06:09",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98735,
+                                40.72252777777778
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/6/img_3589.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "De la dinde avec un peu de pain",
+                        "credit": "Katz's Delicatessen",
+                        "datetime": "2014:08:28 14:53:43",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.98728055555556,
+                                40.72196666666667
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/6/img_3587.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 15:25:18",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98631944444445,
+                                40.71857777777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3590.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Rice to Riches",
+                        "datetime": "2014:08:28 15:50:21",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99439166666667,
+                                40.71987777777778
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/6/img_3595.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 16:11:32",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.99358333333333,
+                                40.720619444444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3599.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 16:13:36",
+                        "height": 750,
+                        "src": "./static/images/6/img_3601.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Williamsburg",
+                        "datetime": "2014:08:28 16:49:00",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96488055555555,
+                                40.71756111111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3605.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Williamsburg",
+                        "datetime": "2014:08:28 17:05:15",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96234166666667,
+                                40.72190555555556
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3609.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 18:23:45",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.96530833333334,
+                                40.71874722222223
+                            ],
+                            "size": "small",
+                            "symbol": "beer"
+                        },
+                        "src": "./static/images/6/img_3613.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": null,
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96530833333334,
+                                40.71874722222223
+                            ],
+                            "size": "small",
+                            "symbol": "beer"
+                        },
+                        "src": "./static/images/6/img_3617.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 19:30:34",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.96404166666667,
+                                40.72088333333333
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/6/img_3626.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 19:32:18",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.96427222222222,
+                                40.72059166666667
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/6/img_3627.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 19:29:51",
+                        "height": 792,
+                        "marker": {
+                            "coordinates": [
+                                -73.96403611111111,
+                                40.72090555555556
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/6/img_3624.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "video",
+            "args": {
+                "url": "//player.vimeo.com/video/108626593",
+                "title": "Traversée en ferry",
+                "width": 500,
+                "height": 281
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 19:45:50",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.9616,
+                                40.74190277777778
+                            ],
+                            "size": "small",
+                            "symbol": "ferry"
+                        },
+                        "src": "./static/images/6/img_3642.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 21:26:16",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.97986666666667,
+                                40.75951111111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3692.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 21:29:07",
+                        "height": 432,
+                        "marker": {
+                            "coordinates": [
+                                -73.97931666666666,
+                                40.75895555555555
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3694.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 22:01:38",
+                        "height": 232,
+                        "marker": {
+                            "coordinates": [
+                                -73.98478055555556,
+                                40.75906388888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3701.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:28 22:10:31",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98471111111111,
+                                40.75508888888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/6/img_3705.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        }
+    ]
+}

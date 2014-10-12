@@ -20,9 +20,10 @@ var MyImage = React.createClass({
     onMouseOver: function () {
         var marker = this.props.image.marker;
         if (marker) {
+            var newColor = LightenDarkenColor(marker.properties.color, -40);
             for (var key in marker.feature._layers) {
                 marker.feature._layers[key].setIcon(L.mapbox.marker.icon({
-                    'marker-color': '#fa946e',
+                    'marker-color': newColor,
                     'marker-symbol': marker.properties.symbol,
                     'marker-size': 'large'
                 })).setZIndexOffset(1000);
