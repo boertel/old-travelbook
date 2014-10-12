@@ -312,7 +312,8 @@ Block.audio.prototype.render = function (g) {
     var u = new Pure(['u-1']);
 
     //<iframe src="https://embed.spotify.com/?uri=spotify:track:0mMvdkwnF5PannienCx3DD" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
-    var src,
+    //<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164052136&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    var src = this.url,
         iframe = document.createElement('iframe');
     if (this.url.indexOf('spotify:') === 0) {
         src = 'https://embed.spotify.com/?uri=' + this.url;
@@ -321,13 +322,17 @@ Block.audio.prototype.render = function (g) {
     iframe.width = this.width;
     iframe.height = this.height;
     iframe.setAttribute('allowtransparency', true);
+    iframe.setAttribute('scrolling', 'no');
     iframe.setAttribute('frameborder', '0');
 
-    var p = document.createElement('p');
-    p.innerHTML = this.title;
-
     u.addChild(iframe);
-    u.addChild(p);
+
+    if (this.title) {
+        var p = document.createElement('p');
+        p.innerHTML = this.title;
+        u.addChild(p);
+    }
+
     u.addTo(g);
 };
 

@@ -3,19 +3,14 @@
         {
             "type": "title",
             "args": {
-                "title": "Jeudi 26 Août"
+                "title": "Jeudi 26 Août",
+                "subtitle": "Le dernier jour à New York"
             }
         },
         {
             "type": "text",
             "args": {
-                "text": ""
-            }
-        },
-        {
-            "type": "title",
-            "args": {
-                "subtitle": ""
+                "text": "C'est notre dernier jour à New York avant de prendre la route pour Montréal. La priorité du matin: lessive."
             }
         },
         {
@@ -33,13 +28,13 @@
                                 40.74336666666667
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "laundry"
                         },
                         "src": "./static/images/6/img_3520.jpg",
                         "width": 1000
                     },
                     {
-                        "caption": "",
+                        "caption": "Autre utilisation du porte bagages.",
                         "credit": "",
                         "datetime": "2014:08:28 10:23:25",
                         "height": 693,
@@ -49,12 +44,18 @@
                                 40.743652777777775
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "lodging"
                         },
                         "src": "./static/images/6/img_3526.jpg",
                         "width": 1000
                     }
                 ]
+            }
+        },
+       {
+            "type": "text",
+            "args": {
+                "text": "Direction le MET pour la deuxième étape culturelle du séjour après le MoMa. Avec un escale à la gare Grand Central Terminal, de jour cette fois-ci."
             }
         },
         {
@@ -65,7 +66,7 @@
                         "caption": "",
                         "credit": "Grand Central Terminal",
                         "datetime": "2014:08:28 10:53:32",
-                        "height": 750,
+                        "height": 652,
                         "marker": {
                             "coordinates": [
                                 -73.97629444444445,
@@ -113,11 +114,17 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Et une balade rapide dans Central Park où est situé le MET."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "Clouds",
                         "credit": "Central Park",
                         "datetime": "2014:08:28 11:38:11",
                         "height": 1000,
@@ -134,7 +141,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "Central Park",
+                        "credit": "Conservatory Water, Central Park",
                         "datetime": "2014:08:28 11:52:26",
                         "height": 750,
                         "marker": {
@@ -149,7 +156,7 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
+                        "caption": "Le parc vu de l'interiéur du musée",
                         "credit": "Central Park",
                         "datetime": "2014:08:28 12:35:30",
                         "height": 574,
@@ -168,11 +175,17 @@
             }
         },
         {
+            "type": "title",
+            "args": {
+                "subtitle": "The Metropolitan Museum of Art"
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "Drôle de hiéroglyphes",
                         "credit": "MET",
                         "datetime": "2014:08:28 12:48:41",
                         "height": 750,
@@ -188,8 +201,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Tableau et réalité",
+                        "credit": "MET",
                         "datetime": "2014:08:28 13:14:02",
                         "height": 750,
                         "marker": {
@@ -204,7 +217,7 @@
                         "width": 869
                     },
                     {
-                        "caption": "",
+                        "caption": "Jacometti",
                         "credit": "MET",
                         "datetime": "2014:08:28 13:20:31",
                         "height": 1000,
@@ -220,6 +233,18 @@
                         "width": 622
                     }
                 ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Retour dans le sud"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Pour tester le Katz's Delicatessen, restaurant/dinner à l'ambiance bondée et bordélique et servant des sandwichs monstrueux."
             }
         },
         {
@@ -282,7 +307,7 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
+                        "caption": "Riz au lait",
                         "credit": "Rice to Riches",
                         "datetime": "2014:08:28 15:50:21",
                         "height": 750,
@@ -317,6 +342,18 @@
             }
         },
         {
+            "type": "title",
+            "args": {
+                "subtitle": "Williamsburg"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après Brooklyn, c'est l'autre quartier à la mode de New York, ambiance post-industriel, on imagine les lofts à l'intérieur d'anciens entrepôts. Plus beaucoup d'énergie après les journées de marche accumulées, donc on se pose dans East River State Park pour une grosse pause."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -346,7 +383,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "Williamsburg",
+                        "credit": "East River State Park, Williamsburg",
                         "datetime": "2014:08:28 17:05:15",
                         "height": 750,
                         "marker": {
@@ -364,12 +401,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Et ne pas oublier la pause quotidienne dans un bar pas loin du bar et du ferry que nous prendrons pour rentrer sur Manhattan."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Black Bear Bar",
                         "datetime": "2014:08:28 18:23:45",
                         "height": 1000,
                         "marker": {
@@ -385,7 +428,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Black Bear Bar",
                         "datetime": null,
                         "height": 750,
                         "marker": {
@@ -407,8 +450,8 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Berlin",
+                        "credit": "Williamsburg",
                         "datetime": "2014:08:28 19:30:34",
                         "height": 1000,
                         "marker": {
@@ -423,8 +466,8 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "One World Trade Center",
+                        "credit": "Williamsburg",
                         "datetime": "2014:08:28 19:32:18",
                         "height": 750,
                         "marker": {
@@ -439,8 +482,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Empire State Building",
+                        "credit": "Williamsburg",
                         "datetime": "2014:08:28 19:29:51",
                         "height": 792,
                         "marker": {
@@ -490,12 +533,32 @@
             }
         },
         {
+            "type": "title",
+            "args": {
+                "subtitle": "Top of the Rock"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "21h, la nuit est tombée, nous montons au Top of the Rock pour avoir la vue sur Manhattan avec l'Empire State Building et la One World Trade Tower dans le fond. "
+            }
+        },
+        {
+            "type": "audio",
+            "args": {
+                "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164052136&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+                "width": "100%",
+                "height": 180
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Top of the Rock",
                         "datetime": "2014:08:28 21:26:16",
                         "height": 750,
                         "marker": {
@@ -511,7 +574,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Top of the Rock",
                         "datetime": "2014:08:28 21:29:07",
                         "height": 432,
                         "marker": {
@@ -529,12 +592,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "À deux pas du Rockefeller Center, Times Square surpeuplé pour admirer les lumières des publicités."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Times Square",
                         "datetime": "2014:08:28 22:01:38",
                         "height": 232,
                         "marker": {
@@ -549,8 +618,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "America",
+                        "credit": "Times Square",
                         "datetime": "2014:08:28 22:10:31",
                         "height": 750,
                         "marker": {
