@@ -89,6 +89,14 @@
                         "credit": "",
                         "datetime": "2014:08:26 10:51:19",
                         "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -74.05201435089111,
+                                40.684413144240374
+                            ],
+                            "size": "small",
+                            "symbol": "heliport"
+                        },
                         "src": "./static/images/4/img_3095.jpg",
                         "width": 750
                     },
@@ -105,6 +113,14 @@
                         "credit": "",
                         "datetime": "2014:08:26 11:02:23",
                         "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.00811195373535,
+                                40.701203324046986
+                            ],
+                            "size": "small",
+                            "symbol": "heliport"
+                        },
                         "src": "./static/images/4/img_3121.jpg",
                         "width": 1000
                     },
@@ -113,6 +129,14 @@
                         "credit": "",
                         "datetime": "2014:08:26 11:03:57",
                         "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -74.00811195373535,
+                                40.701203324046986
+                            ],
+                            "size": "small",
+                            "symbol": "heliport"
+                        },
                         "src": "./static/images/4/img_3126.jpg",
                         "width": 1000
                     }
