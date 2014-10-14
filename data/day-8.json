@@ -7,12 +7,6 @@
             }
         },
         {
-            "type": "text",
-            "args": {
-                "text": ""
-            }
-        },
-        {
             "type": "title",
             "args": {
                 "subtitle": "World Press Photo"

@@ -3,19 +3,19 @@
         {
             "type": "title",
             "args": {
-                "title": "Jour 0"
-            }
-        },
-        {
-            "type": "text",
-            "args": {
-                "text": ""
+                "title": "Dimanche 29 Août"
             }
         },
         {
             "type": "title",
             "args": {
-                "subtitle": ""
+                "subtitle": "Aujourd'hui: c'est vélo, pas photo"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Promenade en vélo de Montréal Centre à Lachine en longeant le canal de Lachine. 30 kilomètres de vélo, l'allée avec vent de face et retour vent de dos."
             }
         },
         {
@@ -27,24 +27,81 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "On est rendu à la moitié, vue nuageuse sur le lac Saint-Louis. Maintenant, il faut faire le chemin inverse."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
-                        "caption": "33",
+                        "caption": "",
                         "credit": "",
-                        "datetime": "2014:08:25 09:31:47",
-                        "height": 750,
+                        "datetime": "2014:08:31 12:31:00",
+                        "height": 996,
                         "marker": {
                             "coordinates": [
-                                -73.98181111111111,
-                                40.746375
+                                -73.6881638888889,
+                                45.428875
                             ],
-                            "size": "medium",
-                            "symbol": "rail-metro"
+                            "size": "small",
+                            "symbol": "bicycle"
                         },
-                        "src": "./static/images/3/img_2924.jpg",
-                        "width": 817
+                        "src": "./static/images/9/img_3848.jpg",
+                        "width": 2800
+                    }
+                ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Et repos aussi"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Retour dans la ville dans l'après-midi et voilà qu'une averse pointe le bout de son nez, ça sera donc pause café et cartes postales en attendant."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Dégustation de cidre québecois",
+                        "credit": "Chez Juliette et chocolat",
+                        "datetime": "2014:08:31 20:44:39",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.56279722222222,
+                                45.514919444444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/9/img_3849.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Et évidemment de bières québecoises",
+                        "credit": "Le Saint Bock",
+                        "datetime": "2014:08:31 21:33:13",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.56478888888888,
+                                45.51562777777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/9/img_3850.jpg",
+                        "width": 750
                     }
                 ]
             }
