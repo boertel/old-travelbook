@@ -19,12 +19,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Rencontré au hasard dans le Vieux-Montréal: une expo photo. Elle présente les gagnants d'un concours de photographie de presse."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Marché Bonsecours",
                         "datetime": "2014:08:30 12:10:34",
                         "height": 750,
                         "marker": {
@@ -39,8 +45,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "US Open 2013",
+                        "credit": "Marché Bonsecours",
                         "datetime": "2014:08:30 12:15:39",
                         "height": 750,
                         "marker": {
@@ -55,8 +61,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Livre d'or, nous aussi, on a bien aimé les photos",
+                        "credit": "Marché Bonsecours",
                         "datetime": "2014:08:30 12:14:20",
                         "height": 1000,
                         "marker": {
@@ -72,7 +78,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Marché Bonsecours",
                         "datetime": "2014:08:30 12:18:43",
                         "height": 750,
                         "marker": {
@@ -96,12 +102,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Et maintenant à l'attaque de la ville. Premières impressions, les distances ne sont pas les mêmes qu'à New York et l'ambiance y est plus calme."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Les pavets font la différence et donne une petite impression de ville européenne",
+                        "credit": "Vieux-Montréal",
                         "datetime": "2014:08:30 12:21:59",
                         "height": 750,
                         "marker": {
@@ -116,8 +128,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "L'intérieur de la basilique",
+                        "credit": "Basilique Notre-Dame",
                         "datetime": "2014:08:30 12:54:28",
                         "height": 1000,
                         "marker": {
@@ -139,10 +151,10 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "sur le parvis",
+                        "credit": "Basilique Notre-Dame",
                         "datetime": "2014:08:30 13:03:18",
-                        "height": 368,
+                        "height": 922,
                         "marker": {
                             "coordinates": [
                                 -73.55766944444444,
@@ -152,9 +164,15 @@
                             "symbol": "religious-christian"
                         },
                         "src": "./static/images/8/img_3765.jpg",
-                        "width": 1000
+                        "width": 2500
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après avoir traversé le Vieux-Montréal, nous faisons le chemin retour en longeant le Saint-Laurent."
             }
         },
         {
@@ -162,7 +180,7 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "Le long du Saint-Laurent",
                         "credit": "",
                         "datetime": "2014:08:30 13:28:35",
                         "height": 750,
@@ -178,10 +196,10 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Au sommet de la Tour de l'Horloge après une ascension de 192 marches",
+                        "credit": "Quai de l'horloge",
                         "datetime": "2014:08:30 14:09:19",
-                        "height": 347,
+                        "height": 937,
                         "marker": {
                             "coordinates": [
                                 -73.54563055555555,
@@ -191,11 +209,11 @@
                             "symbol": ""
                         },
                         "src": "./static/images/8/img_3784.jpg",
-                        "width": 942
+                        "width": 2500
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Quai de l'horloge",
                         "datetime": "2014:08:30 14:13:35",
                         "height": 1000,
                         "marker": {
@@ -218,9 +236,9 @@
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Quai de l'horloge",
                         "datetime": "2014:08:30 14:13:47",
-                        "height": 403,
+                        "height": 1128,
                         "marker": {
                             "coordinates": [
                                 -73.54575277777778,
@@ -230,11 +248,11 @@
                             "symbol": ""
                         },
                         "src": "./static/images/8/img_3788.jpg",
-                        "width": 1000
+                        "width": 2800
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Quai de l'horloge",
                         "datetime": "2014:08:30 14:16:42",
                         "height": 900,
                         "marker": {
@@ -256,8 +274,8 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Ô Canada",
+                        "credit": "Vieux-Port",
                         "datetime": "2014:08:30 14:14:36",
                         "height": 750,
                         "marker": {
@@ -273,7 +291,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Vieux-Port",
                         "datetime": "2014:08:30 14:24:35",
                         "height": 1000,
                         "marker": {
@@ -288,8 +306,8 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "On oublierait presque qu'il fait froid en hiver",
+                        "credit": "Vieux-Montréal",
                         "datetime": "2014:08:30 14:28:33",
                         "height": 1000,
                         "marker": {
@@ -307,12 +325,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Il est que le milieu de l'après-midi, et il nous semble avoir parcouru l'essentiel de la ville, un pause Place des Arts s'impose."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Nouvelle ville, nouveau Cartoville",
+                        "credit": "Place des Arts",
                         "datetime": "2014:08:30 15:25:12",
                         "height": 750,
                         "marker": {
@@ -327,8 +351,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Chorégraphie des fontaines",
+                        "credit": "Place des Arts",
                         "datetime": "2014:08:30 15:25:12",
                         "height": 750,
                         "marker": {
@@ -352,12 +376,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Et après avoir repris des forces, direction le Mont Royal, LE parc de la ville où il y a une superbe vue."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                      {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Mont Royal",
                         "datetime": "2014:08:30 16:47:51",
                         "height": 948,
                         "marker": {
@@ -369,7 +399,7 @@
                             "symbol": "park2"
                         },
                         "src": "./static/images/8/IMG_3845.JPG",
-                        "width": 2500
+                        "width": 2276
                     }
                 ]
             }
@@ -380,7 +410,7 @@
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Mont Royal",
                         "datetime": "2014:08:30 16:52:42",
                         "height": 1105,
                         "marker": {
@@ -396,7 +426,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Mont Royal",
                         "datetime": "2014:08:30 17:15:14",
                         "height": 1000,
                         "marker": {
@@ -411,8 +441,8 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Le stade olympique au fond",
+                        "credit": "Mont Royal",
                         "datetime": "2014:08:30 17:20:47",
                         "height": 750,
                         "marker": {
@@ -427,8 +457,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Autre parc, autre faune",
+                        "credit": "Mont Royal",
                         "datetime": "2014:08:30 17:21:52",
                         "height": 750,
                         "marker": {
