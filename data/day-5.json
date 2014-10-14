@@ -105,7 +105,7 @@
                         "caption": "Brooklyn Bridge sur la gauche, Manhattan Bridge sur la droite",
                         "credit": "Brooklyn",
                         "datetime": "2014:08:27 14:34:40",
-                        "height": 355,
+                        "height": 1067,
                         "marker": {
                             "coordinates": [
                                 -73.99105,
@@ -115,7 +115,7 @@
                             "symbol": ""
                         },
                         "src": "./static/images/5/img_3324.jpg",
-                        "width": 1000
+                        "width": 3000
                     }
                 ]
             }
@@ -151,7 +151,7 @@
                         "caption": "",
                         "credit": "Brooklyn Bridge Park",
                         "datetime": "2014:08:27 15:06:02",
-                        "height": 249,
+                        "height": 748,
                         "marker": {
                             "coordinates": [
                                 -73.99649722222222,
@@ -161,7 +161,7 @@
                             "symbol": "park2"
                         },
                         "src": "./static/images/5/img_3343.jpg",
-                        "width": 1000
+                        "width": 3000
                     },
                     {
                         "caption": "",
@@ -291,10 +291,14 @@
         {
             "type": "video",
             "args": {
-                "url": "//player.vimeo.com/video/108511228",
-                "title": "Piétons sur le Brooklyn Bridge",
-                "width": 500,
-                "height": 281
+                "videos": [
+                    {
+                        "url": "//player.vimeo.com/video/108511228",
+                        "title": "Piétons sur le Brooklyn Bridge",
+                        "width": 500,
+                        "height": 281
+                    }
+                ]
             }
         },
         {

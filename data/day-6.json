@@ -503,10 +503,14 @@
         {
             "type": "video",
             "args": {
-                "url": "//player.vimeo.com/video/108626593",
-                "title": "Traversée en ferry",
-                "width": 500,
-                "height": 281
+                "videos": [
+                    {
+                        "url": "//player.vimeo.com/video/108626593",
+                        "title": "Traversée en ferry",
+                        "width": 500,
+                        "height": 281
+                    }
+                ]
             }
         },
         {
