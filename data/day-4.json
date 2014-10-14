@@ -906,9 +906,9 @@
             }
         },
         {
-            "type": "audio",
+            "type": "iframe",
             "args": {
-                "url": "spotify:track:0mMvdkwnF5PannienCx3DD",
+                "src": "https://embed.spotify.com/?uri=spotify:track:0mMvdkwnF5PannienCx3DD",
                 "title": "Musique entendue au Proletariat"
             }
         }

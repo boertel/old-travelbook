@@ -1,0 +1,449 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Samedi 28 Août"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "World Press Photo"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 12:10:34",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.55272777777778,
+                                45.510222222222225
+                            ],
+                            "size": "small",
+                            "symbol": "camera"
+                        },
+                        "src": "./static/images/8/img_3743.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 12:15:39",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.55291666666666,
+                                45.51005833333333
+                            ],
+                            "size": "small",
+                            "symbol": "camera"
+                        },
+                        "src": "./static/images/8/img_3747.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 12:14:20",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.55281111111111,
+                                45.51015
+                            ],
+                            "size": "small",
+                            "symbol": "camera"
+                        },
+                        "src": "./static/images/8/img_3744.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 12:18:43",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.55140555555555,
+                                45.508583333333334
+                            ],
+                            "size": "small",
+                            "symbol": "camera"
+                        },
+                        "src": "./static/images/8/img_3752.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Vieux-Montréal"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 12:21:59",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.55226111111111,
+                                45.508472222222224
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3753.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 12:54:28",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.55705277777777,
+                                45.50474444444445
+                            ],
+                            "size": "small",
+                            "symbol": "religious-christian"
+                        },
+                        "src": "./static/images/8/img_3761.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 13:03:18",
+                        "height": 368,
+                        "marker": {
+                            "coordinates": [
+                                -73.55766944444444,
+                                45.50436388888889
+                            ],
+                            "size": "small",
+                            "symbol": "religious-christian"
+                        },
+                        "src": "./static/images/8/img_3765.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 13:28:35",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.55319166666666,
+                                45.50246944444444
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3772.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:09:19",
+                        "height": 347,
+                        "marker": {
+                            "coordinates": [
+                                -73.54563055555555,
+                                45.512122222222224
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3784.jpg",
+                        "width": 942
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:13:35",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.54575277777778,
+                                45.51227222222222
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3787.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:13:47",
+                        "height": 403,
+                        "marker": {
+                            "coordinates": [
+                                -73.54575277777778,
+                                45.512283333333336
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3788.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:16:42",
+                        "height": 900,
+                        "marker": {
+                            "coordinates": [
+                                -73.5467,
+                                45.51231388888889
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3846.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:14:36",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.54560833333333,
+                                45.51229166666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3789.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:24:35",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.55039166666667,
+                                45.509727777777776
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3793.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 14:28:33",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.55316111111111,
+                                45.50947222222222
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3794.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 15:25:12",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.56713888888889,
+                                45.507197222222224
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/img_3807.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 15:25:12",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.56713888888889,
+                                45.507197222222224
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/8/output_FtyugY.gif",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Mont Royal"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                     {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 16:47:51",
+                        "height": 948,
+                        "marker": {
+                            "coordinates": [
+                                -73.58666944444444,
+                                45.503525
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/8/IMG_3845.JPG",
+                        "width": 2500
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 16:52:42",
+                        "height": 1105,
+                        "marker": {
+                            "coordinates": [
+                                -73.58718055555555,
+                                45.503658333333334
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/8/IMG_3832.JPG",
+                        "width": 2500
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 17:15:14",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.587775,
+                                45.50890277777778
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/8/img_3838.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 17:20:47",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.5916361111111,
+                                45.51001388888889
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/8/img_3840.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:30 17:21:52",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.59202499999999,
+                                45.51034166666667
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/8/img_3841.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        }
+    ]
+}

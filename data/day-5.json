@@ -289,9 +289,9 @@
             }
         },
         {
-            "type": "video",
+            "type": "iframe",
             "args": {
-                "url": "//player.vimeo.com/video/108511228",
+                "src": "//player.vimeo.com/video/108511228?badge=0&byline=0&title=0&portrait=0&color=7ec9b1",
                 "title": "Piétons sur le Brooklyn Bridge",
                 "width": 500,
                 "height": 281

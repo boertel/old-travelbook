@@ -1,0 +1,53 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Jour 0"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "iframe",
+            "args": {
+                "src": "http://www.strava.com/activities/188014625/embed/48449640de25e7eaab8f455be31675db16e2abb9",
+                "width": 590,
+                "height": 405
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "33",
+                        "credit": "",
+                        "datetime": "2014:08:25 09:31:47",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.98181111111111,
+                                40.746375
+                            ],
+                            "size": "medium",
+                            "symbol": "rail-metro"
+                        },
+                        "src": "./static/images/3/img_2924.jpg",
+                        "width": 817
+                    }
+                ]
+            }
+        }
+    ]
+}

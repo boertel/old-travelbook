@@ -501,9 +501,9 @@
             }
         },
         {
-            "type": "video",
+            "type": "iframe",
             "args": {
-                "url": "//player.vimeo.com/video/108626593",
+                "src": "//player.vimeo.com/video/108626593?badge=0&byline=0&title=0&portrait=0&color=b7ddf3",
                 "title": "Traversée en ferry",
                 "width": 500,
                 "height": 281

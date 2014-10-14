@@ -249,76 +249,24 @@ Block.link.prototype.render = function (g) {
     u.addTo(g);
 };
 
-Block.video = function (args) {
-    this.url = args.url;
-    this.title = args.title;
-    this.width = args.width;
-    this.height = args.height;
-};
 
-Block.video.prototype.render = function (g) {
-    var u = new Pure(['u-1', 'video']);
-    g.node.classList.add('video');
-
-    var options = {
-        badge: 0,
-        byline: 0,
-        title: 0,
-        portrait: 0,
-        color: rgb2hex(dayColor).substring(1)
-    };
-
-    var qs = [];
-    for (var key in options) {
-        qs.push(key + '=' + options[key]);
-    }
-    var url = this.url + '?' + qs.join('&');
-
-    var iframe = document.createElement('iframe');
-    iframe.src = url;
-
-    var ratio = this.width / this.height,
-        height = this.height;
-
-    var width = parseInt($('#content').innerWidth() * 0.8),
-        height = width / ratio;
-
-    iframe.setAttribute('webkitallowfullscreen', true);
-    iframe.setAttribute('mozallowfullscreen', true);
-    iframe.setAttribute('allowfullscreen', true);
-    iframe.width = width;
-    iframe.height = height;
-    iframe.setAttribute('frameborder', '0');
-
-    var p = document.createElement('p');
-    p.innerHTML = this.title;
-
-    u.addChild(iframe);
-    u.addChild(p);
-    u.addTo(g);
-};
-
-Block.audio = function (args) {
-    this.url = args.url;
+Block.iframe = function (args) {
+    this.src = args.src;
     this.title = args.title;
 
     this.width = args.width || 300;
     this.height = args.height || 80;
 };
 
-Block.audio.prototype.render = function (g) {
+Block.iframe.prototype.render = function (g) {
     g.node.classList.add('audio');
 
     var u = new Pure(['u-1']);
 
     //<iframe src="https://embed.spotify.com/?uri=spotify:track:0mMvdkwnF5PannienCx3DD" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
     //<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164052136&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-    var src = this.url,
-        iframe = document.createElement('iframe');
-    if (this.url.indexOf('spotify:') === 0) {
-        src = 'https://embed.spotify.com/?uri=' + this.url;
-    }
-    iframe.src = src;
+    var iframe = document.createElement('iframe');
+    iframe.src = this.src;
     iframe.width = this.width;
     iframe.height = this.height;
     iframe.setAttribute('allowtransparency', true);
