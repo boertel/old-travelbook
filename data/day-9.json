@@ -82,7 +82,7 @@
                                 45.514919444444445
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "restaurant"
                         },
                         "src": "./static/images/9/img_3849.jpg",
                         "width": 750
@@ -98,7 +98,7 @@
                                 45.51562777777778
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "beer"
                         },
                         "src": "./static/images/9/img_3850.jpg",
                         "width": 750
