@@ -10,7 +10,7 @@
         {
             "type": "text",
             "args": {
-                "text": "Que faire en attendant 4 heures à l'aéroport ?"
+                "text": "Départ 23h de SF, arrivée 8h du mat' à New York. Il faut maintenant que j'attende mon frère qui arrive à 12h. Question: que faire en attendant 4 heures à l'aéroport ?"
             }
         },
         {
@@ -37,16 +37,28 @@
                         "height": 1000
                     },
                     {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:23 10:23:49",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.80670833333333,
+                                40.65416666666667
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
                         "src": "./static/images/1/img_2666.jpg",
-                        "caption": "3. explorer les terminaux et transports de l'aéroport",
-                        "width": 750,
-                        "height": 1000
+                        "width": 750
                     },
                     {
+                        "caption": "",
+                        "credit": "mais à 8h, on sent un peu seul dans l'aéroport http://vimeo.com/97634383",
+                        "datetime": "2014:08:23 10:23:49",
+                        "height": 1000,
                         "src": "./static/images/1/img_2664.jpg",
-                        "caption": "mais à 8h, on sent un peu seul dans l'aéroport http://vimeo.com/97634383",
-                        "width": 563,
-                        "height": 1000
+                        "width": 563
                     }
                 ]
             }
@@ -56,9 +68,20 @@
             "args": {
                 "images": [
                     {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:23 10:31:20",
+                        "height": 735,
+                        "marker": {
+                            "coordinates": [
+                                -73.78778055555556,
+                                40.64465833333333
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
                         "src": "./static/images/1/img_2668.jpg",
-                        "width": 1000,
-                        "height": 735
+                        "width": 1000
                     },
                     {
                         "src": "./static/images/1/img_2671.jpg",
@@ -92,116 +115,203 @@
             "args": {
                 "images": [
                     {
-                        "src": "./static/images/1/img_2684.jpg",
-                        "width": 1000,
-                        "height": 750
-                    },
-                    {
-                        "src": "./static/images/1/img_2688.jpg",
-                        "credit": "Brian Park",
-                        "width": 1000,
-                        "height": 591,
-                        "marker": {
-                            "coordinates": [-73.9834527778, 40.7532166667],
-                            "title": "Brian Park",
-                            "size": "small",
-                            "symbol": "park2"
-                        }
-
-                    },
-                    {
-                        "src": "./static/images/1/img_2721.jpg",
-                        "caption": "Les Beattles retrouvaient sur la 5th",
-                        "width": 1000,
-                        "height": 591
-                    },
-                    {
-                        "src": "./static/images/1/img_2733.jpg",
-                        "credit": "Rockefeller Center",
-                        "width": 750,
-                        "height": 1000,
-                        "marker": {
-                            "coordinates": [-73.9777138889, 40.7582972222],
-                            "credit": "Rockefeller Center",
-                            "size": "small",
-                            "symbol": "commercial"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "type": "image",
-            "args": {
-                "images": [
-                    {
-                        "src": "./static/images/1/img_2744.jpg",
-                        "width": 750,
-                        "height": 1000
-                    },
-                    {
-                        "src": "./static/images/1/img_2746.jpg",
-                        "credit": "Apple Store sur la 5th",
-                        "width": 750,
-                        "height": 1000,
-                        "marker": {
-                            "coordinates": [-73.9754111111, 40.76365],
-                            "title": "Apple Store",
-                            "size": "small",
-                            "symbol": "shop"
-                        }
-                    },
-                    {
-                        "src": "./static/images/1/img_2749.jpg",
-                        "caption": "Big Apple",
-                        "credit": "Apple Store",
-                        "width": 1000,
-                        "height": 475
-                    }
-                ]
-            }
-        },
-        {
-            "type": "image",
-            "args": {
-                "images": [
-                    {
-                        "src": "./static/images/1/img_2754.jpg",
-                        "width": 750,
-                        "height": 1000
-                    },
-                    {
-                        "src": "./static/images/1/img_2760.jpg",
-                        "width": 1000,
-                        "height": 750
-                    }
-                ]
-            }
-        },
-        {
-            "type": "image",
-            "args": {
-                "images": [
-                    {
-                        "src": "./static/images/1/img_2771.jpg",
-                        "credit": "Grand Central Terminal",
-                        "width": 1000,
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:23 15:47:12",
                         "height": 750,
                         "marker": {
-                            "coordinates": [-73.97670328617096, 40.7533405866677],
-                            "title": "Grand Central Terminal ",
+                            "coordinates": [
+                                -73.97827777777778,
+                                40.74619166666667
+                            ],
                             "size": "small",
-                            "symbol": "rail"
-                        }
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2684.jpg",
+                        "width": 1000
                     },
                     {
-                        "src": "./static/images/1/img_2775.jpg",
-                        "credit": "Grand Central Terminal",
-                        "width": 1000,
-                        "height": 750
+                        "caption": "",
+                        "credit": "Brian Park",
+                        "datetime": "2014:08:23 15:52:49",
+                        "height": 591,
+                        "marker": {
+                            "coordinates": [
+                                -73.98345277777779,
+                                40.75321666666667
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/1/img_2688.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "On a retrouvé les Beattles",
+                        "credit": "",
+                        "datetime": "2014:08:23 16:34:11",
+                        "height": 2295,
+                        "marker": {
+                            "coordinates": [
+                                -73.9800861111111,
+                                40.760352777777776
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2721.jpg",
+                        "width": 3060
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Rockefeller Center",
+                        "datetime": "2014:08:23 16:54:06",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.97771388888889,
+                                40.758297222222225
+                            ],
+                            "size": "small",
+                            "symbol": "commercial"
+                        },
+                        "src": "./static/images/1/img_2733.jpg",
+                        "width": 750
                     }
                 ]
             }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:23 17:15:50",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.97614166666666,
+                                40.763644444444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2744.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Apple Store sur la 5th",
+                        "datetime": "2014:08:23 17:19:47",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.97541111111111,
+                                40.76365
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2746.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Big Apple",
+                        "credit": "Apple Store sur la 5th",
+                        "datetime": "2014:08:23 17:24:58",
+                        "height": 475,
+                        "marker": {
+                            "coordinates": [
+                                -73.97286944444444,
+                                40.76401111111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2749.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:23 17:34:29",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.97469444444445,
+                                40.764297222222226
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2754.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:08:23 17:42:05",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.97904166666667,
+                                40.76361111111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/1/img_2760.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Sur le chemin du retour, passage par Grand Central Terminal."
+            }
+        },
+        {
+            "caption": "",
+            "credit": "Grand Central Terminal",
+            "datetime": "2014:08:23 18:32:31",
+            "height": 750,
+            "marker": {
+                "coordinates": [
+                    -73.9781888888889,
+                    40.75344722222222
+                ],
+                "size": "small",
+                "symbol": "rail"
+            },
+            "src": "./static/images/1/img_2771.jpg",
+            "width": 1000
+        },
+        {
+            "caption": "",
+            "credit": "Grand Central Terminal",
+            "datetime": "2014:08:23 18:36:31",
+            "height": 750,
+            "marker": {
+                "coordinates": [
+                    -73.97630277777778,
+                    40.75462777777778
+                ],
+                "size": "small",
+                "symbol": "rail"
+            },
+            "src": "./static/images/1/img_2775.jpg",
+            "width": 1000
         }
     ]
 }
