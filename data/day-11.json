@@ -1,0 +1,240 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Mardi 2 Septembre",
+                "subtitle": "Journée nature au parc de la Mauricie"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Grosse averse en arrivant à l'entrée du parc, on se renseigne auprès du ranger local pour savoir les prévisions météorologiques: 30-40 minutes de pluie. On se dirige vers le paring où il y a une balade de 2-3 heures à faire. Il pleut toujours, on décide de tester l'arrière de la Jeep comme couchette. La pluie s'arrête, c'est parti pour la balade."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Parc de la MauricieParc de la Mauricie",
+                        "datetime": "2014:09:02 13:03:45",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.0134361111111,
+                                46.67488611111111
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3890.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 12:48:09",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.0134361111111,
+                                46.67488611111111
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3886.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Baignade dans la cascade",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 13:03:19",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.0134361111111,
+                                46.67488611111111
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3888.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 13:21:44",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.01602222222222,
+                                46.67661944444444
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3897.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 13:52:20",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.01518333333334,
+                                46.667141666666666
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3899.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Ingénieurs en balade",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 14:05:15",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.01531111111112,
+                                46.667091666666664
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/11/img_3902.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Vue pendant le déjeuner",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 13:53:05",
+                        "height": 916,
+                        "marker": {
+                            "coordinates": [
+                                -73.01545833333333,
+                                46.667119444444445
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3900.jpg",
+                        "width": 3000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Boucle interminable",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 14:29:43",
+                        "height": 1015,
+                        "marker": {
+                            "coordinates": [
+                                -73.01251944444445,
+                                46.67039166666667
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3906.jpg",
+                        "width": 3000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Fin de la balade, le ciel bleu pointe le bout de son nez",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 14:59:44",
+                        "height": 1189,
+                        "marker": {
+                            "coordinates": [
+                                -73.00851388888888,
+                                46.672777777777775
+                            ],
+                            "size": "small",
+                            "symbol": "park"
+                        },
+                        "src": "./static/images/11/img_3910.jpg",
+                        "width": 3000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Point de vue sur la route vers Québec",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 15:32:32",
+                        "height": 1062,
+                        "src": "./static/images/11/img_3911.jpg",
+                        "width": 2800
+                    },
+                    {
+                        "caption": "Point de vue sur la route vers Québec",
+                        "credit": "Parc de la Mauricie",
+                        "datetime": "2014:09:02 15:58:33",
+                        "height": 1000,
+                        "src": "./static/images/11/img_3913.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "On reprend la route pour Québec vers 15h30, on se recompensera avec un gros plat de sushis."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Fancy Sushi",
+                        "credit": "Parc de la MauricieQuébec",
+                        "datetime": "2014:09:02 21:12:10",
+                        "height": 750,
+                        "src": "./static/images/11/img_3917.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        }
+    ]
+}
