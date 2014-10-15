@@ -3,13 +3,8 @@
         {
             "type": "title",
             "args": {
-                "title": "Jour 0"
-            }
-        },
-        {
-            "type": "text",
-            "args": {
-                "text": ""
+                "title": "Septembre",
+                "subtitle
             }
         },
         {
@@ -19,25 +14,50 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
-                    {
-                        "caption": "33",
-                        "credit": "",
-                        "datetime": "2014:08:25 09:31:47",
-                        "height": 750,
-                        "marker": {
-                            "coordinates": [
-                                -73.98181111111111,
-                                40.746375
-                            ],
-                            "size": "medium",
-                            "symbol": "rail-metro"
-                        },
-                        "src": "./static/images/3/img_2924.jpg",
-                        "width": 817
-                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
                 ]
             }
         }
