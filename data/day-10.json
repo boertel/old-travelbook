@@ -1,0 +1,139 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Lundi 30 Août"
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "En route pour Trois-Rivières"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Départ le matin pour Trois-Rivières, ville à mi-chemin entre Montréal et Québec avec le parc de la Mauricie à côté."
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Sport"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Il y a des golfs à presque toutes les sorties d'autoroute, on décide donc d'aller taper des balles sur le driving range et on enchainera sur une séance de karting."
+            }
+        },
+        {
+            "type": "video",
+            "args": {
+                "videos": [
+                    {
+                        "url": "//player.vimeo.com/video/108855903",
+                        "width": 500,
+                        "height": 889,
+                        "ratio": 0.4,
+                        "title": "Cyril"
+                    },
+                    {
+                        "url": "//player.vimeo.com/video/108855904",
+                        "width": 500,
+                        "height": 889,
+                        "ratio": 0.4,
+                        "title": "Ben"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Tout ça nous change de notre sport quotidien: la marche. On arrive enfin à Trois-Rivières pour manger une bonne pièce de viande, se détendre dans la piscine de l'hôtel et regarder l'US Open evidemment."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Trois-Rivières",
+                        "datetime": "2014:09:01 16:10:00",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -72.5425861111111,
+                                46.34213888888889
+                            ],
+                            "size": "small",
+                            "symbol": "beer"
+                        },
+                        "src": "./static/images/10/img_3875.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Viande et frites après une après-midi sportive",
+                        "credit": "Trois-Rivières",
+                        "datetime": "2014:09:01 16:20:52",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -72.54259444444445,
+                                46.342175000000005
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/10/img_3876.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Pire diner du voyage ?",
+                        "credit": "Tim Hortons",
+                        "datetime": "2014:09:01 21:22:56",
+                        "height": 490,
+                        "marker": {
+                            "coordinates": [
+                                -72.56441388888888,
+                                46.32475
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/10/img_3877.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Y a-t-il quelqu'un dans cet hôtel ?",
+                        "credit": "Urbania",
+                        "datetime": "2014:09:01 21:47:03",
+                        "height": 980,
+                        "marker": {
+                            "coordinates": [
+                                -72.558425,
+                                46.32981388888889
+                            ],
+                            "size": "small",
+                            "symbol": "lodging"
+                        },
+                        "src": "./static/images/10/img_3879.jpg",
+                        "width": 708
+                    }
+                ]
+            }
+        }
+    ]
+}
