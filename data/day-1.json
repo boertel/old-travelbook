@@ -282,36 +282,43 @@
             }
         },
         {
-            "caption": "",
-            "credit": "Grand Central Terminal",
-            "datetime": "2014:08:23 18:32:31",
-            "height": 750,
-            "marker": {
-                "coordinates": [
-                    -73.9781888888889,
-                    40.75344722222222
-                ],
-                "size": "small",
-                "symbol": "rail"
-            },
-            "src": "./static/images/1/img_2771.jpg",
-            "width": 1000
-        },
-        {
-            "caption": "",
-            "credit": "Grand Central Terminal",
-            "datetime": "2014:08:23 18:36:31",
-            "height": 750,
-            "marker": {
-                "coordinates": [
-                    -73.97630277777778,
-                    40.75462777777778
-                ],
-                "size": "small",
-                "symbol": "rail"
-            },
-            "src": "./static/images/1/img_2775.jpg",
-            "width": 1000
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Grand Central Terminal",
+                        "datetime": "2014:08:23 18:32:31",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.9781888888889,
+                                40.75344722222222
+                            ],
+                            "size": "small",
+                            "symbol": "rail"
+                        },
+                        "src": "./static/images/1/img_2771.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Grand Central Terminal",
+                        "datetime": "2014:08:23 18:36:31",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.97630277777778,
+                                40.75462777777778
+                            ],
+                            "size": "small",
+                            "symbol": "rail"
+                        },
+                        "src": "./static/images/1/img_2775.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
         }
     ]
 }
