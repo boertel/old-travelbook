@@ -87,16 +87,23 @@ var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
 loadDay(day);
 
 $('.days li a').on('click', function (e) {
+    var href = e.target.getAttribute('href'),
+        next = parseInt(href.replace('#day-', '')),
+        state = {
+            day: next
+        };
+
     pages[current].tearDown();
-    document.location.hash = e.target.getAttribute('href');
+    loadDay(next);
+    history.pushState(state, null, href);
+    e.preventDefault();
     return false;
 });
 
-window.onhashchange = function () {
+window.addEventListener('popstate', function (e) {
     pages[current].tearDown();
-    var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
-    loadDay(day);
-};
+    loadDay(e.state.day);
+});
 
 </script>
 
