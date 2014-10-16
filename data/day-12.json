@@ -10,7 +10,7 @@
         {
             "type": "text",
             "args": {
-                "text": ""
+                "text": "Changement de decor avec la ville de Québec, petites routes pavées, centre piétionnier, maisons en pierre. Ça ressemble à une ville européenne. Notre hotel est dans la vielle ville, on commencera donc notre visite de la ville par là."
             }
         },
         {
@@ -28,7 +28,7 @@
                                 46.813719444444445
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "religious-christian"
                         },
                         "src": "./static/images/12/img_3922.jpg",
                         "width": 750
@@ -144,7 +144,7 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "Shopping",
                         "credit": "",
                         "datetime": "2014:09:03 10:00:27",
                         "height": 1000,
@@ -154,7 +154,7 @@
                                 46.81524722222222
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "shop"
                         },
                         "src": "./static/images/12/img_3936-crop.jpg",
                         "width": 678
@@ -183,7 +183,7 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "religious-christian",
                         "credit": "",
                         "datetime": "2014:09:03 10:07:51",
                         "height": 750,
@@ -286,9 +286,31 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "L'après-midi, on monte voir la citadelle, puis le grand parc situé derrière."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
+                    {
+                        "caption": "",
+                        "credit": "La gare",
+                        "datetime": "2014:09:03 13:43:28",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.21353055555556,
+                                46.81648611111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3988.jpg",
+                        "width": 1000
+                    },
                     {
                         "caption": "Sur les murailles de la citadelle",
                         "credit": "",
@@ -307,22 +329,6 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
-                        "datetime": "2014:09:03 13:43:28",
-                        "height": 750,
-                        "marker": {
-                            "coordinates": [
-                                -71.21353055555556,
-                                46.81648611111111
-                            ],
-                            "size": "small",
-                            "symbol": ""
-                        },
-                        "src": "./static/images/12/img_3988.jpg",
-                        "width": 1000
-                    },
-                    {
-                        "caption": "",
                         "credit": "Parc des Champs-de-Bataille",
                         "datetime": "2014:09:03 15:00:43",
                         "height": 1539,
@@ -332,7 +338,7 @@
                                 46.79916111111111
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "park2"
                         },
                         "src": "./static/images/12/img_3992.jpg",
                         "width": 2500
@@ -345,8 +351,8 @@
             "args": {
                 "images": [
                    {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Fin de journée",
+                        "credit": "Québec",
                         "datetime": "2014:09:03 13:53:15",
                         "height": 750,
                         "marker": {
