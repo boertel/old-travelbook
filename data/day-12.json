@@ -1,0 +1,367 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Mercredi 3 Septembre",
+                "subtitle": "Québec"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 09:31:36",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.20671944444445,
+                                46.813719444444445
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3922.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Vocabulaire",
+                        "credit": "",
+                        "datetime": "2014:09:03 09:43:20",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.20665,
+                                46.81615
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3926.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 09:44:17",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.20646666666667,
+                                46.81613055555555
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3927.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:10:17",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.20271944444444,
+                                46.812686111111105
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3946.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Frites",
+                        "credit": "",
+                        "datetime": "2014:09:03 09:54:04",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.20418611111111,
+                                46.81632222222222
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3931.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:13:18",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.20384166666668,
+                                46.812194444444444
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3948.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:18:36",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.2034,
+                                46.81081666666666
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3955.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:00:27",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.20354444444445,
+                                46.81524722222222
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3936-crop.jpg",
+                        "width": 678
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:19:05",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.20342222222223,
+                                46.810786111111106
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3958.jpg",
+                        "width": 627
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:07:51",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.20320000000001,
+                                46.81344166666666
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3941.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:35:12",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.20449166666667,
+                                46.81236944444444
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3967.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 10:53:18",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.20423055555555,
+                                46.810424999999995
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3973.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "On en entend tellement parler de la spécialité du Québec: la poutine. Après avoir gouté, je ne comprend pas vraiment le buzz autour de ça: c'est seulement des frites. Autre découverte d'un dessert: la tarte au sucre (avec surement du sirop d'érable)."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Poutine",
+                        "credit": "Chez Ashton",
+                        "datetime": "2014:09:03 12:12:51",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.20824444444445,
+                                46.81319722222222
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/12/img_3983.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Tarte au sucre",
+                        "credit": "",
+                        "datetime": "2014:09:03 13:05:50",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.21414166666666,
+                                46.816494444444444
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/12/img_3985.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Sur les murailles de la citadelle",
+                        "credit": "",
+                        "datetime": "2014:09:03 11:25:13",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.21041111111111,
+                                46.807066666666664
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3982.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 13:43:28",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.21353055555556,
+                                46.81648611111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3988.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Parc des Champs-de-Bataille",
+                        "datetime": "2014:09:03 15:00:43",
+                        "height": 1539,
+                        "marker": {
+                            "coordinates": [
+                                -71.22528055555556,
+                                46.79916111111111
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3992.jpg",
+                        "width": 2500
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                   {
+                        "caption": "",
+                        "credit": "",
+                        "datetime": "2014:09:03 13:53:15",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.21376111111111,
+                                46.815327777777775
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/12/img_3991.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        }
+    ]
+}
