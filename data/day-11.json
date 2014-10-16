@@ -147,6 +147,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Avec un temps pareil, il n'y a pas foule sur le chemin. Gros silence dans la forêt, en un mot: la nature."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
