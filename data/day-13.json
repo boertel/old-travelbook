@@ -1,0 +1,209 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Jeudi 4 Septembre",
+                "subtitle": "De Québec à Boston"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Premier stop, à 15 minutes de Québec: le parc de la Chute-Montmorency et encore des marches pour monter en haut des chutes."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Québec à gauche, la chute à droite.",
+                        "credit": "Ile d'Orléans",
+                        "datetime": "2014:09:04 10:15:31",
+                        "height": 1056,
+                        "marker": {
+                            "coordinates": [
+                                -71.1414638888889,
+                                46.850772222222226
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/13/img_3993.jpg",
+                        "width": 3000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Chute-Montmorency",
+                        "datetime": "2014:09:04 10:42:55",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.14515555555556,
+                                46.88605
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/13/img_3995.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Chute-Montmorency",
+                        "datetime": "2014:09:04 10:55:54",
+                        "height": 1103,
+                        "marker": {
+                            "coordinates": [
+                                -71.14546944444444,
+                                46.89021666666667
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/13/img_4007.jpg",
+                        "width": 2000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "La ville de Québec à l'horizon",
+                        "credit": "Parc de la Chute-Montmorency",
+                        "datetime": "2014:09:04 10:59:18",
+                        "height": 997,
+                        "marker": {
+                            "coordinates": [
+                                -71.14482777777778,
+                                46.88994722222222
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/13/img_4011.jpg",
+                        "width": 2500
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Chute-Montmorency",
+                        "datetime": "2014:09:04 11:06:57",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.14774444444446,
+                                46.89084166666667
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/13/img_4012.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Parc de la Chute-Montmorency",
+                        "datetime": "2014:09:04 11:12:05",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.14912500000001,
+                                46.889783333333334
+                            ],
+                            "size": "small",
+                            "symbol": "park2"
+                        },
+                        "src": "./static/images/13/img_4013.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Le bolide",
+                        "credit": "Parc de la Chute-Montmorency",
+                        "datetime": "2014:09:04 11:42:06",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.14569722222222,
+                                46.885105555555555
+                            ],
+                            "size": "small",
+                            "symbol": "car"
+                        },
+                        "src": "./static/images/13/img_4020.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Grâce à notre superbe organisation et le bénéfice d'avoir la voiture, nous décidons de passer une journée à Boston, presque sur la route du retour. À part un Mac do, rien de bien passionnant sur la route: des fôrets et des lignes droites. On réserve un hôtel 30 minutes avant d'entrer dans la ville, on n'a pas de guides, on ne sait pas ce que faut le quartier (Back Bay): suspence."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Le distributeur de pizza est en panne",
+                        "credit": "Midtown Hotel",
+                        "datetime": "2014:09:04 21:38:45",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -71.08345,
+                                42.34305277777778
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/13/img_4022.jpg",
+                        "width": 1000
+                    },
+                    {
+                        "caption": "Restaurant pendant le match Monfils vs. Federer",
+                        "credit": "Five Horses Tavern South End",
+                        "datetime": "2014:09:04 20:47:23",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -71.08119166666667,
+                                42.34183055555556
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant"
+                        },
+                        "src": "./static/images/13/img_4021.jpg",
+                        "width": 750
+                    }
+                ]
+            }
+        }
+    ]
+}
