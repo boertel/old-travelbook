@@ -10,7 +10,7 @@
         {
             "type": "text",
             "args": {
-                "text": "Changement de decor avec la ville de Québec, petites routes pavées, centre piétionnier, maisons en pierre. Ça ressemble à une ville européenne. Notre hotel est dans la vielle ville, on commencera donc notre visite de la ville par là."
+                "text": "Changement de décor avec la ville de Québec, petites routes pavées, centre piétionnier et maisons en pierre. Ça ressemble à une ville européenne. Notre hotel est dans la vielle ville, ça sera la première visite de la journée."
             }
         },
         {
@@ -19,7 +19,7 @@
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 09:31:36",
                         "height": 1000,
                         "marker": {
@@ -35,7 +35,7 @@
                     },
                     {
                         "caption": "Vocabulaire",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 09:43:20",
                         "height": 1000,
                         "marker": {
@@ -50,8 +50,8 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Gentrification même à Québec",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 09:44:17",
                         "height": 1000,
                         "marker": {
@@ -67,7 +67,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 10:10:17",
                         "height": 1000,
                         "marker": {
@@ -90,7 +90,7 @@
                 "images": [
                     {
                         "caption": "Frites",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 09:54:04",
                         "height": 750,
                         "marker": {
@@ -106,7 +106,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 10:13:18",
                         "height": 750,
                         "marker": {
@@ -121,8 +121,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Gros pigeons ou petite boîte de conserve ?",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 10:18:36",
                         "height": 750,
                         "marker": {
@@ -145,7 +145,7 @@
                 "images": [
                     {
                         "caption": "Shopping",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 10:00:27",
                         "height": 1000,
                         "marker": {
@@ -161,7 +161,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 10:19:05",
                         "height": 1000,
                         "marker": {
@@ -183,8 +183,8 @@
             "args": {
                 "images": [
                     {
-                        "caption": "religious-christian",
-                        "credit": "",
+                        "caption": "",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 10:07:51",
                         "height": 750,
                         "marker": {
@@ -193,14 +193,14 @@
                                 46.81344166666666
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "religious-christian"
                         },
                         "src": "./static/images/12/img_3941.jpg",
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Nouvelle ville, nouvel animal",
+                        "credit": "Fairmont le Chateau Frontenac",
                         "datetime": "2014:09:03 10:35:12",
                         "height": 750,
                         "marker": {
@@ -215,8 +215,8 @@
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Ceci n'est pas un chateau (c'est un hôtel)",
+                        "credit": "Fairmont le Chateau Frontenac",
                         "datetime": "2014:09:03 10:53:18",
                         "height": 750,
                         "marker": {
@@ -268,7 +268,7 @@
                     },
                     {
                         "caption": "Tarte au sucre",
-                        "credit": "",
+                        "credit": "Brynd",
                         "datetime": "2014:09:03 13:05:50",
                         "height": 750,
                         "marker": {
@@ -288,7 +288,7 @@
         {
             "type": "text",
             "args": {
-                "text": "L'après-midi, on monte voir la citadelle, puis le grand parc situé derrière."
+                "text": "L'après-midi, on monte voir la Citadelle de Québec, puis le grand parc situé derrière."
             }
         },
         {
@@ -313,7 +313,7 @@
                     },
                     {
                         "caption": "Sur les murailles de la citadelle",
-                        "credit": "",
+                        "credit": "la Citadelle",
                         "datetime": "2014:09:03 11:25:13",
                         "height": 750,
                         "marker": {
@@ -352,7 +352,7 @@
                 "images": [
                    {
                         "caption": "Fin de journée",
-                        "credit": "Québec",
+                        "credit": "Vieux-Québec",
                         "datetime": "2014:09:03 13:53:15",
                         "height": 750,
                         "marker": {
