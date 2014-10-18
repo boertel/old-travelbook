@@ -38,11 +38,30 @@ var Media = React.createClass({
             windowHeight: window.innerHeight
         };
     },
+    resetComment: function () {
+        var that = this;
+        DISQUS.reset({
+            reload: true,
+            config: function () {
+                this.page.identifier = that.props.media.src;
+                this.page.url = 'http://' + location.host + that.props.media.src.replace('./', '/');
+            }
+        });
+    },
     componentDidMount: function () {
         window.addEventListener('resize', this.resize);
     },
     shouldComponentUpdate: function (nextProps, nextState) {
         return nextState.width !== 0 && nextState.height !== 0;
+    },
+    componentDidUpdate: function () {
+        if (window.disqus_ready) {
+            this.resetComment();
+        } else {
+            Events.notify('disqus.ready', function () {
+                this.resetComment();
+            });
+        }
     },
     render: function () {
         var current = this.props.media;
@@ -104,8 +123,17 @@ var Media = React.createClass({
 
 var Viewer = React.createClass({
     displayName: 'Viewer',
+    closeComment: function () {
+        $('.media-viewer-wrapper').removeClass('blurry');
+        $('.media-viewer-comment').hide();
+    },
+    openComment: function () {
+        $('.media-viewer-wrapper').addClass('blurry');
+        $('.media-viewer-comment').show();
+    },
     previous: function (event) {
         event.preventDefault();
+        this.closeComment();
         if (this.state.index <= 0) {
             this.state.index = this.props.images.length;
         }
@@ -115,12 +143,14 @@ var Viewer = React.createClass({
     },
     next: function (event) {
         event.preventDefault();
+        this.closeComment();
         var index = (this.state.index += 1) % this.props.images.length;
         this.setState({index: index});
         return false;
     },
     close: function (event) {
         event.preventDefault();
+        this.closeComment();
         this.setState({open: false});
         return false;
     },
@@ -196,9 +226,25 @@ var Viewer = React.createClass({
             previous = React.DOM.div({className: 'media-viewer-previous' + (this.state.hover.previous ? ' hover' : ''), onClick: this.previous}, visuallyHiddenPrevious, arrowPrevious),
             arrowNext = React.DOM.div({className: 'arrow arrow-right'})
             next = React.DOM.div({className: 'media-viewer-next' + (this.state.hover.next ? ' hover' : ''), onClick: this.next}, visuallyHiddenNext, arrowNext),
-            nav = React.DOM.nav({className: 'media-viewer-nav'}, counter, previous, next)
+            span = React.DOM.span({className: 'mega-octicon octicon-comment-discussion'}),
+            showComment = React.DOM.div({
+                className: 'media-viewer-show-comment',
+                onClick: (function () {
+                    if ($('.media-viewer-comment').is(":visible")) {
+                        this.closeComment();
+                    } else {
+                        this.openComment();
+                    }
+                    return false;
+                }).bind(this)
+            }, span),
+            nav = React.DOM.nav({className: 'media-viewer-nav'}, counter, previous, next, showComment)
 
-        var aside = React.DOM.aside({className: 'media-viewer theme-dark', style: {opacity: (this.state.open ? 1 : 0), display: (this.state.open ? 'block' : 'none')}, onClick: this.close}, closeButton, headline, media, nav);
+        var thread = React.DOM.div({id: 'disqus_thread'}),
+            comment = React.DOM.div({className: 'media-viewer-comment'}, thread);
+
+        var aside = React.DOM.aside({className: 'media-viewer theme-dark', style: {opacity: (this.state.open ? 1 : 0), display: (this.state.open ? 'block' : 'none')}, onClick: this.close}, closeButton, headline, media, nav, comment);
+
         return aside;
     }
 });

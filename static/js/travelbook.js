@@ -44,10 +44,24 @@ function LightenDarkenColor(col, amt) {
     return (usePound?"#":"") + (g | (b << 8) | (r << 16)).toString(16);
 }
 
+var sheet = (function() {
+	// Create the <style> tag
+	var style = document.createElement("style");
+
+	// WebKit hack :(
+	style.appendChild(document.createTextNode(""));
+
+	// Add the <style> element to the page
+	document.head.appendChild(style);
+
+	return style.sheet;
+})();
+
 
 viewer = React.renderComponent(Viewer(), document.getElementById('viewer'));
 
 var N = 0,
+    toujoursPlusHaut = 0,
     current,
     pages = {};
 
@@ -59,6 +73,7 @@ function loadDay(number) {
 
     current = name;
     dayColor = bubble.find('a').css('background-color');
+    sheet.insertRule('#disqus_thread a { color: ' + dayColor + '; }', toujoursPlusHaut++);
 
     $('ul.days li').removeClass('active');
     bubble.addClass('active');

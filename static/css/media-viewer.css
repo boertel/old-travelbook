@@ -72,6 +72,18 @@ body {
     height: 100%;
     display: block;
     z-index: 0;
+    -moz-transition: top .2s ease-in;
+    -o-transition: top .2s ease-in;
+    -webkit-transition: top .2s ease-in;
+    transition: top .2s ease-in;
+}
+
+.media-viewer-wrapper.blurry {
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0.5;
 }
 
 .media-viewer .media-viewer-headline {
@@ -214,6 +226,22 @@ body {
     border-color: transparent transparent transparent #fff;
 }
 
+.media-viewer.theme-dark nav .media-viewer-show-comment {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    -moz-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    transition: color .2s ease-in;
+    color: #333;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.media-viewer.theme-dark nav .media-viewer-show-comment:hover {
+    color: #fff;
+}
+
 .media-viewer.theme-dark .loader {
     margin-top: -16px;
     margin-left: -16px;
@@ -232,7 +260,7 @@ body {
     color: #999;
     display: inline-block;
     margin-right: 15px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .media-viewer nav .media-viewer-previous,
@@ -304,3 +332,14 @@ body {
     top: 50%;
     left: 50%;
 }
+
+.media-viewer .media-viewer-comment {
+    display: none;
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+.media-viewer .media-viewer-comment #disqus_thread {
+    width: 80%;
+    margin: 0 auto;
