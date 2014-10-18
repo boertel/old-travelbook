@@ -83,7 +83,7 @@ body {
     -moz-filter: blur(20px);
     -o-filter: blur(20px);
     filter: blur(20px);
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .media-viewer .media-viewer-headline {
