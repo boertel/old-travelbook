@@ -346,7 +346,7 @@
         {
             "type": "link",
             "args": {
-                "description": "Vidéo du New York Times qui explique ce que devient les ordures à New York",
+                "description": "Vidéo du New York Times qui explique ce que deviennent les ordures à New York",
                 "name": "Where does our trash go?",
                 "href": "http://www.nytimes.com/video/nyregion/100000003131953/where-does-our-trash-go.html",
                 "type": "video"
