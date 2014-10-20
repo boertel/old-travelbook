@@ -237,6 +237,8 @@ body {
     color: #333;
     cursor: pointer;
     margin-left: 15px;
+    line-height: 40px;
+    font-size: 25px;
 }
 .media-viewer.theme-dark nav .media-viewer-show-comment:hover {
     color: #fff;
