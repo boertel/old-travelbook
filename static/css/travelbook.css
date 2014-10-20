@@ -134,6 +134,10 @@ li.disabled {
     margin-top: 10px;
 }
 
+.image:hover {
+    cursor: pointer;
+}
+
 .link span.icon {
     margin-right: 10px;
 }

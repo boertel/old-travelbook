@@ -56,6 +56,7 @@ var MyImage = React.createClass({
 
         var args = [
             {
+                className: 'image',
                 style: {
                     position: 'relative',
                     display: 'inline-block',
