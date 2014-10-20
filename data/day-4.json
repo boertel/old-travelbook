@@ -152,7 +152,7 @@
         {
             "type": "text",
             "args": {
-                "text": "On a commencé par le métro, puis l'hélicoptère, pourquoi s'arrêter en si bon chemin, le ferry pour Staten Island et juste à côté. On passe à côté de la statue de la Liberté, cette fois-ci sur l'eau. Une fois arrivée à Staten Island, course dans le port pour prendre le ferry qui repart sur Manhattan"
+                "text": "On a commencé par le métro, puis l'hélicoptère, pourquoi s'arrêter en si bon chemin, le ferry pour Staten Island est juste à côté. On passe à côté de la statue de la Liberté, cette fois-ci sur l'eau. Une fois arrivée à Staten Island, course dans le port pour prendre le ferry qui repart dans l'autre sens sur Manhattan."
             }
         },
         {
@@ -251,7 +251,7 @@
         {
             "type": "text",
             "args": {
-                "text": "Après avoir aperçu les gratte-ciels les jours précédent et notamment le One World Trade Center, remplaçant les Twins Towers, c'est enfin le moment de s'y rapprocher. Mais aussi de gouter au premier burger new yorkais."
+                "text": "Après avoir aperçu les gratte-ciels les jours précédents et notamment le One World Trade Center, remplaçant les Twins Towers, c'est enfin le moment de s'y rapprocher. Mais aussi de gouter au premier burger new yorkais."
             }
         },
         {
@@ -574,7 +574,7 @@
         {
             "type": "text",
             "args": {
-                "text": "Il est temps de remonter progressivement sur l'hotel en passant par décevant Chinatown et..."
+                "text": "Il est temps de remonter progressivement sur l'hotel en passant par le décevant Chinatown et..."
             }
         },
         {
@@ -847,7 +847,7 @@
         {
             "type": "text",
             "args": {
-                "text": "ça sera où la vadrouille de la journée s'arrêtera et la pause se fera dans un bar: Proletariat avec des bières inconnues et repas pour manger un ramen chez Momofuku."
+                "text": "La vadrouille de la journée s'arrêtera ici. Place à la pause qui se fera dans un bar: Proletariat avec des bières inconnues et repas: chez Momofuku pour manger du ramen."
             }
         },
         {
