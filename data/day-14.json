@@ -8,15 +8,9 @@
             }
         },
         {
-            "type": "title",
-            "args": {
-                "subtitle": ""
-            }
-        },
-        {
             "type": "text",
             "args": {
-                "text": ""
+                "text": "Dernier jour de vadrouille avant le retour sur New York et la fin des vacances. Ça se fera à Boston, escale pas prévu dans notre pseudo-organisation. Après quelques recherches sur Internet et avec les prospectus de l'hotel, nous suiverons le \"Freedom Trail\", chemin matérialiasé par une ligne en brique rouge dans les rues de la ville."
             }
         },
         {
@@ -40,6 +34,12 @@
                         "width": 785
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Ça commence au centre ville, on retrouve les buildings américains perdus de vue à Québec mais plus petits que ceux de New York. La trail nous fait passer dans des parcs, différents quartiers. Très bonne manière de découvrir la ville et sans avoir besoin de suivre une carte."
             }
         },
         {
@@ -118,8 +118,8 @@
                         "width": 750
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Boston à Boston ?",
+                        "credit": "Copps Hill Cemetery",
                         "datetime": "2014:09:05 10:54:47",
                         "height": 1000,
                         "marker": {
@@ -135,7 +135,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Copps Hill Cemetery",
                         "datetime": "2014:09:05 10:55:30",
                         "height": 750,
                         "marker": {
@@ -157,8 +157,8 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Freedom Trail en peinture rouge",
+                        "credit": "Charles River",
                         "datetime": "2014:09:05 11:05:00",
                         "height": 750,
                         "marker": {
@@ -180,24 +180,24 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Plus vieux vaisseau (encore actif) de l'US Navy",
+                        "credit": "US Constitution",
                         "datetime": "2014:09:05 11:29:36",
-                        "height": 1000,
+                        "height": 944,
                         "marker": {
                             "coordinates": [
                                 -71.05704444444444,
                                 42.37284722222222
                             ],
                             "size": "small",
-                            "symbol": "boat"
+                            "symbol": "ferry"
                         },
                         "src": "./static/images/14/img_4068.jpg",
                         "width": 750
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "US Constitution",
                         "datetime": "2014:09:05 11:33:04",
                         "height": 750,
                         "marker": {
@@ -206,14 +206,14 @@
                                 42.37264166666667
                             ],
                             "size": "small",
-                            "symbol": "boat"
+                            "symbol": "ferry"
                         },
                         "src": "./static/images/14/img_4071.jpg",
                         "width": 1000
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "US Constitution",
                         "datetime": "2014:09:05 11:33:36",
                         "height": 1000,
                         "marker": {
@@ -222,7 +222,7 @@
                                 42.372597222222225
                             ],
                             "size": "small",
-                            "symbol": "boat"
+                            "symbol": "ferry"
                         },
                         "src": "./static/images/14/img_4073.jpg",
                         "width": 750
@@ -235,8 +235,8 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Fin de la trail",
+                        "credit": "Monument Square",
                         "datetime": "2014:09:05 12:19:33",
                         "height": 1000,
                         "marker": {
@@ -252,7 +252,7 @@
                     },
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Monument Square",
                         "datetime": "2014:09:05 12:27:25",
                         "height": 3180,
                         "marker": {
@@ -267,6 +267,12 @@
                         "width": 2385
                     }
                 ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "On a fini la Freedom Trail, c'est l'heure de manger un Lobster Roll et de faire une sieste dans un parc près de l'eau."
             }
         },
         {
@@ -325,6 +331,12 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Chaleur étouffante, on doit quand même continuer à avancer. Nous longeons la rivière pour explorer le sud est dans la ville."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
@@ -352,7 +364,7 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
+                        "caption": "Maison pour canards",
                         "credit": "",
                         "datetime": "2014:09:05 14:46:23",
                         "height": 750,
@@ -387,12 +399,18 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Boston est la ville où est situé le MIT, c'est de l'autre côté de la Charles River et à peu près au niveau de l'hôtel. Nous décidons d'aller faire un tour."
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
                         "caption": "",
-                        "credit": "",
+                        "credit": "Harvard Bridge",
                         "datetime": "2014:09:05 17:03:03",
                         "height": 1306,
                         "marker": {
@@ -414,8 +432,8 @@
             "args": {
                 "images": [
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Optimists synchronisés",
+                        "credit": "Harvard Bridge",
                         "datetime": "2014:09:05 16:58:02",
                         "height": 750,
                         "marker": {
@@ -424,14 +442,14 @@
                                 42.35384444444445
                             ],
                             "size": "small",
-                            "symbol": "boat"
+                            "symbol": ""
                         },
                         "src": "./static/images/14/img_4095.jpg",
                         "width": 1000
                     },
                     {
-                        "caption": "",
-                        "credit": "",
+                        "caption": "Great Dome",
+                        "credit": "MIT",
                         "datetime": "2014:09:05 17:06:42",
                         "height": 750,
                         "marker": {
@@ -449,11 +467,20 @@
             }
         },
         {
+            "type": "link",
+            "args": {
+                "type": "video",
+                "href": "https://www.youtube.com/watch?v=N3oS-2vYPrc",
+                "name": "OSS 117, Pédalo Canard",
+                "description": "OSS 117 ou Hubert Bonisseur de la Bath est passé par là"
+            }
+        },
+        {
             "type": "image",
             "args": {
                 "images": [
                     {
-                        "caption": "Inspiré par Hubert Bonisseur de la Batte",
+                        "caption": "Inspiré par Hubert Bonisseur de la Bath",
                         "credit": "",
                         "datetime": "2014:09:05 09:43:54",
                         "height": 568,
