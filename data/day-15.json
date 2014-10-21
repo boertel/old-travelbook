@@ -28,7 +28,7 @@
                                 41.69218333333333
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "restaurant"
                         },
                         "src": "./static/images/15/img_4106.jpg",
                         "width": 750
@@ -44,7 +44,7 @@
                                 40.64002222222222
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "restaurant"
                         },
                         "src": "./static/images/15/img_4107.jpg",
                         "width": 1000
@@ -83,7 +83,7 @@
                                 40.64837222222222
                             ],
                             "size": "small",
-                            "symbol": ""
+                            "symbol": "airport"
                         },
                         "src": "./static/images/15/img_4109.jpg",
                         "width": 612
@@ -92,10 +92,16 @@
             }
         },
         {
+            "type": "text",
+            "args": {
+                "text": "Les deux semaines sont passées bien vite: découvrir de nouvelles villes et un nouveau pays, manger pleins de bons choses, boires des bières inconnues, essayer un nouveau système de transport, assister à l'US Open et pleins d'autres choses. C'était génial. J'éspère que ces quinzes pages virtuelles vous auront aussi fait voyager."
+            }
+        },
+        {
             "type": "title",
             "args": {
                 "title": "Thank You, Merci",
-                "subtitle": "à mon frère d'avoir voyager avec moi.",
+                "subtitle": "à mon frère pour ce voyage",
                 "style": "center"
             }
         },
