@@ -87,6 +87,22 @@
                         },
                         "src": "./static/images/15/img_4109.jpg",
                         "width": 612
+                    },
+                    {
+                        "caption": "US Open jusqu'au bout",
+                        "credit": "On the plane",
+                        "datetime": "2014:09:06 13:37:31",
+                        "height": 1136,
+                        "marker": {
+                            "coordinates": [
+                                -73.78353888888888,
+                                40.64837222222222
+                            ],
+                            "size": "small",
+                            "symbol": "airport"
+                        },
+                        "src": "./static/images/15/img_4112.jpg",
+                        "width": 640
                     }
                 ]
             }
