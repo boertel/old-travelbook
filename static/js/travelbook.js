@@ -204,6 +204,7 @@ Block.image.prototype.tearDown = function () {
 Block.title = function (args) {
     this.title = args.title;
     this.subtitle = args.subtitle;
+    this.style = args.style;
 };
 
 Block.title.prototype.render = function (g) {
@@ -211,6 +212,10 @@ Block.title.prototype.render = function (g) {
     var u = new Pure(['u-1', 'title']);
 
     g.node.classList.add('title');
+
+    if (this.style) {
+        u.node.style.textAlign = this.style;
+    }
 
     if (this.title) {
         h1 = document.createElement('h1'),
@@ -223,6 +228,32 @@ Block.title.prototype.render = function (g) {
         u.addChild(h2)
     }
 
+    u.addTo(g);
+};
+
+Block.list = function (args) {
+    this.items = args.items;
+    this.title = args.title;
+};
+
+Block.list.prototype.render = function (g) {
+    g.node.classList.add('list');
+    var u = new Pure('u-1'),
+        ul = document.createElement('ul');
+
+    if (this.title) {
+        var p = document.createElement('p');
+        p.innerHTML = this.title;
+        u.addChild(p);
+    }
+
+    this.items.forEach(function (item) {
+        var li = document.createElement('li');
+        li.innerHTML = item;
+        ul.appendChild(li);
+    });
+
+    u.addChild(ul);
     u.addTo(g);
 };
 

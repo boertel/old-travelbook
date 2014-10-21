@@ -1,0 +1,116 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Samedi 6 Septembre",
+                "subtitle": "Départ"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Même vivant aux États-Unis, il faut finir ces vacances dans les règles de l'art et s'imprégner totalement des US: Starbucks + Mac Donald's"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Starbucks",
+                        "datetime": "2014:09:06 08:43:43",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -72.65918055555557,
+                                41.69218333333333
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/15/img_4106.jpg",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Étude de Hamburgerologie",
+                        "credit": "Mac Donald's",
+                        "datetime": "2014:09:06 12:35:26",
+                        "height": 750,
+                        "marker": {
+                            "coordinates": [
+                                -73.78765,
+                                40.64002222222222
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/15/img_4107.jpg",
+                        "width": 1000
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Starbucks",
+                        "datetime": "2014:09:06 08:43:43",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -72.65918055555557,
+                                41.69218333333333
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/15/cyril-restroom.gif",
+                        "width": 750
+                    },
+                    {
+                        "caption": "Retour à la case départ",
+                        "credit": "JFK Airport",
+                        "datetime": "2014:09:06 13:37:31",
+                        "height": 1000,
+                        "marker": {
+                            "coordinates": [
+                                -73.78353888888888,
+                                40.64837222222222
+                            ],
+                            "size": "small",
+                            "symbol": ""
+                        },
+                        "src": "./static/images/15/img_4109.jpg",
+                        "width": 612
+                    }
+                ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "title": "Thank You, Merci",
+                "subtitle": "à mon frère d'avoir voyager avec moi.",
+                "style": "center"
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "– FIN –",
+                "style": "center"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        }
+    ]
+}

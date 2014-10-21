@@ -118,6 +118,9 @@ p {
 .day-14 a {
     background-color: #f86767;
 }
+.day-15 a {
+    background-color: #e7857f;
+}
 
 li.disabled {
     opacity: 1;
