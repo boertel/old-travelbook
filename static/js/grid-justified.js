@@ -50,7 +50,7 @@ var MyImage = React.createClass({
         var img = React.DOM.img({
             src: src,
             alt: src.substr(src.lastIndexOf('/') + 1, src.length + 1),
-            width: (widthContainer / this.props.rowRatio) * this.props.image.aspect_ratio,
+            width: Math.floor((widthContainer / this.props.rowRatio) * this.props.image.aspect_ratio),
             height: (widthContainer / this.props.rowRatio),
         });
 
