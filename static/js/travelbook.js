@@ -271,11 +271,22 @@ Block.link.prototype.render = function (g) {
 
     var icon = document.createElement('span');
     iconClassName = 'icon mega-octicon ';
-    if (this.type === 'video') {
-        iconClassName += 'octicon-device-camera-video'
-    }
-    if (this.type === 'audio') {
-        iconClassName += 'octicon-megaphone';
+    switch (this.type) {
+        case 'video':
+            iconClassName += 'octicon-device-camera-video'
+            break;
+
+        case 'audio':
+            iconClassName += 'octicon-megaphone';
+            break;
+
+        case 'photo':
+            iconClassName += 'octicon-device-camera';
+            break;
+
+        default:
+            iconClassName += 'octicon-eye';
+            break;
     }
 
      icon.className = iconClassName;

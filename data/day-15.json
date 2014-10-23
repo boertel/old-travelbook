@@ -114,6 +114,15 @@
             }
         },
         {
+            "type": "link",
+            "args": {
+                "type": "photo",
+                "href": "http://grimchtour.wordpress.com",
+                "name": "GrimchTour",
+                "description": "Pour encore plus de photos, allez visiter les photos de mon frère"
+            }
+        },
+        {
             "type": "title",
             "args": {
                 "title": "Thank You, Merci",
@@ -126,12 +135,6 @@
             "args": {
                 "subtitle": "– FIN –",
                 "style": "center"
-            }
-        },
-        {
-            "type": "text",
-            "args": {
-                "text": ""
             }
         }
     ]
