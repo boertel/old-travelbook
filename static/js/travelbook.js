@@ -65,10 +65,10 @@ var N = 0,
     current,
     pages = {};
 
-function loadDay(number) {
+function loadDay(path) {
     $('#content').html('');
 
-    var name = 'day-' + number,
+    var name = 'day-' + path.day,
         bubble = $('.' + name);
 
     current = name;
@@ -84,7 +84,7 @@ function loadDay(number) {
         page = new Page();
         pages[name] = page;
 
-        $.getJSON('./data/' + name + '.json', function (data) {
+        $.getJSON('./data/' + path.trip + '/' + name + '.json', function (data) {
             var blocks = data.blocks;
             blocks.forEach(function (b) {
                 var block = factory(b);

@@ -85,8 +85,20 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuh
 var map = L.mapbox.map('map', 'boertel.h95nl1fe', { zoomControl: false });
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
-var day = parseInt(document.location.hash.replace('#day-', '')) || 1;
-loadDay(day);
+
+function Path() {
+    var hash = document.location.hash.replace('#/', ''),
+        split = hash.split('/');
+
+    this.trip = split[0];
+    this.day = split.length > 0 ? parseInt(split[1], 10) : 1;
+}
+
+var path = new Path();
+
+loadDay(path);
+
+
 
 $('.days li a').on('click', function (e) {
     var href = e.target.getAttribute('href'),

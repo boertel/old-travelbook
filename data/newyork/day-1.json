@@ -18,7 +18,7 @@
             "args": {
                 "images": [
                     {
-                        "src": "./static/images/1/img_2657.jpg",
+                        "src": "./static/images/newyork/1/img_2657.jpg",
                         "caption": "1. se faire petit déjeuner de luxe",
                         "credit": "JFK Terminal 7",
                         "width": 563,
@@ -31,7 +31,7 @@
                         }
                     },
                     {
-                        "src": "./static/images/1/img_2659.jpg",
+                        "src": "./static/images/newyork/1/img_2659.jpg",
                         "caption": "2. regarder des séries",
                         "width": 750,
                         "height": 1000
@@ -49,7 +49,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2666.jpg",
+                        "src": "./static/images/newyork/1/img_2666.jpg",
                         "width": 750
                     },
                     {
@@ -57,7 +57,7 @@
                         "credit": "mais à 8h, on sent un peu seul dans l'aéroport http://vimeo.com/97634383",
                         "datetime": "2014:08:23 10:23:49",
                         "height": 1000,
-                        "src": "./static/images/1/img_2664.jpg",
+                        "src": "./static/images/newyork/1/img_2664.jpg",
                         "width": 563
                     }
                 ]
@@ -80,16 +80,16 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2668.jpg",
+                        "src": "./static/images/newyork/1/img_2668.jpg",
                         "width": 1000
                     },
                     {
-                        "src": "./static/images/1/img_2671.jpg",
+                        "src": "./static/images/newyork/1/img_2671.jpg",
                         "width": 1000,
                         "height": 735
                     },
                     {
-                        "src": "./static/images/1/img_2672.jpg",
+                        "src": "./static/images/newyork/1/img_2672.jpg",
                         "width": 563,
                         "height": 1000,
                         "caption": "Les retrouvailles",
@@ -127,7 +127,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2684.jpg",
+                        "src": "./static/images/newyork/1/img_2684.jpg",
                         "width": 1000
                     },
                     {
@@ -143,7 +143,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/1/img_2688.jpg",
+                        "src": "./static/images/newyork/1/img_2688.jpg",
                         "width": 1000
                     },
                     {
@@ -159,7 +159,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2721.jpg",
+                        "src": "./static/images/newyork/1/img_2721.jpg",
                         "width": 3060
                     },
                     {
@@ -175,7 +175,7 @@
                             "size": "small",
                             "symbol": "commercial"
                         },
-                        "src": "./static/images/1/img_2733.jpg",
+                        "src": "./static/images/newyork/1/img_2733.jpg",
                         "width": 750
                     }
                 ]
@@ -198,7 +198,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2744.jpg",
+                        "src": "./static/images/newyork/1/img_2744.jpg",
                         "width": 750
                     },
                     {
@@ -214,7 +214,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2746.jpg",
+                        "src": "./static/images/newyork/1/img_2746.jpg",
                         "width": 750
                     },
                     {
@@ -230,7 +230,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2749.jpg",
+                        "src": "./static/images/newyork/1/img_2749.jpg",
                         "width": 1000
                     }
                 ]
@@ -253,7 +253,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2754.jpg",
+                        "src": "./static/images/newyork/1/img_2754.jpg",
                         "width": 750
                     },
                     {
@@ -269,7 +269,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/1/img_2760.jpg",
+                        "src": "./static/images/newyork/1/img_2760.jpg",
                         "width": 1000
                     }
                 ]
@@ -298,7 +298,7 @@
                             "size": "small",
                             "symbol": "rail"
                         },
-                        "src": "./static/images/1/img_2771.jpg",
+                        "src": "./static/images/newyork/1/img_2771.jpg",
                         "width": 1000
                     },
                     {
@@ -314,7 +314,7 @@
                             "size": "small",
                             "symbol": "rail"
                         },
-                        "src": "./static/images/1/img_2775.jpg",
+                        "src": "./static/images/newyork/1/img_2775.jpg",
                         "width": 1000
                     }
                 ]
