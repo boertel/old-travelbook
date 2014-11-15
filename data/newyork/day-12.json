@@ -30,7 +30,7 @@
                             "size": "small",
                             "symbol": "religious-christian"
                         },
-                        "src": "./static/images/12/img_3922.jpg",
+                        "src": "./static/images/newyork/12/img_3922.jpg",
                         "width": 750
                     },
                     {
@@ -46,7 +46,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3926.jpg",
+                        "src": "./static/images/newyork/12/img_3926.jpg",
                         "width": 750
                     },
                     {
@@ -62,7 +62,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3927.jpg",
+                        "src": "./static/images/newyork/12/img_3927.jpg",
                         "width": 750
                     },
                     {
@@ -78,7 +78,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3946.jpg",
+                        "src": "./static/images/newyork/12/img_3946.jpg",
                         "width": 750
                     }
                 ]
@@ -101,7 +101,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3931.jpg",
+                        "src": "./static/images/newyork/12/img_3931.jpg",
                         "width": 1000
                     },
                     {
@@ -117,7 +117,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3948.jpg",
+                        "src": "./static/images/newyork/12/img_3948.jpg",
                         "width": 1000
                     },
                     {
@@ -133,7 +133,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3955.jpg",
+                        "src": "./static/images/newyork/12/img_3955.jpg",
                         "width": 1000
                     }
                 ]
@@ -156,7 +156,7 @@
                             "size": "small",
                             "symbol": "shop"
                         },
-                        "src": "./static/images/12/img_3936-crop.jpg",
+                        "src": "./static/images/newyork/12/img_3936-crop.jpg",
                         "width": 678
                     },
                     {
@@ -172,7 +172,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3958.jpg",
+                        "src": "./static/images/newyork/12/img_3958.jpg",
                         "width": 627
                     }
                 ]
@@ -195,7 +195,7 @@
                             "size": "small",
                             "symbol": "religious-christian"
                         },
-                        "src": "./static/images/12/img_3941.jpg",
+                        "src": "./static/images/newyork/12/img_3941.jpg",
                         "width": 1000
                     },
                     {
@@ -211,7 +211,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3967.jpg",
+                        "src": "./static/images/newyork/12/img_3967.jpg",
                         "width": 1000
                     },
                     {
@@ -227,7 +227,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3973.jpg",
+                        "src": "./static/images/newyork/12/img_3973.jpg",
                         "width": 1000
                     }
                 ]
@@ -263,7 +263,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/12/img_3983.jpg",
+                        "src": "./static/images/newyork/12/img_3983.jpg",
                         "width": 1000
                     },
                     {
@@ -279,7 +279,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/12/img_3985.jpg",
+                        "src": "./static/images/newyork/12/img_3985.jpg",
                         "width": 1000
                     }
                 ]
@@ -308,7 +308,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3988.jpg",
+                        "src": "./static/images/newyork/12/img_3988.jpg",
                         "width": 1000
                     },
                     {
@@ -324,7 +324,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3982.jpg",
+                        "src": "./static/images/newyork/12/img_3982.jpg",
                         "width": 1000
                     },
                     {
@@ -340,7 +340,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/12/img_3992.jpg",
+                        "src": "./static/images/newyork/12/img_3992.jpg",
                         "width": 2500
                     }
                 ]
@@ -363,7 +363,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/12/img_3991.jpg",
+                        "src": "./static/images/newyork/12/img_3991.jpg",
                         "width": 1000
                     }
                 ]

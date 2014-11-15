@@ -30,7 +30,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/15/img_4106.jpg",
+                        "src": "./static/images/newyork/15/img_4106.jpg",
                         "width": 750
                     },
                     {
@@ -46,7 +46,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/15/img_4107.jpg",
+                        "src": "./static/images/newyork/15/img_4107.jpg",
                         "width": 1000
                     }
                 ]
@@ -69,7 +69,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/15/cyril-restroom.gif",
+                        "src": "./static/images/newyork/15/cyril-restroom.gif",
                         "width": 750
                     },
                     {
@@ -85,7 +85,7 @@
                             "size": "small",
                             "symbol": "airport"
                         },
-                        "src": "./static/images/15/img_4109.jpg",
+                        "src": "./static/images/newyork/15/img_4109.jpg",
                         "width": 612
                     },
                     {
@@ -101,7 +101,7 @@
                             "size": "small",
                             "symbol": "airport"
                         },
-                        "src": "./static/images/15/img_4112.jpg",
+                        "src": "./static/images/newyork/15/img_4112.jpg",
                         "width": 640
                     }
                 ]

@@ -44,7 +44,7 @@
                             "size": "small",
                             "symbol": "bicycle"
                         },
-                        "src": "./static/images/9/img_3848.jpg",
+                        "src": "./static/images/newyork/9/img_3848.jpg",
                         "width": 2800
                     }
                 ]
@@ -79,7 +79,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/9/img_3849.jpg",
+                        "src": "./static/images/newyork/9/img_3849.jpg",
                         "width": 750
                     },
                     {
@@ -95,7 +95,7 @@
                             "size": "small",
                             "symbol": "beer"
                         },
-                        "src": "./static/images/9/img_3850.jpg",
+                        "src": "./static/images/newyork/9/img_3850.jpg",
                         "width": 750
                     }
                 ]

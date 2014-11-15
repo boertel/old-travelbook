@@ -69,7 +69,7 @@
                             "size": "small",
                             "symbol": "beer"
                         },
-                        "src": "./static/images/10/img_3875.jpg",
+                        "src": "./static/images/newyork/10/img_3875.jpg",
                         "width": 750
                     },
                     {
@@ -85,7 +85,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/10/img_3876.jpg",
+                        "src": "./static/images/newyork/10/img_3876.jpg",
                         "width": 1000
                     }
                 ]
@@ -108,7 +108,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/10/img_3877.jpg",
+                        "src": "./static/images/newyork/10/img_3877.jpg",
                         "width": 1000
                     },
                     {
@@ -124,7 +124,7 @@
                             "size": "small",
                             "symbol": "lodging"
                         },
-                        "src": "./static/images/10/img_3879.jpg",
+                        "src": "./static/images/newyork/10/img_3879.jpg",
                         "width": 708
                     }
                 ]

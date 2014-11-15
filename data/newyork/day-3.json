@@ -41,7 +41,7 @@
                             "size": "small",
                             "symbol": "rail-metro"
                         },
-                        "src": "./static/images/3/img_2924.jpg",
+                        "src": "./static/images/newyork/3/img_2924.jpg",
                         "width": 817
                     },
                     {
@@ -49,7 +49,7 @@
                         "credit": "Subway",
                         "datetime": "2014:08:25 09:37:25",
                         "height": 750,
-                        "src": "./static/images/3/img_2925.jpg",
+                        "src": "./static/images/newyork/3/img_2925.jpg",
                         "width": 1000
                     },
                     {
@@ -65,7 +65,7 @@
                             "size": "small",
                             "symbol": "rail-metro"
                         },
-                        "src": "./static/images/3/img_2926.jpg",
+                        "src": "./static/images/newyork/3/img_2926.jpg",
                         "width": 750
                     }
                 ]
@@ -100,7 +100,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2938.jpg",
+                        "src": "./static/images/newyork/3/img_2938.jpg",
                         "width": 750
                     },
                     {
@@ -116,7 +116,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2942.jpg",
+                        "src": "./static/images/newyork/3/img_2942.jpg",
                         "width": 1000
                     },
                     {
@@ -132,7 +132,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2943.jpg",
+                        "src": "./static/images/newyork/3/img_2943.jpg",
                         "width": 750
                     },
                     {
@@ -148,7 +148,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2944.jpg",
+                        "src": "./static/images/newyork/3/img_2944.jpg",
                         "width": 750
                     },
                     {
@@ -164,7 +164,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2945.jpg",
+                        "src": "./static/images/newyork/3/img_2945.jpg",
                         "width": 1000
                     },
                     {
@@ -180,7 +180,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2949.jpg",
+                        "src": "./static/images/newyork/3/img_2949.jpg",
                         "width": 1000
                     },
                     {
@@ -196,7 +196,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2958.jpg",
+                        "src": "./static/images/newyork/3/img_2958.jpg",
                         "width": 1000
                     },
                     {
@@ -212,7 +212,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2968.jpg",
+                        "src": "./static/images/newyork/3/img_2968.jpg",
                         "width": 1000
                     },
                     {
@@ -228,7 +228,7 @@
                             "size": "small",
                             "symbol": "park2"
                         },
-                        "src": "./static/images/3/img_2997.jpg",
+                        "src": "./static/images/newyork/3/img_2997.jpg",
                         "width": 990
                     }
                 ]
@@ -263,7 +263,7 @@
                             "size": "small",
                             "symbol": "museum"
                         },
-                        "src": "./static/images/3/img_2978.jpg",
+                        "src": "./static/images/newyork/3/img_2978.jpg",
                         "width": 970
                     },
                     {
@@ -279,7 +279,7 @@
                             "size": "small",
                             "symbol": "museum"
                         },
-                        "src": "./static/images/3/img_2979.jpg",
+                        "src": "./static/images/newyork/3/img_2979.jpg",
                         "width": 1000
                     },
                     {
@@ -295,7 +295,7 @@
                             "size": "small",
                             "symbol": "museum"
                         },
-                        "src": "./static/images/3/img_2981.jpg",
+                        "src": "./static/images/newyork/3/img_2981.jpg",
                         "width": 733
                     },
                     {
@@ -311,7 +311,7 @@
                             "size": "small",
                             "symbol": "museum"
                         },
-                        "src": "./static/images/3/img_2986.jpg",
+                        "src": "./static/images/newyork/3/img_2986.jpg",
                         "width": 1000
                     }
                 ]
@@ -346,7 +346,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/3/img_2974.jpg",
+                        "src": "./static/images/newyork/3/img_2974.jpg",
                         "width": 1000
                     },
                     {
@@ -362,7 +362,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/3/img_2995.jpg",
+                        "src": "./static/images/newyork/3/img_2995.jpg",
                         "width": 750
                     },
                     {
@@ -378,7 +378,7 @@
                             "size": "small",
                             "symbol": "rail-metro"
                         },
-                        "src": "./static/images/3/img_2999.jpg",
+                        "src": "./static/images/newyork/3/img_2999.jpg",
                         "width": 1000
                     },
                     {
@@ -394,7 +394,7 @@
                             "size": "small",
                             "symbol": "rail-metro"
                         },
-                        "src": "./static/images/3/img_3001.jpg",
+                        "src": "./static/images/newyork/3/img_3001.jpg",
                         "width": 1000
                     }
                 ]
@@ -429,7 +429,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3010.jpg",
+                        "src": "./static/images/newyork/3/img_3010.jpg",
                         "width": 1000
                     },
                     {
@@ -445,7 +445,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3011.jpg",
+                        "src": "./static/images/newyork/3/img_3011.jpg",
                         "width": 1000
                     },
                     {
@@ -461,7 +461,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3017.jpg",
+                        "src": "./static/images/newyork/3/img_3017.jpg",
                         "width": 1000
                     }
                 ]
@@ -484,7 +484,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3019.jpg",
+                        "src": "./static/images/newyork/3/img_3019.jpg",
                         "width": 1000
                     },
                     {
@@ -500,7 +500,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3018.jpg",
+                        "src": "./static/images/newyork/3/img_3018.jpg",
                         "width": 600
                     },
                     {
@@ -516,7 +516,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3022.jpg",
+                        "src": "./static/images/newyork/3/img_3022.jpg",
                         "width": 750
                     },
                     {
@@ -532,7 +532,7 @@
                             "size": "small",
                             "symbol": "tennis"
                         },
-                        "src": "./static/images/3/img_3042.jpg",
+                        "src": "./static/images/newyork/3/img_3042.jpg",
                         "width": 1000
                     }
                 ]

@@ -30,7 +30,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/7/img_3713.jpg",
+                        "src": "./static/images/newyork/7/img_3713.jpg",
                         "width": 750
                     },
                     {
@@ -46,7 +46,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/7/img_3715.jpg",
+                        "src": "./static/images/newyork/7/img_3715.jpg",
                         "width": 750
                     }
                 ]
@@ -75,7 +75,7 @@
                             "size": "small",
                             "symbol": "car"
                         },
-                        "src": "./static/images/7/img_3717.jpg",
+                        "src": "./static/images/newyork/7/img_3717.jpg",
                         "width": 1000
                     },
                     {
@@ -91,7 +91,7 @@
                             "size": "small",
                             "symbol": "car"
                         },
-                        "src": "./static/images/7/img_3718.jpg",
+                        "src": "./static/images/newyork/7/img_3718.jpg",
                         "width": 1000
                     },
                     {
@@ -107,7 +107,7 @@
                             "size": "small",
                             "symbol": "car"
                         },
-                        "src": "./static/images/7/img_3719.jpg",
+                        "src": "./static/images/newyork/7/img_3719.jpg",
                         "width": 1000
                     }
                 ]
@@ -142,7 +142,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/7/img_3728.jpg",
+                        "src": "./static/images/newyork/7/img_3728.jpg",
                         "width": 750
                     },
                  {
@@ -158,7 +158,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/7/img_3729.jpg",
+                        "src": "./static/images/newyork/7/img_3729.jpg",
                         "width": 750
                     }
                 ]

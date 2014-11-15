@@ -30,7 +30,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3890.jpg",
+                        "src": "./static/images/newyork/11/img_3890.jpg",
                         "width": 1000
                     },
                     {
@@ -46,7 +46,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3886.jpg",
+                        "src": "./static/images/newyork/11/img_3886.jpg",
                         "width": 1000
                     },
                     {
@@ -62,7 +62,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3888.jpg",
+                        "src": "./static/images/newyork/11/img_3888.jpg",
                         "width": 1000
                     },
                     {
@@ -78,7 +78,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3897.jpg",
+                        "src": "./static/images/newyork/11/img_3897.jpg",
                         "width": 1000
                     }
                 ]
@@ -101,7 +101,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3899.jpg",
+                        "src": "./static/images/newyork/11/img_3899.jpg",
                         "width": 1000
                     },
                     {
@@ -117,7 +117,7 @@
                             "size": "small",
                             "symbol": "restaurant"
                         },
-                        "src": "./static/images/11/img_3902.jpg",
+                        "src": "./static/images/newyork/11/img_3902.jpg",
                         "width": 750
                     }
                 ]
@@ -140,7 +140,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3900.jpg",
+                        "src": "./static/images/newyork/11/img_3900.jpg",
                         "width": 3000
                     }
                 ]
@@ -169,7 +169,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3906.jpg",
+                        "src": "./static/images/newyork/11/img_3906.jpg",
                         "width": 3000
                     }
                 ]
@@ -192,7 +192,7 @@
                             "size": "small",
                             "symbol": "park"
                         },
-                        "src": "./static/images/11/img_3910.jpg",
+                        "src": "./static/images/newyork/11/img_3910.jpg",
                         "width": 3000
                     }
                 ]
@@ -207,7 +207,7 @@
                         "credit": "Parc de la Mauricie",
                         "datetime": "2014:09:02 15:32:32",
                         "height": 1062,
-                        "src": "./static/images/11/img_3911.jpg",
+                        "src": "./static/images/newyork/11/img_3911.jpg",
                         "width": 2800
                     },
                     {
@@ -215,7 +215,7 @@
                         "credit": "Parc de la Mauricie",
                         "datetime": "2014:09:02 15:58:33",
                         "height": 1000,
-                        "src": "./static/images/11/img_3913.jpg",
+                        "src": "./static/images/newyork/11/img_3913.jpg",
                         "width": 1000
                     }
                 ]
@@ -236,7 +236,7 @@
                         "credit": "Parc de la MauricieQuébec",
                         "datetime": "2014:09:02 21:12:10",
                         "height": 750,
-                        "src": "./static/images/11/img_3917.jpg",
+                        "src": "./static/images/newyork/11/img_3917.jpg",
                         "width": 1000
                     }
                 ]

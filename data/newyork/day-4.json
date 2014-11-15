@@ -30,7 +30,7 @@
                         "credit": "",
                         "datetime": "2014:08:26 00:50:28",
                         "height": 750,
-                        "src": "./static/images/4/img_3068.jpg",
+                        "src": "./static/images/newyork/4/img_3068.jpg",
                         "width": 1000
                     },
                     {
@@ -46,7 +46,7 @@
                             "size": "small",
                             "symbol": "rail-metro"
                         },
-                        "src": "./static/images/4/img_3079.jpg",
+                        "src": "./static/images/newyork/4/img_3079.jpg",
                         "width": 750
                     },
                     {
@@ -62,7 +62,7 @@
                             "size": "small",
                             "symbol": "rail-metro"
                         },
-                        "src": "./static/images/4/img_3081.jpg",
+                        "src": "./static/images/newyork/4/img_3081.jpg",
                         "width": 750
                     }
                 ]
@@ -97,7 +97,7 @@
                             "size": "small",
                             "symbol": "heliport"
                         },
-                        "src": "./static/images/4/img_3095.jpg",
+                        "src": "./static/images/newyork/4/img_3095.jpg",
                         "width": 750
                     },
                     {
@@ -105,7 +105,7 @@
                         "credit": "",
                         "datetime": "2014:08:26 11:00:22",
                         "height": 750,
-                        "src": "./static/images/4/img_3113.jpg",
+                        "src": "./static/images/newyork/4/img_3113.jpg",
                         "width": 1000
                     },
                     {
@@ -121,7 +121,7 @@
                             "size": "small",
                             "symbol": "heliport"
                         },
-                        "src": "./static/images/4/img_3121.jpg",
+                        "src": "./static/images/newyork/4/img_3121.jpg",
                         "width": 1000
                     },
                     {
@@ -137,7 +137,7 @@
                             "size": "small",
                             "symbol": "heliport"
                         },
-                        "src": "./static/images/4/img_3126.jpg",
+                        "src": "./static/images/newyork/4/img_3126.jpg",
                         "width": 1000
                     }
                 ]
@@ -172,7 +172,7 @@
                             "size": "small",
                             "symbol": "ferry"
                         },
-                        "src": "./static/images/4/img_3137.jpg",
+                        "src": "./static/images/newyork/4/img_3137.jpg",
                         "width": 1000
                     },
                     {
@@ -188,7 +188,7 @@
                             "size": "small",
                             "symbol": "ferry"
                         },
-                        "src": "./static/images/4/img_3151.jpg",
+                        "src": "./static/images/newyork/4/img_3151.jpg",
                         "width": 750
                     },
                     {
@@ -204,7 +204,7 @@
                             "size": "small",
                             "symbol": "ferry"
                         },
-                        "src": "./static/images/4/img_3160.jpg",
+                        "src": "./static/images/newyork/4/img_3160.jpg",
                         "width": 750
                     },
                     {
@@ -220,7 +220,7 @@
                             "size": "small",
                             "symbol": "ferry"
                         },
-                        "src": "./static/images/4/img_3163.jpg",
+                        "src": "./static/images/newyork/4/img_3163.jpg",
                         "width": 1000
                     },
                     {
@@ -236,7 +236,7 @@
                             "size": "small",
                             "symbol": "ferry"
                         },
-                        "src": "./static/images/4/img_3167.jpg",
+                        "src": "./static/images/newyork/4/img_3167.jpg",
                         "width": 1000
                     }
                 ]
@@ -271,7 +271,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3177.jpg",
+                        "src": "./static/images/newyork/4/img_3177.jpg",
                         "width": 750
                     },
                     {
@@ -287,7 +287,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3181.jpg",
+                        "src": "./static/images/newyork/4/img_3181.jpg",
                         "width": 750
                     },
                     {
@@ -303,7 +303,7 @@
                             "size": "small",
                             "symbol": "fast-food"
                         },
-                        "src": "./static/images/4/img_3185.jpg",
+                        "src": "./static/images/newyork/4/img_3185.jpg",
                         "width": 1000
                     }
                 ]
@@ -326,7 +326,7 @@
                             "size": "small",
                             "symbol": "fast-food"
                         },
-                        "src": "./static/images/4/img_3184.jpg",
+                        "src": "./static/images/newyork/4/img_3184.jpg",
                         "width": 1000
                     }
                 ]
@@ -349,7 +349,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3190.jpg",
+                        "src": "./static/images/newyork/4/img_3190.jpg",
                         "width": 750
                     },
                     {
@@ -365,7 +365,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3203.jpg",
+                        "src": "./static/images/newyork/4/img_3203.jpg",
                         "width": 750
                     }
                 ]
@@ -394,7 +394,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3193.jpg",
+                        "src": "./static/images/newyork/4/img_3193.jpg",
                         "width": 1000
                     },
                     {
@@ -410,7 +410,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3199.jpg",
+                        "src": "./static/images/newyork/4/img_3199.jpg",
                         "width": 750
                     },
                     {
@@ -426,7 +426,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3197.jpg",
+                        "src": "./static/images/newyork/4/img_3197.jpg",
                         "width": 1000
                     }
                 ]
@@ -455,7 +455,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3209.jpg",
+                        "src": "./static/images/newyork/4/img_3209.jpg",
                         "width": 750
                     },
                     {
@@ -471,7 +471,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3228.jpg",
+                        "src": "./static/images/newyork/4/img_3228.jpg",
                         "width": 750
                     }
                 ]
@@ -494,7 +494,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3239.jpg",
+                        "src": "./static/images/newyork/4/img_3239.jpg",
                         "width": 1000
                     }
                 ]
@@ -517,7 +517,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3233.jpg",
+                        "src": "./static/images/newyork/4/img_3233.jpg",
                         "width": 750
                     },
                     {
@@ -533,7 +533,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3236.jpg",
+                        "src": "./static/images/newyork/4/img_3236.jpg",
                         "width": 750
                     },
                     {
@@ -549,7 +549,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3237.jpg",
+                        "src": "./static/images/newyork/4/img_3237.jpg",
                         "width": 750
                     },
                     {
@@ -565,7 +565,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3243.jpg",
+                        "src": "./static/images/newyork/4/img_3243.jpg",
                         "width": 750
                     }
                 ]
@@ -594,7 +594,7 @@
                             "size": "small",
                             "symbol": "cafe"
                         },
-                        "src": "./static/images/4/img_3247.jpg",
+                        "src": "./static/images/newyork/4/img_3247.jpg",
                         "width": 1000
                     },
                     {
@@ -610,7 +610,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3250.jpg",
+                        "src": "./static/images/newyork/4/img_3250.jpg",
                         "width": 750
                     },
                     {
@@ -626,7 +626,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3261.jpg",
+                        "src": "./static/images/newyork/4/img_3261.jpg",
                         "width": 750
                     }
                 ]
@@ -649,7 +649,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3262.jpg",
+                        "src": "./static/images/newyork/4/img_3262.jpg",
                         "width": 750
                     },
                     {
@@ -665,7 +665,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3263.jpg",
+                        "src": "./static/images/newyork/4/img_3263.jpg",
                         "width": 750
                     },
                     {
@@ -681,7 +681,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3267.jpg",
+                        "src": "./static/images/newyork/4/img_3267.jpg",
                         "width": 750
                     },
                     {
@@ -697,7 +697,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3271.jpg",
+                        "src": "./static/images/newyork/4/img_3271.jpg",
                         "width": 1000
                     },
                     {
@@ -713,7 +713,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3274.jpg",
+                        "src": "./static/images/newyork/4/img_3274.jpg",
                         "width": 750
                     }
                 ]
@@ -742,7 +742,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3285.jpg",
+                        "src": "./static/images/newyork/4/img_3285.jpg",
                         "width": 750
                     },
                     {
@@ -758,7 +758,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3286.jpg",
+                        "src": "./static/images/newyork/4/img_3286.jpg",
                         "width": 1000
                     },
                     {
@@ -774,7 +774,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3288.jpg",
+                        "src": "./static/images/newyork/4/img_3288.jpg",
                         "width": 750
                     },
                     {
@@ -790,7 +790,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3295.jpg",
+                        "src": "./static/images/newyork/4/img_3295.jpg",
                         "width": 1000
                     },
                     {
@@ -806,7 +806,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3296.jpg",
+                        "src": "./static/images/newyork/4/img_3296.jpg",
                         "width": 1000
                     },
                     {
@@ -822,7 +822,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3297.jpg",
+                        "src": "./static/images/newyork/4/img_3297.jpg",
                         "width": 1000
                     },
                     {
@@ -838,7 +838,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3298.jpg",
+                        "src": "./static/images/newyork/4/img_3298.jpg",
                         "width": 1000
                     }
                 ]
@@ -867,7 +867,7 @@
                             "size": "small",
                             "symbol": "beer"
                         },
-                        "src": "./static/images/4/img_3302.jpg",
+                        "src": "./static/images/newyork/4/img_3302.jpg",
                         "width": 1000
                     },
                     {
@@ -883,7 +883,7 @@
                             "size": "small",
                             "symbol": ""
                         },
-                        "src": "./static/images/4/img_3305.jpg",
+                        "src": "./static/images/newyork/4/img_3305.jpg",
                         "width": 750
                     },
                     {
@@ -899,7 +899,7 @@
                             "size": "small",
                             "symbol": "beer"
                         },
-                        "src": "./static/images/4/img_3303.jpg",
+                        "src": "./static/images/newyork/4/img_3303.jpg",
                         "width": 1000
                     }
                 ]
