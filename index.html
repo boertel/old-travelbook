@@ -48,7 +48,7 @@
 
         <div id="content"></div>
 
-        <div class="timeline">
+        <div class="timeline bottom">
             <ul class="days">
                 <li class="active">Days</li>
                 <li class="day-1"><a href="1">1</a></li>
@@ -107,6 +107,7 @@ $('ul.days').each(function () {
 
 
 $('.days li a').on('click', function (e) {
+    $('.timeline.bottom').removeClass('show');
     var href = e.target.getAttribute('href'),
         next = new Path(href),
         state = {

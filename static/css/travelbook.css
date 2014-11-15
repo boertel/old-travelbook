@@ -48,6 +48,13 @@ p {
     }
 }
 
+.timeline.bottom {
+    display: none;
+}
+.timeline.bottom.show {
+    display: block;
+}
+
 .timeline ul {
     text-align: center;
     padding: 0;

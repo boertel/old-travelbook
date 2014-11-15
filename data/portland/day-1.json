@@ -1,0 +1,65 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "15 Novembre",
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": ""
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                ]
+            }
+        }
+    ]
+}

@@ -91,6 +91,7 @@ function loadDay(path) {
                 block && page.push(block);
             });
             page.render();
+            $('.timeline.bottom').addClass('show');
         });
     }
     else {
