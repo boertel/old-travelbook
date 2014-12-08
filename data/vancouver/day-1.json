@@ -1,0 +1,515 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Samedi 22 Novembre",
+                "subtitle": "West End"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Le Thanksgiving américain est célébré le dernier jeudi de novembre. Cette année, j'ai décidé de le passer à Vancouver, Canada chez la famille d'un collègue. Aucune idée de ce qu'il y a à faire et voir, on verra sur place."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Premier réveil comme à l'hotel, des fleurs au pied de la porte",
+                        "credit": "",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.17715555555556,
+                                49.245
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4341.JPG",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Petit air de New York avec les grattes ciels et reflets.",
+                        "credit": "",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.12150555555554,
+                                49.28444722222222
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4344.JPG",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Worker",
+                        "credit": "",
+                        "height": "2281",
+                        "marker": {
+                            "coordinates": [
+                                -123.12310833333332,
+                                49.285977777777774
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4349.jpg",
+                        "width": "3041"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Stanley Park"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après avoir traversé une partie de downtown avec la rue principale: Robston Street, j'arrive à Stanley Park. Je pense faire juste la pointe à gauche mais ça se finira en tour complet."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Lost Lagoon",
+                        "credit": "Stanley Park",
+                        "height": "2245",
+                        "marker": {
+                            "coordinates": [
+                                -123.13706111111112,
+                                49.29508333333333
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4354.JPG",
+                        "width": "4100"
+                    },
+                    {
+                        "caption": "J'ai trouvé Charlie",
+                        "credit": "Stanley Park",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.13337777777778,
+                                49.297086111111106
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4360.JPG",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Vue sur downtown",
+                        "credit": "Stanley Park",
+                        "height": "2556",
+                        "marker": {
+                            "coordinates": [
+                                -123.12266666666666,
+                                49.29762777777778
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4367.JPG",
+                        "width": "4602"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Des totems et l'explication plus tard au musée.",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.12090277777777,
+                                49.29904444444444
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4376.JPG",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "De l'autre côté du parc, il y a le port industriel et aéroport pour hydravions. C'est donc un spectacle de bateaux et de décollages tous les quarts d'heure."
+            }
+        },
+        {
+            "type": "video",
+            "args": {
+                "videos": [
+                    {
+                        "url": "http://player.vimeo.com/video/112767558",
+                        "width": 500,
+                        "height": 281,
+                        "ratio": 0.7,
+                        "title": "Cargo & Hydravion"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Premier tier de la promenade terminé, je vois le pont à l'horizon, ça ne parait pas très loin mais c'est à l'ombre et il fait froid."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Stanley Park",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.11679722222222,
+                                49.30061666666666
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4391.JPG",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.11798888888889,
+                                49.30048055555555
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4403.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "Girl in a Wetsuit",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.12618333333333,
+                                49.30250833333333
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4410.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.1389388888889,
+                                49.312194444444444
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4424.JPG",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Me voilà à peu près à la moitié de la balade, au pied du Lions Gate Bridge. Il ressemble un peu à une version miniature du Golden Gate Bridge."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Lions Gate",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.14019722222223,
+                                49.31319444444444
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4429.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "Lions Gate",
+                        "credit": "Stanley Park",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.14060277777779,
+                                49.31325555555555
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4432.JPG",
+                        "width": "2341"
+                    },
+                    {
+                        "caption": "Lions Gate",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.14006666666667,
+                                49.31381111111111
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4435.JPG",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Lions Gate",
+                        "credit": "Stanley Park",
+                        "height": "529",
+                        "marker": {
+                            "coordinates": [
+                                -123.14154166666667,
+                                49.31396944444444
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4437.JPG",
+                        "width": "1977"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Fini l'ombre, le soleil dans les yeux maintenant",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.14995555555556,
+                                49.31258888888889
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4439.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "Siwash Rock",
+                        "credit": "Stanley Park",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.15251111111111,
+                                49.31104166666666
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4442.JPG",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Les gros cargos en attente",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.15631944444445,
+                                49.303780555555555
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4455.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.15631944444445,
+                                49.30144166666666
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4456.JPG",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Pic nic intriguant",
+                        "credit": "Stanley Park",
+                        "height": "3040",
+                        "marker": {
+                            "coordinates": [
+                                -123.15258055555556,
+                                49.29559722222222
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4466.JPG",
+                        "width": "2280"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Stanley Park",
+                        "height": "2448",
+                        "src": "static/images/vancouver/1/IMG_4467.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "La balade touche à sa fin: 9.0 kilomètres",
+                        "credit": "Stanley Park",
+                        "height": "3233",
+                        "src": "static/images/vancouver/1/IMG_4469.JPG",
+                        "width": "2425"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Timing parfait, je finis la balade 15 minutes avant le coucher du soleil, petit repos sur la plage en attendant et récompense bien mérité après environ une bonne dizaine de kilomètres."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Couché du soleil au bord de l'eau",
+                        "credit": "English Bay Beach Park",
+                        "height": "2448",
+                        "src": "static/images/vancouver/1/IMG_4472.JPG",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Couché du soleil au bord de l'eau",
+                        "credit": "English Bay Beach Park",
+                        "height": "2448",
+                        "src": "static/images/vancouver/1/IMG_4474.JPG",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "English Bay Beach Park",
+                        "height": "2568",
+                        "src": "static/images/vancouver/1/IMG_4476.JPG",
+                        "width": "4384"
+                    },
+                    {
+                        "caption": "Récompense",
+                        "credit": "Nero Belgian Waffle",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.14295277777778,
+                                49.28735277777778
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/1/IMG_4486.JPG",
+                        "width": "2448"
+                    }
+                ]
+            }
+        }
+    ]
+}
