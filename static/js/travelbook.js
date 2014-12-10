@@ -1,3 +1,63 @@
+var Travel = React.createClass({
+    displayName: 'Travel',
+    open: function (travel, day) {
+        day = day || 1;
+        page('/' + travel + '/1');
+        return false;
+    },
+    render: function () {
+        var lis = [];
+        for (var key in this.props.travels) {
+            var travel = this.props.travels[key],
+                a = React.DOM.a({
+                        onClick: this.open.bind(this, key)
+                    }, travel.name),
+                li = React.DOM.li({}, a);
+
+            lis.push(li);
+        }
+
+        lis.unshift({});
+
+        return React.DOM.ul.apply(this, lis);
+    }
+});
+
+var Timeline = React.createClass({
+    displayName: 'Timeline',
+    open: function (travel, day) {
+        page('/' + travel + '/' + day);
+        return false;
+    },
+    render: function () {
+        var lis = [
+            React.DOM.li({className: 'active'}, 'Days')
+        ];
+
+        for (var i = 1; i <= this.props.travel.days; i += 1) {
+            var a = React.DOM.a({
+                href: '#',
+                onClick: this.open.bind(this, this.props.travel.id, i)
+            }, i);
+
+            var className = ('day-' + i) + (i > this.props.travel.active ? ' disabled' : '');
+            var li = React.DOM.li({
+                className: className
+            }, a);
+
+            lis.push(li);
+        }
+
+        lis.unshift({
+            className: 'days'
+        });
+
+        var ul = React.DOM.ul.apply(this, lis);
+
+        return ul;
+    }
+});
+
 var dayColor,
     content = $('#content')[0];
 
@@ -65,13 +125,25 @@ var N = 0,
     current,
     pages = {};
 
-function loadDay(path) {
+function loadDay(params) {
     $('#content').html('');
 
-    var name = 'day-' + path.day,
+    var timeline = $('<div>').addClass('timeline');
+    $('#content').append(timeline);
+    React.renderComponent(Timeline({
+        travel: travels[params.travel],
+        day: params.day
+    }), timeline[0]);
+
+    var name = 'day-' + params.day,
+        key = params.travel + ':' + params.day,
         bubble = $('.' + name);
 
-    current = name;
+    if (current) {
+        pages[current].tearDown();
+    }
+
+    current = key;
     dayColor = bubble.find('a').css('background-color');
     sheet.insertRule('#disqus_thread a { color: ' + dayColor + '; }', toujoursPlusHaut++);
 
@@ -79,19 +151,21 @@ function loadDay(path) {
     bubble.addClass('active');
     $("#map").css("border-color", dayColor);
 
-    var page = pages[name];
+    var page = pages[key];
     if (page === undefined) {
         page = new Page();
-        pages[name] = page;
+        pages[key] = page;
 
-        $.getJSON('./data/' + path.trip + '/' + name + '.json', function (data) {
+        $.getJSON('./data/' + params.travel + '/' + name + '.json', function (data) {
             var blocks = data.blocks;
             blocks.forEach(function (b) {
                 var block = factory(b);
                 block && page.push(block);
             });
             page.render();
-            $('.timeline.bottom').addClass('show');
+        })
+        .fail(function (xhr, type, message) {
+            content.innerHTML = message;
         });
     }
     else {

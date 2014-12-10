@@ -10,6 +10,7 @@
     <meta property="og:description" content="My trip to the East Coast" />
     <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="./static/images/favicon.png">
+
     <link rel="stylesheet" type="text/css" href="./static/css/pure-min.css">
     <link rel="stylesheet" type="text/css" href="./static/css/travelbook.css">
     <link rel="stylesheet" type="text/css" href="./static/css/media-viewer.css">
@@ -25,49 +26,7 @@
         <div id="map"></div>
     </div>
     <div class="pure-u-lg-2-3 pure-u-sm-1 pure-u-1 l-box" id="content-panel">
-        <div class="timeline">
-            <ul class="days">
-                <li class="active">Days</li>
-                <li class="day-1"><a href="1">1</a></li>
-                <li class="day-2"><a href="2">2</a></li>
-                <li class="day-3"><a href="3">3</a></li>
-                <li class="day-4"><a href="4">4</a></li>
-                <li class="day-5"><a href="5">5</a></li>
-                <li class="day-6"><a href="6">6</a></li>
-                <li class="day-7"><a href="7">7</a></li>
-                <li class="day-8"><a href="8">8</a></li>
-                <li class="day-9"><a href="9">9</a></li>
-                <li class="day-10"><a href="10">10</a></li>
-                <li class="day-11"><a href="11">11</a></li>
-                <li class="day-12"><a href="12">12</a></li>
-                <li class="day-13"><a href="13">13</a></li>
-                <li class="day-14"><a href="14">14</a></li>
-                <li class="day-15"><a href="15">15</a></li>
-            </ul>
-        </div>
-
         <div id="content"></div>
-
-        <div class="timeline bottom">
-            <ul class="days">
-                <li class="active">Days</li>
-                <li class="day-1"><a href="1">1</a></li>
-                <li class="day-2"><a href="2">2</a></li>
-                <li class="day-3"><a href="3">3</a></li>
-                <li class="day-4"><a href="4">4</a></li>
-                <li class="day-5"><a href="5">5</a></li>
-                <li class="day-6"><a href="6">6</a></li>
-                <li class="day-7"><a href="7">7</a></li>
-                <li class="day-8"><a href="8">8</a></li>
-                <li class="day-9"><a href="9">9</a></li>
-                <li class="day-10"><a href="10">10</a></li>
-                <li class="day-11"><a href="11">11</a></li>
-                <li class="day-12"><a href="12">12</a></li>
-                <li class="day-13"><a href="13">13</a></li>
-                <li class="day-14"><a href="14">14</a></li>
-                <li class="day-15"><a href="15">15</a></li>
-            </ul>
-        </div>
     </div>
 </div>
 
@@ -75,58 +34,45 @@
 
 <script type="text/javascript" src="./static/js/jquery.min.js"></script>
 
+<script type="text/javascript" src="./static/js/page.js"></script>
 <script type="text/javascript" src="./static/js/react.js"></script>
 <script type="text/javascript" src="./static/js/media-viewer.js"></script>
 <script type="text/javascript" src="./static/js/grid-justified.js"></script>
 <script type="text/javascript" src="./static/js/travelbook.js"></script>
 <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuhy2ytRi7Eg';
+    var map = L.mapbox.map('map', 'boertel.h95nl1fe', { zoomControl: false });
+    new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
-L.mapbox.accessToken = 'pk.eyJ1IjoiYm9lcnRlbCIsImEiOiJFV0tXLTQ4In0.4PRhZjzKIuWuhy2ytRi7Eg';
-var map = L.mapbox.map('map', 'boertel.h95nl1fe', { zoomControl: false });
-new L.Control.Zoom({ position: 'topright' }).addTo(map);
+    var travels = {
+        'newyork': {
+            name: 'East Coast',
+            id: 'newyork',
+            days: 15,
+            active: 15
+        },
+        'vancouver': {
+            name: 'Vancouver',
+            id: 'vancouver',
+            days: 7,
+            active: 1
+        }
+    };
 
 
-function Path(hash) {
-    var split, hash = hash || document.location.hash;
+    function index () {
+        React.renderComponent(Travel({travels: travels}), content);
+    }
 
-    hash = hash.replace('#/', '');
-    split = hash.split('/');
-    this.trip = split[0];
-    this.day = split.length > 0 ? parseInt(split[1], 10) : 1;
-}
+    function day (ctx) {
+        loadDay(ctx.params);
+    }
 
-var path = new Path();
-
-loadDay(path);
-
-$('ul.days').each(function () {
-    $(this).find('li a').each(function (i) {
-        $(this).attr('href', '#/' + path.trip + '/' + (i + 1));
+    page('/', index);
+    page('/:travel/:day', day);
+    page({
+        hashbang: true
     });
-});
-
-
-$('.days li a').on('click', function (e) {
-    $('.timeline.bottom').removeClass('show');
-    var href = e.target.getAttribute('href'),
-        next = new Path(href),
-        state = {
-            path: path,
-        };
-
-    pages[current].tearDown();
-    loadDay(next);
-    history.pushState(state, null, href);
-
-    e.preventDefault();
-    return false;
-});
-
-window.addEventListener('popstate', function (e) {
-    pages[current].tearDown();
-    loadDay(e.state.path);
-});
-
 </script>
 
 <script type="text/javascript">
