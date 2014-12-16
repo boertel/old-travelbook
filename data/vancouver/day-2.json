@@ -1,0 +1,440 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Dimanche 23 Novembre",
+                "subtitle": "Grandville Island"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Première étape de la journée: Grandville Island où est situé un marché couvert avec des stands de bouffes, des produits vrais et souvenirs. De l'extérieur vu imprenable sur downtown de l'autre côté de l'eau."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Entrance",
+                        "credit": "Granville Island",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.136925,
+                                49.27007777777778
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4496.jpg",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Bizarre conducteur",
+                        "credit": "Granville Island",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.13562777777778,
+                                49.272666666666666
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4498.jpg",
+                        "width": "2448"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Granville Island",
+                        "height": "2506",
+                        "marker": {
+                            "coordinates": [
+                                -123.13513888888889,
+                                49.272891666666666
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4499.jpg",
+                        "width": "5106"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "À l'est, on trouve une école d'art avec des galleries d'art. Un petit parc qui donne une vue sur les marinas et le sud de downtown, le tout surmonté d'un drapeau canadien."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Silots artistiques",
+                        "credit": "Granville Island",
+                        "height": "3006",
+                        "marker": {
+                            "coordinates": [
+                                -123.13374444444445,
+                                49.27107222222222
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4505.jpg",
+                        "width": "2249"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Granville Island",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.1337888888889,
+                                49.27107222222222
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4506.jpg",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "",
+                        "credit": "Granville Island",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.13226944444443,
+                                49.268791666666665
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4522.jpg",
+                        "width": "2448"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "video",
+            "args": {
+                "videos": [
+                    {
+                        "url": "http://player.vimeo.com/video/112767557",
+                        "width": 500,
+                        "height": 889,
+                        "ratio": 0.7,
+                        "title": "Maple Leaf"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "",
+                        "credit": "Granville Island",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.13511666666668,
+                                49.270183333333335
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4523.jpg",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Public Market entrance",
+                        "credit": "Granville Island",
+                        "height": "2186",
+                        "marker": {
+                            "coordinates": [
+                                -123.13505555555557,
+                                49.272083333333335
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4525.jpg",
+                        "width": "2448"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Vue du pont sur Granville Island",
+                        "credit": "Granville Bridge",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.13487222222223,
+                                49.27177777777778
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4545.jpg",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Endroit très agréable pour passer un dimanche: à la fois des magasins et à manger d'un côté et plus calme de l'autre. J'y retournerai 2 autre fois pendant mon séjour."
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "subtitle": "Yaletown"
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Après avoir gambatter pendant quelques heures à acheter des snacks, cadeaux et souvenirs, je me dirige vers Yaletown, parti sud de Downtown. Il me faudra traverser Granville Bridge, le tout avec le soleil couchant dans le dos."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Arrivée sur Yaletown",
+                        "credit": "Granville Bridge",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.13160833333333,
+                                49.273675
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4547.jpg",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "Couché du soleil",
+                        "credit": "Yaletown",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.13090555555554,
+                                49.27421111111111
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4551.jpg",
+                        "width": "2448"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Travailleur",
+                        "credit": "Yaletown",
+                        "height": "1044",
+                        "marker": {
+                            "coordinates": [
+                                -123.12810555555555,
+                                49.275641666666665
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4554.jpg",
+                        "width": "783"
+                    },
+                    {
+                        "caption": "Contre allée",
+                        "credit": "Yaletown",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.12618888888888,
+                                49.275219444444446
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4556.jpg",
+                        "width": "2448"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "J'ai fini la boucle sud de Yaletown. Je retrouve le couche du soleil avec une rangée de tour, un musée et un stadium."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Vue sur la marina",
+                        "credit": "Yaletown",
+                        "height": "2431",
+                        "marker": {
+                            "coordinates": [
+                                -123.12191666666666,
+                                49.27116111111111
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4564.jpg",
+                        "width": "3242"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Rectangles et cercle",
+                        "credit": "Yaletown",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.10875833333333,
+                                49.27546944444445
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4572.jpg",
+                        "width": "3264"
+                    },
+                    {
+                        "caption": "Panneau officiel ?",
+                        "credit": "Yaletown",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.10333333333332,
+                                49.27564722222222
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4576.jpg",
+                        "width": "2448"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Stadium",
+                        "credit": "Yaletown",
+                        "height": "2021",
+                        "marker": {
+                            "coordinates": [
+                                -123.10357777777777,
+                                49.27449444444444
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4579.jpg",
+                        "width": "4328"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Fin de journée, avec une pause cinéma pour Big Hero 6 et restaurant italien avec des pâtes avec des morceaux de truffes et pizza à base blanche."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Restaurant italien",
+                        "credit": "Campagnolo",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.10390555555556,
+                                49.27726111111111
+                            ],
+                            "size": "small",
+                            "symbol": "restaurant",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/2/img_4586.jpg",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "link",
+            "args": {
+                "description": "Restaurant italien",
+                "name": "Campagnolo",
+                "href": "http://www.yelp.com/biz/campagnolo-vancouver"
+            }
+        }
+    ]
+}
