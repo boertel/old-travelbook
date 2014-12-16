@@ -125,7 +125,7 @@ var N = 0,
     current,
     pages = {};
 
-function loadDay(params) {
+function loadDay (params) {
     $('#content').html('');
 
     var timeline = $('<div>').addClass('timeline');
