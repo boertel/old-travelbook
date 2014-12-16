@@ -189,8 +189,11 @@ Page.prototype.push = function (block) {
 };
 
 Page.prototype.render = function () {
-    viewer.props.images = []
-    viewer.props.length = 0
+    viewer.replaceProps({
+        images: [],
+        headline: '',
+        length: 0
+    });
 
     this.blocks.forEach(function (b) {
         var g = new Pure('g');
@@ -374,7 +377,9 @@ Block.link.prototype.render = function (g) {
     a.innerHTML = this.name;
     a.target = '_blank';
 
-    u.addChild(icon);
+    if (this.type) {
+        u.addChild(icon);
+    }
     u.addChild(span);
     u.addChild(a);
     u.addTo(g);
