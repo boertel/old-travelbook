@@ -1,0 +1,125 @@
+{
+    "blocks": [
+        {
+            "type": "title",
+            "args": {
+                "title": "Pre-Thanksgiving",
+                "subtitle": ""
+            }
+        },
+        {
+            "type": "text",
+            "args": {
+                "text": "Ce n'est pas les vacances non plus donc lundi, mardi et le mercredi matin, ça sera travail. Puis un nouveau tour à Granville Island."
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Prêt pour une partie de Quidditch ?",
+                        "credit": "Granville Island",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.13226944444443,
+                                49.27240833333333
+                            ],
+                            "size": "small",
+                            "symbol": "",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/3/img_4603.jpg",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "title",
+            "args": {
+                "title": "",
+                "subtitle": "Bières"
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Dégustation de bières canadiennes avec charcuterie et fromage",
+                        "credit": "33 Acres Brewing Co.",
+                        "height": "2448",
+                        "marker": {
+                            "coordinates": [
+                                -123.10511666666666,
+                                49.263777777777776
+                            ],
+                            "size": "small",
+                            "symbol": "beer",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/3/img_4605.jpg",
+                        "width": "3264"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "args": {
+                "images": [
+                    {
+                        "caption": "Analogue 78 Kolsch",
+                        "credit": "Cheshire Cheese Inn",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.18528055555556,
+                                49.24550277777778
+                            ],
+                            "size": "small",
+                            "symbol": "beer",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/3/img_4599.jpg",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Okanagan Spring",
+                        "credit": "Cheshire Cheese Inn",
+                        "height": "3264",
+                        "marker": {
+                            "coordinates": [
+                                -123.18528055555556,
+                                49.24550277777778
+                            ],
+                            "size": "small",
+                            "symbol": "beer",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/3/img_4607.jpg",
+                        "width": "2448"
+                    },
+                    {
+                        "caption": "Steam Whistle",
+                        "credit": "Cheshire Cheese Inn",
+                        "height": "1044",
+                        "marker": {
+                            "coordinates": [
+                                -123.18528055555556,
+                                49.24550277777778
+                            ],
+                            "size": "small",
+                            "symbol": "beer",
+                            "title": ""
+                        },
+                        "src": "static/images/vancouver/3/img_4727.jpg",
+                        "width": "666"
+                    }
+                ]
+            }
+        }
+    ]
+}
