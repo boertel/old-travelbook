@@ -1,0 +1,18 @@
+{
+  "name": "travelbook",
+  "version": "0.0.0",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.2",
+    "gulp-notify": "^2.2.0",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "flux": "^2.0.1",
+    "immutable": "^3.6.2",
+    "object-assign": "^2.0.0"
+  }
+}
