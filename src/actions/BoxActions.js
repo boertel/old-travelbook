@@ -1,25 +1,22 @@
-var AppDispatcher = require('../dispatcher');
-var BoxConstants = require('../constants/BoxConstants');
+import alt from '../alt';
 
-var BoxActions = {
-    create: function (data) {
-        AppDispatcher.dispatch({
-            actionType: BoxConstants.BOX_CREATE,
-            data: data
-        });
-    },
-    click: function (src) {
-        AppDispatcher.dispatch({
-            actionType: BoxConstants.BOX_CLICK,
-            src: src
-        });
-    },
-    add: function (src) {
-        AppDispatcher.dispatch({
-            actionType: BoxConstants.ADD,
-            src: src
-        });
+
+class BoxActions {
+    update(boxes) {
+        this.dispatch(boxes);
     }
-};
 
-module.exports = BoxActions;
+    click(src) {
+        this.dispatch(src);
+    }
+
+    add(src) {
+        this.dispatch(src);
+    }
+
+    fetch() {
+        this.actions.update(window.images);
+    }
+}
+
+export default alt.createActions(BoxActions);

@@ -1,15 +1,18 @@
-var AppDispatcher = require('../dispatcher'),
-    EventEmitter = require('events').EventEmitter,
-    BoxConstants = require('../constants/BoxConstants'),
-    assign = require('object-assign');
+import alt from '../alt';
+import BoxActions from '../actions/BoxActions';
 
 
-var CHANGE_EVENT = 'change',
-    _boxes = window.images;
+class BoxStore {
+    constructor() {
+        this.boxes = [];
 
-var BoxStore = assign({}, EventEmitter.prototype, {
-    getAll: function () {
-        _boxes.forEach(function (box) {
+        this.bindListeners({
+            handleUpdate: BoxActions.UPDATE
+        });
+    }
+
+    handleUpdate(boxes) {
+        boxes.forEach(function (box) {
             if (box.type === 'image') {
                 var ratio = 0;
                 box.data.forEach(function (image) {
@@ -19,26 +22,8 @@ var BoxStore = assign({}, EventEmitter.prototype, {
                 box.ratio = ratio;
             }
         });
-        return _boxes;
-    },
-    emitChange: function () {
-        this.emit(CHANGE_EVENT);
-    },
-    addChangeListener: function (callback) {
-        this.on(CHANGE_EVENT, callback);
-    },
-    removeChangeListener: function (callback) {
-        this.removeListener(CHANGE_EVENT, callback);
+        this.boxes = boxes;
     }
-});
+}
 
-AppDispatcher.register(function (action) {
-    switch (action.actionType) {
-        case BoxConstants.BOX_CREATE:
-            _boxes.push(action.data);
-            BoxStore.emitChange();
-            break;
-    }
-});
-
-module.exports = BoxStore;
+export default alt.createStore(BoxStore, 'BoxStore');

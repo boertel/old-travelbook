@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "quotes": [1, "single"]
+    },
+    "env": {
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "classes": true,
+        "jsx": true,
+        "modules": true
+    }
+}

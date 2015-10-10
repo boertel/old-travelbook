@@ -1,28 +1,14 @@
-var AppDispatcher = require('../dispatcher'),
-    ViewerConstants = require('../constants/ViewerConstants');
+import alt from '../alt';
 
-var ViewerActions = {
-    open: function (index) {
-        AppDispatcher.dispatch({
-            actionType: ViewerConstants.VIEWER_OPEN,
-            index: index
-        });
-    },
-    next: function () {
-        AppDispatcher.dispatch({
-            actionType: ViewerConstants.VIEWER_NEXT
-        });
-    },
-    previous: function () {
-        AppDispatcher.dispatch({
-            actionType: ViewerConstants.VIEWER_PREVIOUS
-        });
-    },
-    close: function () {
-        AppDispatcher.dispatch({
-            actionType: ViewerConstants.VIEWER_CLOSE
-        });
+
+class ViewerActions {
+    open(index) {
+        this.dispatch(index);
     }
-};
 
-module.exports = ViewerActions;
+    close() {
+        this.dispatch();
+    }
+}
+
+export default alt.createActions(ViewerActions);

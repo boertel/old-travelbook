@@ -1,21 +1,18 @@
-var React = require('react'),
-    Router = require('react-router'),
-    App = require('./views/app'),
-    Trip = require('./views/trip');
+import React from 'react';
+import { Router, Route } from 'react-router';
+import { history } from 'react-router/lib/HashHistory';
 
-var Route = Router.Route,
-    DefaultRoute = Router.DefaultRoute;
+import App from './components/app';
+import Content from './components/content';
+import Viewer from './components/viewer';
 
 
-/*jshint ignore:start */
-var routes = (
-    <Route handler={App} path="/">
-        <DefaultRoute handler={Trip} />
-        <Route name="picture" handler={Trip} path=":index" />
-    </Route>
-);
-
-Router.run(routes, function (Handler) {
-    React.render(<Handler />, document.body);
-});
-/*jshint ignore:end */
+React.render((
+    <Router history={history}>
+        <Route path="/" component={App}>
+            <Route path="/" component={Content}>
+                <Route path="/:id" component={Viewer} onLeave={(nextState, transition) => { console.log(nextState.params); }} />
+            </Route>
+        </Route>
+    </Router>
+), document.getElementById('app'));

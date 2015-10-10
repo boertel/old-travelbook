@@ -4,7 +4,9 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream'),
     package = require('./package'),
     jshint = require('gulp-jshint'),
-    notify = require("gulp-notify");
+    notify = require("gulp-notify"),
+    babelify = require('babelify'),
+    eslint = require('gulp-eslint');
 
 var paths = {
     js: ['./src/**/*.js'],
@@ -26,7 +28,7 @@ gulp.task('js', function () {
         entries: paths.main,
         standalone: package.name
     })
-    .transform(reactify)
+    .transform(babelify)
     .bundle()
     .on('error', handleErrors)
     .pipe(source('travelbook.js'))
@@ -35,8 +37,8 @@ gulp.task('js', function () {
 
 gulp.task('lint', function() {
     return gulp.src(paths.js)
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
+        .pipe(eslint())
+        .pipe(eslint.format())
 });
 
 gulp.task('watch', function () {
